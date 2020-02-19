@@ -1,5 +1,8 @@
 .main {
   margin: 1rem;
-  font-size: 50px;
+  font-size: 100px;
   font-family: Arial;
+  margin-left: 450px;
+  background-color: red;
+  position: sticky;
 }

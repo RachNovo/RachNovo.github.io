@@ -1,5 +1,18 @@
 .main {
-  margin: 1rem;
-  font-size: 50px;
   font-family: Arial;
+  width: 300px;
+  background-color: blue;
+  position: fixed;
+  left: 150px;
+  top: 0px;
+  bottom: 0px;
+}
+.title {
+  font-size: 50px;
+}
+.list {
+  font-size: 30px;
+}
+.post {
+  font-size: 20px;
 }
