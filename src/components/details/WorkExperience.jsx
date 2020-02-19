@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import styles, {main} from './details.css';
 
-class Skills extends Component {
+class WorkExperience extends Component {
   constructor(props) {
     super(props);
   }
   render() {
     return (
       <div className={main}>
-        Here's the Skills section!!
+        Here's the Work Experience section!!
       </div>
     )
   }
 }
 
-export default Skills;
+export default WorkExperience;
