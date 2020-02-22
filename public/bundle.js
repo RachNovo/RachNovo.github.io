@@ -481,7 +481,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = [{\n  school: 'Hack Reactor',\n  date: '2019',\n  text: 'yada yada'\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/education/education.js?");
+eval("module.exports = [{\n  school: 'Hack Reactor',\n  date: '2019',\n  text: 'yada yada'\n}, {\n  school: 'Hack Reactor',\n  date: '2019',\n  text: 'yada yada'\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/education/education.js?");
 
 /***/ }),
 
@@ -516,7 +516,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = [{\n  title: 'Deck Ambassador',\n  date: '2019',\n  company: 'British Swim School',\n  text: 'Built strong relationships with clients to create the unique British Swim School experience Navigated all aspects of the pool deck experience with up to 30 parents and children per session Managed schedules to determine optimal times for lessons and make-up classes'\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/experience/experiences.js?");
+eval("module.exports = [{\n  title: 'Deck Ambassador',\n  date: '2019',\n  company: 'British Swim School',\n  text: 'Built strong relationships with clients to create the unique British Swim School experience Navigated all aspects of the pool deck experience with up to 30 parents and children per session Managed schedules to determine optimal times for lessons and make-up classes'\n}, {\n  title: 'Deck Ambassador',\n  date: '2019',\n  company: 'British Swim School',\n  text: 'Built strong relationships with clients to create the unique British Swim School experience Navigated all aspects of the pool deck experience with up to 30 parents and children per session Managed schedules to determine optimal times for lessons and make-up classes'\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/experience/experiences.js?");
 
 /***/ }),
 
