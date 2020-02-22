@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import styles, {main, text} from './Intro.css';
+import styles, {main, text, editor} from './Intro.css';
+import Editor from './Editor.jsx';
 
 class Intro extends Component {
   constructor(props) {
@@ -9,7 +10,9 @@ class Intro extends Component {
     return (
       <div className={main}>
         <div className={text}>
-          Hello! <br/> I'm Rachel :)
+        </div>
+        <div className={editor}>
+          <Editor />
         </div>
       </div>
     )

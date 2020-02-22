@@ -1,15 +1,20 @@
 .main {
-  font-size: 50px;
-  font-family: Arial;
   margin-left: 457px;
   position: relative;
-  background-image: url(https://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg);
+  /* background-image: url(https://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg); */
   top: -8px;
   height: 100vh;
 }
 .text {
+  font-size: 50px;
   line-height: 150px;
   height: 100px;
   text-align: center;
-  color: wheat;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.editor {
+  margin-left: 50px;
+  margin-top: 80px;
 }

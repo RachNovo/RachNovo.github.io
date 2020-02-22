@@ -1,7 +1,7 @@
 .main {
   font-family: Arial;
   width: 300px;
-  background-color: rgb(177, 160, 196);
+  background-color: rgb(214, 204, 235);
   position: fixed;
   left: 150px;
   top: 0px;
@@ -29,4 +29,7 @@
 .post {
   margin-top: 30px;
   font-size: 15px;
+}
+.editor {
+
 }
