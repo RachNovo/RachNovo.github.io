@@ -10,12 +10,12 @@ class Applications extends Component {
     return (
       <div className={main}>
         <div className={title}>
-          Recent Work
+          Applications
         </div>
         <div>
           {this.props.apps.map((el, i) => <App
             title={el.title}
-            image={el.image}
+            pic={el.pic}
             techList={el.techList}
             description={el.description}
             key={i}
