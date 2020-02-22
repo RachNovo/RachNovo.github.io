@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import styles, {main} from './App.css';
-import Sidebar from './main/Sidebar.jsx';
-import Details from './main/Details.jsx';
+import Sidebar from './sections/Sidebar.jsx';
+import Intro from './sections/Intro.jsx';
+import Details from './sections/Details.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -9,8 +9,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div className={main}>
+      <div>
         <Sidebar />
+        <Intro />
         <Details />
       </div>
     )
