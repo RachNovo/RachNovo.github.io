@@ -1,10 +1,10 @@
 module.exports =
 `// Hello,
-// Welcome to my portfolio website!
+// Welcome to my website!
+
 // Scroll to learn more...
 
-// Feel free to play with this editor :P
 
-function onLoad(editor) {
-  console.log("i've loaded");
+function apply(name, number, resume) {
+  console.log("You should hear back soon!");
 }`

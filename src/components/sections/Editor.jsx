@@ -22,7 +22,7 @@ class Editor extends Component {
         name="blah2"
         onLoad={this.onLoad}
         onChange={this.onChange}
-        fontSize={20}
+        fontSize={18}
         showPrintMargin={false}
         showGutter={false}
         highlightActiveLine={false}
