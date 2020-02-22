@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import styles, {main} from '../App.css';
-import Intro from './details/Intro.jsx';
 import About from './details/About.jsx';
 import Skills from './details/Skills.jsx';
 import Applications from './details/Applications.jsx';
@@ -13,8 +11,7 @@ class Details extends Component {
   }
   render() {
     return (
-      <div className={main}>
-        <Intro />
+      <div>
         <About />
         <Skills />
         <Applications />

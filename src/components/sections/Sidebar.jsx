@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {picture, main, title, list, post} from './Sidebar.css';
+import styles, {main, header, picture, name, title, list, post} from './Sidebar.css';
 
 class Sidebar extends Component {
   constructor(props) {
@@ -8,14 +8,15 @@ class Sidebar extends Component {
   render() {
     return (
       <div className={main}>
-        <div>
-          <img className={picture} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
+            <img className={picture} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
+        <div className={header}>
+          <div className={name}>
+          Rachel Novoselac
+          </div>
+          <div className={title}>
+          Software Engineer
+          </div>
         </div>
-        <div className={title}>
-        Rachel Novoselac
-        Software Engineer
-        </div>
-
         <div className={list}>
           <p>Home</p>
           <p>About</p>

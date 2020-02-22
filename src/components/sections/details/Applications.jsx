@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import styles, {main} from '../details.css';
+import styles, {main} from '../Details.css';
 
-class Intro extends Component {
+class Applications extends Component {
   constructor(props) {
     super(props);
   }
   render() {
     return (
       <div className={main}>
-        Here's the Intro section!!
+        Here's the Applications section!!
       </div>
     )
   }
 }
 
-export default Intro;
+export default Applications;
