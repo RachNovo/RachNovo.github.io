@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, educationCoverContainer, schoolName, educationButton} from '../../Details.css';
+import styles, {date, educationCoverContainer, schoolName, educationButton, educationTextContainer} from '../../Details.css';
 
 class Education extends Component {
   constructor(props) {
@@ -25,3 +25,5 @@ class Education extends Component {
     )
   }
 }
+
+export default Education;

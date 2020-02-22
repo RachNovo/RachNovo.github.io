@@ -7,7 +7,7 @@ class Experience extends Component {
   }
   render() {
     return (
-      <div className={main}>
+      <>
         <div className={experienceLine}>
 
         </div>
@@ -22,7 +22,7 @@ class Experience extends Component {
             {this.props.text}
           </div>
         </div>
-      </div>
+      </>
     )
   }
 }

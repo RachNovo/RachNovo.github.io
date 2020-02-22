@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, contactPic, contactText} from '../../Details.css';
+import styles, {contactPic, contactText} from '../../Details.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -7,12 +7,12 @@ class Contact extends Component {
   }
   render() {
     return (
-      <div className={main}>
+      <>
         <img className={contactPic} src={this.props.pic}></img>
         <div className={contactText}>
           {this.props.text}
         </div>
-      </div>
+      </>
     )
   }
 }

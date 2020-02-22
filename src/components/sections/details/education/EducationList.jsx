@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main} from '../../Details.css';
+import styles, {main, title} from '../../Details.css';
 import Education from './Education.jsx';
 
 class EducationList extends Component {
@@ -24,3 +24,5 @@ class EducationList extends Component {
     )
   }
 }
+
+export default EducationList;
