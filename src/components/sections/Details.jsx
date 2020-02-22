@@ -4,6 +4,7 @@ import Skills from './details/Skills.jsx';
 import Applications from './details/Applications.jsx';
 import WorkExperience from './details/WorkExperience.jsx';
 import Contact from './details/Contact.jsx';
+import apps from './details/apps.js';
 
 class Details extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class Details extends Component {
       <div>
         <About />
         <Skills />
-        <Applications />
+        <Applications apps={apps}/>
         <WorkExperience />
         <Contact />
       </div>

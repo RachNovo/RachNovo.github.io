@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import styles, {main} from '../Details.css';
+import styles, {main, title} from '../Details.css';
+import App from './App.jsx';
 
 class Applications extends Component {
   constructor(props) {
@@ -8,7 +9,18 @@ class Applications extends Component {
   render() {
     return (
       <div className={main}>
-        Here's the Applications section!!
+        <div className={title}>
+          Recent Work
+        </div>
+        <div>
+          {this.props.apps.map((el, i) => <App
+            title={el.title}
+            image={el.image}
+            techList={el.techList}
+            description={el.description}
+            key={i}
+            />)}
+        </div>
       </div>
     )
   }
