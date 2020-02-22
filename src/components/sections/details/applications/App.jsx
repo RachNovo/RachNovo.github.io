@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, apps, appTitle, contentContainer, appPics, detailsContainter, AppTechList, AppDescription} from '../../Details.css';
+import styles, {main, title, apps, appTitle, contentContainer, appPic, detailsContainter, AppTechList, AppDescription} from '../../Details.css';
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class App extends Component {
           {this.props.title}
         </div>
         <div className={contentContainer}>
-          <img className={appPics} src={this.props.image}></img>
+          <img className={appPic} src={this.props.pic}></img>
           <div className={AppTechList}>
             {this.props.techList}
           </div>

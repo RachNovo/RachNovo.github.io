@@ -40,7 +40,7 @@
 .contentContainer {
  display: flex;
 }
-.appPics {
+.appPic {
   width: 300px;
 }
 .AppTechList {
@@ -56,5 +56,11 @@
 
 }
 .roleTitle {
+
+}
+.contactPic {
+  width: 100px;
+}
+.contactText {
 
 }

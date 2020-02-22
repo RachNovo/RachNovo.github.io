@@ -8,9 +8,7 @@ class Contact extends Component {
   render() {
     return (
       <div className={main}>
-        <div className={contactPic}>
-          {this.props.pic}
-        </div>
+        <img className={contactPic} src={this.props.pic}></img>
         <div className={contactText}>
           {this.props.text}
         </div>
