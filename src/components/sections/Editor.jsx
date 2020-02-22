@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import AceEditor from "react-ace";
+import message from './message.js';
 
 import "ace-builds/src-noconflict/mode-java";
 import "ace-builds/src-noconflict/theme-github";
@@ -13,22 +14,15 @@ class Editor extends Component {
     console.log('change', newValue);
   }
   render() {
-    const message = `
-// Hello welcome to my portfolio website!
-// My name is Rachel
-
-function onLoad(editor) {
-  console.log("i've loaded");
-}`
     return (
       <AceEditor
         placeholder="Create something awesome! :P"
         mode="javascript"
-        theme="monokai"
+        theme="xcode"
         name="blah2"
         onLoad={this.onLoad}
         onChange={this.onChange}
-        fontSize={24}
+        fontSize={20}
         showPrintMargin={false}
         showGutter={false}
         highlightActiveLine={false}
@@ -39,7 +33,8 @@ function onLoad(editor) {
         enableSnippets: false,
         showLineNumbers: false,
         tabSize: 2,
-        }}/>
+        }}
+        />
     )
   }
 }
