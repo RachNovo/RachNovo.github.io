@@ -8,7 +8,14 @@ class WorkExperience extends Component {
   render() {
     return (
       <div className={main}>
-        Here's the Work Experience section!!
+        <div className={title}>
+          Work Experience
+        </div>
+        {this.props.experiences.map((el, i) => <Experience
+          title={el.title},
+          date={el.date},
+          text={el.text}
+        />)}
       </div>
     )
   }

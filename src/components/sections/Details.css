@@ -21,6 +21,13 @@
 .boldText {
   font-weight: bold;
 }
+.roleTitle {
+  font-size: 21px;
+}
+.date {
+  font-size: 23px;
+  color: rgb(34, 34, 34);
+}
 .pictures {
   width: 100px;
 }
@@ -41,4 +48,13 @@
 }
 .AppDescription {
   font-size: 10px;
+}
+.experienceLine {
+  font-size: 10px;
+}
+.experienceContentBox {
+
+}
+.roleTitle {
+
 }
