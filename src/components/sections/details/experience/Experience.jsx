@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, experienceLine, experienceContentBox, roleTitle, date, text} from '../Details.css';
+import styles, {main, experienceLine, experienceContentBox, roleTitle, date, text} from '../../Details.css';
 
 class Experience extends Component {
   constructor(props) {
