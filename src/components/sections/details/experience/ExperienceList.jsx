@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styles, {main, title} from '../../Details.css';
 import Experience from './Experience.jsx';
 
-class WorkExperience extends Component {
+class ExperienceList extends Component {
   constructor(props) {
     super(props);
   }
@@ -23,4 +23,4 @@ class WorkExperience extends Component {
   }
 }
 
-export default WorkExperience;
+export default ExperienceList;

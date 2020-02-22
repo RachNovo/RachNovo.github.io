@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import About from './details/About.jsx';
 import Skills from './details/Skills.jsx';
 import Applications from './details/applications/Applications.jsx';
-import WorkExperience from './details/experience/WorkExperience.jsx';
-import Contact from './details/Contact.jsx';
+import ExperienceList from './details/experience/ExperienceList.jsx';
+import ContactList from './details/contact/ContactList.jsx';
 import apps from './details/applications/apps.js';
 import experiences from './details/experience/experiences.js';
+import contacts from './details/contact/contacts.js';
 
 class Details extends Component {
   constructor(props) {
@@ -17,8 +18,8 @@ class Details extends Component {
         <About />
         <Skills />
         <Applications apps={apps}/>
-        <WorkExperience experiences={experiences}/>
-        <Contact />
+        <ExperienceList experiences={experiences}/>
+        <ContactList contacts={contacts}/>
       </div>
     )
   }
