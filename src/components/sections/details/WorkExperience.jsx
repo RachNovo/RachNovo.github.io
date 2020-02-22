@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import styles, {main} from '../Details.css';
+import styles, {main, title} from '../Details.css';
+import Experience from './Experience.jsx';
 
 class WorkExperience extends Component {
   constructor(props) {
@@ -12,9 +13,10 @@ class WorkExperience extends Component {
           Work Experience
         </div>
         {this.props.experiences.map((el, i) => <Experience
-          title={el.title},
-          date={el.date},
+          title={el.title}
+          date={el.date}
           text={el.text}
+          key={i}
         />)}
       </div>
     )
