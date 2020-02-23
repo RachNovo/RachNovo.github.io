@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, text, boldText, pictures} from '../Details.css';
+import styles, {main, title, text, boldText, pictureContainer, pictures} from '../Details.css';
 
 class About extends Component {
   constructor(props) {
@@ -17,13 +17,14 @@ class About extends Component {
         <br/>
         I'm a software engineer in the Toronto area looking for new opportunities. Do you know of a company that's looking for a passionate and empathetic team member?
         </div>
-        <div>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg'></img>
+        <div className={pictureContainer}>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190623_204321.jpg'></img>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/received_494242798088765.jpeg'></img>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190720_185819.jpg'></img>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/received_467244173788734.jpeg'></img>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/Screenshot_20200223-173249.jpg'></img>
+          {/* <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/Screenshot_20200213-223855.jpg'></img>
+          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190504_170730.jpg'></img> */}
         </div>
       </div>
     )
