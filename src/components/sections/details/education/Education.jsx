@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {date, openCover, closedCover, schoolName, openText, closedText} from '../../Details.css';
+import styles, {openCover, closedCover, schoolName, openText, closedText, button} from '../../Details.css';
 
 class Education extends Component {
   constructor(props) {
@@ -10,28 +10,27 @@ class Education extends Component {
     this.toggle = this.toggle.bind(this);
   }
   toggle() {
-    if (this.state.visible) {
+    console.log('visible ->', this.state.visible, 'id === schoolId?? ->', this.props.id === this.state.openSchoolId);
+    if (this.state.visible && this.props.id === this.props.openSchoolId) {
       this.props.setSchoolId(0);
     } else {
       this.props.setSchoolId(this.props.id);
-      this.setState({visible: !this.state.visible});
     }
   }
   render() {
     return (
       <>
-        <div className={this.state.visible ? openCover : closedCover} onClick={this.toggle}>
-          <div className={schoolName}>
+        <div className={this.props.visible ? openCover : closedCover} onClick={this.toggle}>
+          <span className={schoolName}>
             {this.props.school}
-          </div>
-          <div className={date}>
-            {this.props.date}
-          </div>
+          </span>
+          <span className={button}>
+            {this.props.visible ? '-' : '+'}
+          </span>
           {/* Place button here!! */}
           {/***** This doesn't work :( *****/}
-        <div>{this.state.visible ? '-' : '+'}</div>
         </div>
-        <div className={this.state.visible ? openText : closedText}>
+        <div className={this.props.visible ? openText : closedText}>
           {this.props.text}
         </div>
       </>

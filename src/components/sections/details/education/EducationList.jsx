@@ -6,14 +6,16 @@ class EducationList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      openSchoolId: 1,
+      openSchoolId: 1
     }
     this.setSchoolId = this.setSchoolId.bind(this);
   }
   setSchoolId(id) {
+    console.log('changed id to ->', id);
     this.setState({openSchoolId: id})
   }
   render() {
+    console.log('after render', this.state.openSchoolId);
     return (
       <div className={main}>
         <div className={title}>
@@ -28,6 +30,7 @@ class EducationList extends Component {
             key={i}
             visible={this.state.openSchoolId === el.id ? true : false}
             setSchoolId={this.setSchoolId}
+            toggle={this.toggle}
           />)}
         </div>
       </div>

@@ -28,9 +28,15 @@
 .date {
   font-size: 23px;
   color: rgb(34, 34, 34);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.pictureContainer {
+  /* margin: 10px; */
 }
 .pictures {
-  width: 100px;
+  width: 160px;
+  padding: 8px;
 }
 .apps {
   font-size: 25px;
@@ -66,19 +72,35 @@
 
 }
 .openCover {
-  background-color: rgb(80, 172, 84);
-  text-decoration-color: white;
+  background-color: rgb(107, 152, 236);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin-top: 4px;
+  margin-right:25px;
 }
 .closedCover {
-  background-color: tomato;
+  background-color: rgb(209, 219, 238);
   text-decoration-color: black;
+  border: 1px solid rgb(227, 227, 227);
+  padding: 15px;
+  margin-top: 5px;
+  margin-right:25px;
 }
 .schoolName {
 
 }
+.button {
+  font-size: 23px;
+  float: right;
+}
 .openText {
-
+  display: block;
+  padding: 15px;
+  margin-right: 25px;
+  margin-top: 5px;
+  font-size: 18px;
+  border: 1px solid rgb(227, 227, 227);
 }
 .closedText {
-
+  display: none;
 }
