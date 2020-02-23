@@ -1,6 +1,6 @@
 .main {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   font-family: Arial;
   margin-left: 480px;
   position: relative;
@@ -8,14 +8,15 @@
   /* background-color: rgb(46, 46, 180); */
 }
 .title {
-  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .text {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 .boldText {
@@ -65,7 +66,7 @@
 
 }
 .educationCoverContainer {
-
+  background-color: rgb(80, 172, 84);
 }
 .schoolName {
 

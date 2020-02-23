@@ -10,7 +10,7 @@ class ApplicationList extends Component {
     return (
       <div className={main}>
         <div className={title}>
-          Applications
+          Recent Web Applications
         </div>
         <div>
           {this.props.applications.map((el, i) => <Application

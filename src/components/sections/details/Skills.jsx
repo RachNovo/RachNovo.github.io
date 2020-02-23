@@ -9,7 +9,7 @@ class Skills extends Component {
     return (
       <div className={main}>
         <div className={title}>
-          My Skills
+          Here are some of my Expertise
         </div>
         <div className={text}>
         <span className={boldText}>Front-End:</span> Javascript, HTML, CSS, CSS Modules, React, JQuery <br/>

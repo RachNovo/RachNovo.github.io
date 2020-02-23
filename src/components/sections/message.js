@@ -4,7 +4,9 @@ module.exports =
 
 // Scroll to learn more...
 
+// Feel free to play around in this box :)
 
-function apply(name, number, resume) {
+
+function apply(name, email, resume) {
   console.log("You should hear back soon!");
 }`

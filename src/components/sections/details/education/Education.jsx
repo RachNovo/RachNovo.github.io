@@ -4,11 +4,23 @@ import styles, {date, educationCoverContainer, schoolName, educationButton, educ
 class Education extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      visible: this.props.visible
+    }
+    this.toggle = this.toggle.bind(this);
+  }
+  toggle() {
+    if (this.state.visible) {
+      this.props.setSchoolId(0);
+    } else {
+      this.props.setSchoolId(this.props.id);
+    }
+    this.setState({visible: !this.state.visible});
   }
   render() {
     return (
       <>
-        <div className={educationCoverContainer}>
+        <div className={educationCoverContainer} onClick={this.toggle}>
           <div className={schoolName}>
             {this.props.school}
           </div>

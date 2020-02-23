@@ -2,11 +2,19 @@ module.exports = [
   {
     school: 'Hack Reactor',
     date: '2019',
-    text: 'yada yada'
+    text: 'yada yada',
+    id: 1
   },
   {
-    school: 'Hack Reactor',
+    school: 'UW',
     date: '2019',
-    text: 'yada yada'
+    text: 'yada yada',
+    id: 2
+  },
+  {
+    school: 'UTM',
+    date: '2019',
+    text: 'yada yada',
+    id: 3
   }
 ]

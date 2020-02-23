@@ -5,6 +5,13 @@ import Education from './Education.jsx';
 class EducationList extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      openSchoolId: 0,
+    }
+    this.setSchoolId = this.setSchoolId.bind(this);
+  }
+  setSchoolId(id) {
+    this.setState({openSchoolId: id})
   }
   render() {
     return (
@@ -17,7 +24,10 @@ class EducationList extends Component {
             school={el.school}
             date={el.date}
             text={el.text}
+            id={el.id}
             key={i}
+            visible={this.state.openSchoolId === el.id ? true : false}
+            setSchoolId={this.setSchoolId}
           />)}
         </div>
       </div>
