@@ -6,7 +6,7 @@ class EducationList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      openSchoolId: 0,
+      openSchoolId: 1,
     }
     this.setSchoolId = this.setSchoolId.bind(this);
   }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {date, educationCoverContainer, schoolName, educationButton, educationTextContainer} from '../../Details.css';
+import styles, {date, openCover, closedCover, schoolName, openText, closedText} from '../../Details.css';
 
 class Education extends Component {
   constructor(props) {
@@ -14,13 +14,13 @@ class Education extends Component {
       this.props.setSchoolId(0);
     } else {
       this.props.setSchoolId(this.props.id);
+      this.setState({visible: !this.state.visible});
     }
-    this.setState({visible: !this.state.visible});
   }
   render() {
     return (
       <>
-        <div className={educationCoverContainer} onClick={this.toggle}>
+        <div className={this.state.visible ? openCover : closedCover} onClick={this.toggle}>
           <div className={schoolName}>
             {this.props.school}
           </div>
@@ -28,9 +28,10 @@ class Education extends Component {
             {this.props.date}
           </div>
           {/* Place button here!! */}
-          <div className={educationButton}></div>
+          {/***** This doesn't work :( *****/}
+        <div>{this.state.visible ? '-' : '+'}</div>
         </div>
-        <div className={educationTextContainer}>
+        <div className={this.state.visible ? openText : closedText}>
           {this.props.text}
         </div>
       </>

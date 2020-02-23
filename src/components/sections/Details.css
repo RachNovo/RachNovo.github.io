@@ -65,12 +65,20 @@
 .contactText {
 
 }
-.educationCoverContainer {
+.openCover {
   background-color: rgb(80, 172, 84);
+  text-decoration-color: white;
+}
+.closedCover {
+  background-color: tomato;
+  text-decoration-color: black;
 }
 .schoolName {
 
 }
-.educationButton {
+.openText {
+
+}
+.closedText {
 
 }
