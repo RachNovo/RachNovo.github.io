@@ -25,7 +25,7 @@ class Details extends Component {
         <Skills />
         <ApplicationList applications={applications}/>
         <EducationList education={education}/>
-        <ExperienceList experiences={experiences}/>
+        {/* <ExperienceList experiences={experiences}/> */}
         <ContactList contacts={contacts}/>
       </div>
     )

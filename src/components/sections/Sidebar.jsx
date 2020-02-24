@@ -22,7 +22,7 @@ class Sidebar extends Component {
           <p>About</p>
           <p>Skills</p>
           <p>Applications</p>
-          <p>Work Experience</p>
+          {/* <p>Work Experience</p> */}
           <p>Contact</p>
         </div>
         <div className={post}>
