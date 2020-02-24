@@ -1,3 +1,13 @@
+/* :root {
+  --anyvariablename: 50px;
+  --some-other: var(--anyvariablename) solid black;
+  --calcs: calc(var(--anyvariablename) * 2)
+}
+
+.thick-border {
+  border: var(--anyvariablename);
+} */
+
 .main {
   margin-top: 30px;
   margin-bottom: 150px;
@@ -13,11 +23,22 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.subTitle {
+  font-size: 20px;
+  margin: 10px;
+}
 .text {
   font-size: 17px;
   line-height: 30px;
   margin-top: 10px;
   margin-bottom: 50px;
+}
+.aboutText {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 60px;
 }
 .boldText {
   font-weight: bold;
@@ -116,4 +137,21 @@
 }
 .closedText {
   display: none;
+}
+.skillContainer {
+  border: 1px solid rgb(227, 227, 227);
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(209, 219, 238);
+}
+.proficient {
+  width: 10px;
+  background-color: black;
+}
+.intermediate {
+
+}
+.basic {
+
 }

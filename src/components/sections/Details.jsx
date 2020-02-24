@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import About from './details/About.jsx';
-import Skills from './details/Skills.jsx';
+
+import SkillList from './details/skills/SkillList.jsx';
+import skills from './details/skills/skills.js';
 
 import ApplicationList from './details/applications/ApplicationList.jsx';
 import applications from './details/applications/applications.js';
@@ -22,7 +24,7 @@ class Details extends Component {
     return (
       <div>
         <About />
-        <Skills />
+        <SkillList skills={skills}/>
         <ApplicationList applications={applications}/>
         <EducationList education={education}/>
         {/* <ExperienceList experiences={experiences}/> */}
