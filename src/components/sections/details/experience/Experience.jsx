@@ -6,6 +6,7 @@ class Experience extends Component {
     super(props);
   }
   render() {
+    const {title, date, text} = this.props;
     return (
       <>
         <div className={experienceLine}>
@@ -13,13 +14,13 @@ class Experience extends Component {
         </div>
         <div className={experienceContentBox}>
           <div className={roleTitle}>
-            {this.props.title}
+            {title}
           </div>
           <div className={date}>
-            {this.props.date}
+            {date}
           </div>
           <div className={text}>
-            {this.props.text}
+            {text}
           </div>
         </div>
       </>

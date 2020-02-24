@@ -6,12 +6,11 @@ class Skill extends Component {
     super(props);
   }
   render() {
-    const name = this.props.name;
-    const level = this.props.level;
+    const {name, level} = this.props;
     return (
       <div className={skillContainer}>
         <span>
-          {this.props.name}
+          {name}
           <span className={level === 'Proficient' ? proficient : level === 'Intermediate' ? intermediate : basic}></span>
         </span>
       </div>

@@ -1,26 +1,16 @@
 import React, {Component} from 'react';
-import styles, {main, title, appTitle, contentContainer, appPic, detailsContainter, AppTechList, AppDescription} from '../../Details.css';
+import styles, {main, title, appContainer} from '../../Details.css';
 
 class Application extends Component {
   constructor(props) {
     super(props);
   }
   render() {
+    const {title, githubLink, deployedApp, description, pic, techList} = this.props
     return (
-      <>
-        <div className={appTitle}>
-          {this.props.title}
-        </div>
-        <div className={contentContainer}>
-          <img className={appPic} src={this.props.pic}></img>
-          <div className={AppTechList}>
-            {this.props.techList}
-          </div>
-          <div className={AppDescription}>
-            {this.props.description}
-          </div>
-        </div>
-      </>
+      <div className={appContainer}>
+        hello
+      </div>
     )
   }
 }

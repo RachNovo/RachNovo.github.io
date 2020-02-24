@@ -7,7 +7,7 @@ class SkillList extends Component {
     super(props);
   }
   render() {
-    const skills = this.props.skills;
+    const {skills} = this.props;
 
     // filtering all the skills by category
     const frontEnd = skills.filter(el => el.category === 'FrontEnd');

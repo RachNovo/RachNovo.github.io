@@ -10,28 +10,30 @@ class Education extends Component {
     this.toggle = this.toggle.bind(this);
   }
   toggle() {
-    console.log('visible ->', this.state.visible, 'id === schoolId?? ->', this.props.id === this.state.openSchoolId);
-    if (this.state.visible && this.props.id === this.props.openSchoolId) {
-      this.props.setSchoolId(0);
+    const {setSchoolId, openSchoolId, id} = this.props;
+    const {visible} = this.state;
+    if (visible && id === openSchoolId) {
+      setSchoolId(0);
     } else {
-      this.props.setSchoolId(this.props.id);
+      setSchoolId(id);
     }
   }
   render() {
+    const {visible, school, text} = this.props;
     return (
       <>
-        <div className={this.props.visible ? openCover : closedCover} onClick={this.toggle}>
+        <div className={visible ? openCover : closedCover} onClick={this.toggle}>
           <span className={schoolName}>
-            {this.props.school}
+            {school}
           </span>
           <span className={button}>
-            {this.props.visible ? '-' : '+'}
+            {visible ? '-' : '+'}
           </span>
           {/* Place button here!! */}
           {/***** This doesn't work :( *****/}
         </div>
-        <div className={this.props.visible ? openText : closedText}>
-          {this.props.text}
+        <div className={visible ? openText : closedText}>
+          {text}
         </div>
       </>
     )

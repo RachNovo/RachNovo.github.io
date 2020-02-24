@@ -60,24 +60,6 @@
   width: 160px;
   padding-right: 16px;
 }
-.apps {
-  font-size: 25px;
-}
-.appTitle {
-  font-size: 20px;
-}
-.contentContainer {
- display: flex;
-}
-.appPic {
-  width: 300px;
-}
-.AppTechList {
-  font-size: 15px;
-}
-.AppDescription {
-  font-size: 10px;
-}
 .experienceLine {
   font-size: 10px;
 }
@@ -155,4 +137,12 @@
 }
 .basic {
 
+}
+.appContainer {
+  width: 350px;
+  height: 350px;
+  border: 1px solid rgb(227, 227, 227);
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
 }

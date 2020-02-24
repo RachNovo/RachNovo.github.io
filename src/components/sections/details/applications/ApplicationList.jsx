@@ -15,9 +15,11 @@ class ApplicationList extends Component {
         <div>
           {this.props.applications.map((el, i) => <Application
             title={el.title}
+            githubLink={el.githubLink}
+            deployedApp={el.deployedApp}
+            description={el.description}
             pic={el.pic}
             techList={el.techList}
-            description={el.description}
             key={i}
             />)}
         </div>

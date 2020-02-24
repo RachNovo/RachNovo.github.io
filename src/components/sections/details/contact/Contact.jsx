@@ -6,14 +6,15 @@ class Contact extends Component {
     super(props);
   }
   render() {
+    const {title, text} = this.props;
     return (
       <div className={contact}>
         {/* <img className={contactPic} src={this.props.pic}></img> */}
         <div className={contactTitle}>
-          {this.props.title}
+          {title}
         </div>
         <div className={contactText}>
-          {this.props.text}
+          {text}
         </div>
       </div>
     )
