@@ -1,22 +1,23 @@
+// import statements for font awesome
 module.exports = [
   {
-    title: 'LinkedIn',
-    pic: 'https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg',
-    text: 'https://linkedin.com/in/rachel-novoselac'
+    title: 'Phone:',
+    icon: 'https://rachel-portfolio.s3.amazonaws.com/phone.png',
+    text: `Phone:   (905) 616-3812`
   },
   {
-    title: 'Github',
-    pic: 'https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg',
-    text: 'https://github.com/RachNovo'
+    title: 'Email:',
+    icon: 'https://rachel-portfolio.s3.amazonaws.com/mail.png',
+    text: `Email:   r.novoselac@gmail.com`
   },
   {
-    title: 'Phone',
-    pic: 'https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg',
-    text: '(905) 616-3812'
+    title: 'Github:',
+    icon: 'https://rachel-portfolio.s3.amazonaws.com/github.png',
+    text: `Github:   https://github.com/RachNovo`
   },
   {
-    title: 'Email',
-    pic: 'https://rachel-portfolio.s3.amazonaws.com/IMG_4462+copy.jpg',
-    text: 'r.novoselac@gmail.com'
+    title: 'LinkedIn:',
+    icon: 'https://rachel-portfolio.s3.amazonaws.com/linkedin.png',
+    text: `Linkedin:   https://linkedin.com/in/rachel-novoselac`
   },
 ]

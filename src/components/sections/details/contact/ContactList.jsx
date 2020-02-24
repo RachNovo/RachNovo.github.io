@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title} from '../../Details.css';
+import styles, {main, title, contactList} from '../../Details.css';
 import Contact from './Contact.jsx';
 
 class ContactList extends Component {
@@ -12,7 +12,7 @@ class ContactList extends Component {
         <div className={title}>
           Contact
         </div>
-        <div>
+        <div className={contactList}>
           {this.props.contacts.map((el, i) => <Contact
             pic={el.pic}
             text={el.text}

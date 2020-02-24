@@ -1,6 +1,6 @@
 .main {
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   font-family: Arial;
   margin-left: 480px;
   position: relative;
@@ -17,7 +17,7 @@
   font-size: 17px;
   line-height: 30px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .boldText {
   font-weight: bold;
@@ -36,7 +36,7 @@
 }
 .pictures {
   width: 160px;
-  padding: 8px;
+  padding-right: 16px;
 }
 .apps {
   font-size: 25px;
@@ -65,11 +65,24 @@
 .roleTitle {
 
 }
+.contactList {
+  /* display: flex; */
+}
+.contact {
+  /* width: 200px; */
+}
 .contactPic {
-  width: 100px;
+  /* width: 50px; */
+}
+.contactTitle {
+  display: inline-block;
+  margin-left: 30px;
 }
 .contactText {
-
+  display: inline-block;
+  line-height: 100px;
+  height: 50px;
+  margin-left: 30px;
 }
 .openCover {
   background-color: rgb(107, 152, 236);

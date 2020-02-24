@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {contactPic, contactText} from '../../Details.css';
+import styles, {contact, contactPic, contactTitle, contactText} from '../../Details.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -7,12 +7,15 @@ class Contact extends Component {
   }
   render() {
     return (
-      <>
-        <img className={contactPic} src={this.props.pic}></img>
+      <div className={contact}>
+        {/* <img className={contactPic} src={this.props.pic}></img> */}
+        <div className={contactTitle}>
+          {this.props.title}
+        </div>
         <div className={contactText}>
           {this.props.text}
         </div>
-      </>
+      </div>
     )
   }
 }
