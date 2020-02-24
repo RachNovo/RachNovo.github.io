@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, text, boldText, pictureContainer, pictures} from '../Details.css';
+import styles, {main, title, aboutText, boldText, pictureContainer, pictures} from '../Details.css';
 
 class About extends Component {
   constructor(props) {
@@ -11,11 +11,14 @@ class About extends Component {
         <div className={title}>
         Who Am I?
         </div>
-        <div className={text}>
-        <span className={boldText}>Hi, I'm Rachel! </span> Seeing how things connect excites me! Whether that's data flowing through an application or the way meaning is conveyed in a language. I pick up new tech quickly and enjoy digging through code to find a tough bug. See the experience section to check out my recent applications!
+        <div className={aboutText}>
+        <span className={boldText}>Hi, I'm Rachel! </span> I am a deep thinker and creative problem solver. One of my favourite things to do is look behind the curtain to see how things work. My main fascinations include language, people and programming.
         <br/>
         <br/>
-        I'm a software engineer in the Toronto area looking for new opportunities. Do you know of a company that's looking for a passionate and empathetic team member?
+        I'm a full stack software engineer in the Toronto area looking for new opportunities. Do you know of a company that's looking for a passionate and empathetic team member?
+        <br/>
+        <br/>
+        When I'm not coding I enjoy playing my cello, exploring nature, cooking, being active or practicing my French!
         </div>
         <div className={pictureContainer}>
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190623_204321.jpg'></img>
