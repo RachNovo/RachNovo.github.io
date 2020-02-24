@@ -27,7 +27,7 @@ class Sidebar extends Component {
         </div>
         <div className={post}>
           <p>
-            This website was created by me from scratch using React.js <br/>
+            Built with React.js <br/>
             <a href="https://github.com/RachNovo/RachNovo.github.io" target='_blank'>Github repo</a>
           </p>
         </div>
