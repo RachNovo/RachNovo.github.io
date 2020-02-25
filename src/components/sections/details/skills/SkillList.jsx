@@ -17,7 +17,7 @@ class SkillList extends Component {
 
     return (
       <div className={main}>
-        <div className={title}>Here are some of my Expertise</div>
+        <div className={title}>My Skills</div>
         <div className={subTitle}>
           Front End
         </div>
