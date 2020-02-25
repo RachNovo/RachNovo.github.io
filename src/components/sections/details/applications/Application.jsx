@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, appContainer} from '../../Details.css';
+import styles, {main, title, appContainer, appMain, subTitle, appPic, appDescription} from '../../Details.css';
 
 class Application extends Component {
   constructor(props) {
@@ -9,7 +9,13 @@ class Application extends Component {
     const {title, githubLink, deployedApp, description, pic, techList} = this.props
     return (
       <div className={appContainer}>
-        hello
+        {title}
+        <div className={appMain}>
+          <img className={appPic} src={pic}></img>
+          <div className={appDescription}>
+          {/* {description} */}
+          </div>
+        </div>
       </div>
     )
   }

@@ -146,3 +146,13 @@
   padding: 15px;
   margin: 5px;
 }
+.appMain {
+  width: 350px;
+  height: 200px;
+}
+.appPic {
+  width: 200px;
+}
+.appDescription {
+  display: inline;
+}
