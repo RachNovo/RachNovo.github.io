@@ -16,6 +16,9 @@ class Sidebar extends Component {
           <div className={title}>
           Software Engineer
           </div>
+          <button>
+            Download CV
+          </button>
         </div>
         <div className={list}>
           <p>Home</p>
