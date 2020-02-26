@@ -18,12 +18,6 @@ module.exports = [
     popUp: 'This website was styled from scratch by me. I have experience with flexbox.'
   },
   {
-    name: 'CSS Modules',
-    level: 'Proficient',
-    category: 'FrontEnd',
-    popUp: 'Used to style React.js applications.'
-  },
-  {
     name: 'React.js',
     level: 'Proficient',
     category: 'FrontEnd',
@@ -142,5 +136,23 @@ module.exports = [
     level: 'Proficient',
     category: 'Tools',
     popUp: '<add more>'
+  },
+  {
+    name: 'Trello',
+    level: 'Proficient',
+    category: 'Tools',
+    popUp: 'Task management tool'
+  },
+  {
+    name: 'MVC',
+    level: 'Proficient',
+    category: 'Other',
+    popUp: '<add>'
+  },
+  {
+    name: 'SPA (Single Page Apps) Development',
+    level: 'Proficient',
+    category: 'Other',
+    popUp: '<add>'
   }
 ]
