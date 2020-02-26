@@ -120,7 +120,7 @@ module.exports = [
     popUp: 'The APIs for all my projects that include a back end follow RESTful principles.'
   },
   {
-    name: 'Agile Methodologies',
+    name: 'Agile',
     level: 'Proficient',
     category: 'Other',
     popUp: 'I have extensive experience with agile practices such as daily stand-ups, pair programming, reflectives, sprints, <add more>'
@@ -150,7 +150,7 @@ module.exports = [
     popUp: '<add>'
   },
   {
-    name: 'SPA (Single Page Apps) Development',
+    name: 'SPA',
     level: 'Proficient',
     category: 'Other',
     popUp: '<add>'
