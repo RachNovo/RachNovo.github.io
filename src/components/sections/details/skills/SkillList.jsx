@@ -11,7 +11,7 @@ class SkillList extends Component {
     const categories = ['Front End', 'Back End', 'Tools', 'Other'];
 
     // filters the skills by category and saves them in arrays
-    const [frontEnd, backEnd, tools, other] = categories.map(type => skills.filter(el => el.category === type));
+    const [frontEnd, backEnd, tools, other] = categories.map(category => skills.filter(el => el.category === category));
 
     return (
       <div className={main}>
