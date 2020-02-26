@@ -9,11 +9,8 @@ class SkillList extends Component {
   render() {
     const {skills} = this.props;
 
-    // filtering all the skills by category
-    const frontEnd = skills.filter(el => el.category === 'FrontEnd');
-    const backEnd = skills.filter(el => el.category === 'BackEnd');
-    const tools = skills.filter(el => el.category === 'Tools');
-    const other = skills.filter(el => el.category === 'Other');
+    // filters the skills by category
+    const [frontEnd, backEnd, tools, other] = ['FrontEnd', 'BackEnd', 'Tools', 'Other'].map(type => skills.filter(el => el.category === type));
 
     return (
       <div className={main}>
