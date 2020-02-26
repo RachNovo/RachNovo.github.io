@@ -8,29 +8,24 @@ class SkillList extends Component {
   }
   render() {
     const {skills} = this.props;
+    const categories = ['Front End', 'Back End', 'Tools', 'Other'];
 
-    // filters the skills by category
-    const [frontEnd, backEnd, tools, other] = ['FrontEnd', 'BackEnd', 'Tools', 'Other'].map(type => skills.filter(el => el.category === type));
+    // filters the skills by category and saves them in arrays
+    const [frontEnd, backEnd, tools, other] = categories.map(type => skills.filter(el => el.category === type));
 
     return (
       <div className={main}>
-        <div className={title}>My Skills</div>
-        <div className={subTitle}>
-          Front End
-        </div>
-        {frontEnd.map((el, i) => <Skill name={el.name} level={el.level} key={i}/>)}
-        <div className={subTitle}>
-          Back End
-        </div>
-        {backEnd.map((el, i) => <Skill name={el.name} level={el.level} key={i}/>)}
-        <div className={subTitle}>
-          Tools
-        </div>
-        {tools.map((el, i) => <Skill name={el.name} level={el.level} key={i}/>)}
-        <div className={subTitle}>
-          Other
-        </div>
-        {other.map((el, i) => <Skill name={el.name} level={el.level} key={i}/>)}
+        {/* For each array, the category is produced with the list of skills */}
+        {[frontEnd, backEnd, tools, other].map((category, i) => {
+          return (
+            <div>
+              <div className={subTitle}>
+              {categories[i]}
+              </div>
+              {category.map((el, i) => <Skill name={el.name} level=  {el.level} key={i}/>)}
+            </div>
+          )
+        })}
       </div>
     )
   }

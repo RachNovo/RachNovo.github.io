@@ -2,55 +2,55 @@ module.exports = [
   {
     name: 'Javascript',
     level: 'Proficient',
-    category: 'FrontEnd',
+    category: 'Front End',
     popUp: '900+ hours using vanilla JS and JS related tech such as Node.js and React.js. Recreated Lodash library and solved n-queens problem.'
   },
   {
     name: 'HTML',
     level: 'Intermediate',
-    category: 'FrontEnd',
+    category: 'Front End',
     popUp: 'Mostly used as a frame for my apps. App logic is usually created using a front end library compiled in a bundle file and linked in the HTML file.'
   },
   {
     name: 'CSS',
     level: 'Proficient',
-    category: 'FrontEnd',
+    category: 'Front End',
     popUp: 'This website was styled from scratch by me. I have experience with flexbox.'
   },
   {
     name: 'React.js',
     level: 'Proficient',
-    category: 'FrontEnd',
+    category: 'Front End',
     popUp: 'My main front end framework. This website is an example of my work. Also see my Lodging Marketplace app.'
   },
   {
     name: 'JQuery',
     level: 'Intermediate',
-    category: 'FrontEnd',
+    category: 'Front End',
     popUp: ''
   },
   {
     name: 'Node.js/Express',
     level: 'Proficient',
-    category: 'BackEnd',
+    category: 'Back End',
     popUp: ''
   },
   {
     name: 'MongoDB/Mongoose',
     level: 'Proficient',
-    category: 'BackEnd',
+    category: 'Back End',
     popUp: ''
   },
   {
     name: 'PostgreSQL',
     level: 'Intermediate',
-    category: 'BackEnd',
+    category: 'Back End',
     popUp: ''
   },
   {
     name: 'MySQL/Sequelize',
     level: 'Basic',
-    category: 'BackEnd',
+    category: 'Back End',
     popUp: ''
   },
   {
