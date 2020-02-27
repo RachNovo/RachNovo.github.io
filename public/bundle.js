@@ -698,7 +698,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = [{\n  school: 'Hack Reactor, Full Stack Software Engineering Immersive Program',\n  date: '2019',\n  text: '900+ hours of solo and paired programming with the latest technologies (JavaScript, React.js, Node.js, etc). code reviews.',\n  id: 1\n}, {\n  school: 'Univeristy of Waterloo, Recreational Therapy',\n  date: '2019',\n  text: '',\n  id: 2\n}, {\n  school: 'University of Toronto, Honours Bachelor of Arts',\n  date: '2019',\n  text: '',\n  id: 3\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/education/education.js?");
+eval("module.exports = [{\n  school: 'Hack Reactor, Extended Software Engineering Immersive',\n  date: '2019',\n  text: \"Advanced Full Stack Javascript Bootcamp \\n \\n 900+ hours over 18 weeks of solo and paired programming using the latest web development technologies (JavaScript, React.js, Node.js, etc) with the goal of producing autonomous engineers. Worked on distributed teams using agile methodologies creating web applications using service oriented architecture.\",\n  id: 1\n}, {\n  school: 'Univeristy of Waterloo, Recreational Therapy',\n  date: '2019',\n  text: '',\n  id: 2\n}, {\n  school: 'University of Toronto, Honours Bachelor of Arts',\n  date: '2019',\n  text: '',\n  id: 3\n}];\n\n//# sourceURL=webpack:///./src/components/sections/details/education/education.js?");
 
 /***/ }),
 

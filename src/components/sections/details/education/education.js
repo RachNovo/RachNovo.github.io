@@ -1,8 +1,9 @@
 module.exports = [
   {
-    school: 'Hack Reactor, Full Stack Software Engineering Immersive Program',
+    school: 'Hack Reactor, Extended Software Engineering Immersive',
     date: '2019',
-    text: '900+ hours of solo and paired programming with the latest technologies (JavaScript, React.js, Node.js, etc). code reviews.',
+    text:
+    `Advanced Full Stack Javascript Bootcamp \n \n 900+ hours over 18 weeks of solo and paired programming using the latest web development technologies (JavaScript, React.js, Node.js, etc) with the goal of producing autonomous engineers. Worked on distributed teams using agile methodologies creating web applications using service oriented architecture.`,
     id: 1
   },
   {
