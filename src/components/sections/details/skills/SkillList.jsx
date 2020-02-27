@@ -15,6 +15,9 @@ class SkillList extends Component {
 
     return (
       <div className={main}>
+        <div className={title}>
+          My Skills
+        </div>
         {/* For each array, the category is produced with the list of skills */}
         {[frontEnd, backEnd, tools, other].map((category, i) => {
           return (
