@@ -2,19 +2,10 @@ import React, {Component} from 'react';
 import About from './details/About.jsx';
 
 import SkillList from './details/skills/SkillList.jsx';
-import skills from './details/skills/skills.js';
-
 import ApplicationList from './details/applications/ApplicationList.jsx';
-import applications from './details/applications/applications.js';
-
 import ExperienceList from './details/experience/ExperienceList.jsx';
-import experiences from './details/experience/experiences.js';
-
 import ContactList from './details/contact/ContactList.jsx';
-import contacts from './details/contact/contacts.js';
-
 import EducationList from './details/education/EducationList.jsx';
-import education from './details/education/education.js';
 
 class Details extends Component {
   constructor(props) {
@@ -24,11 +15,11 @@ class Details extends Component {
     return (
       <div>
         <About />
-        <SkillList skills={skills}/>
-        <ApplicationList applications={applications}/>
-        <EducationList education={education}/>
-        {/* <ExperienceList experiences={experiences}/> */}
-        <ContactList contacts={contacts}/>
+        <SkillList />
+        <ApplicationList />
+        <EducationList />
+        {/* <ExperienceList /> */}
+        <ContactList />
       </div>
     )
   }

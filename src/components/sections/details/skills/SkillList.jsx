@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import styles, {main, title, text, subTitle} from '../../Details.css';
 import Skill from './Skill.jsx';
+import skills from './skills.js';
 
 class SkillList extends Component {
   constructor(props) {
     super(props);
   }
   render() {
-    const {skills} = this.props;
     const categories = ['Front End', 'Back End', 'Tools', 'Other'];
 
     // filters the skills by category and saves them in arrays

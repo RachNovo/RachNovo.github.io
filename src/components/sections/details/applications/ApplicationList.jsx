@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import styles, {main, title} from '../../Details.css';
 import Application from './Application.jsx';
+import applications from './applications.js';
 
 class ApplicationList extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class ApplicationList extends Component {
           Recent Work
         </div>
         <div>
-          {this.props.applications.map((el, i) => <Application
+          {applications.map((el, i) => <Application
             title={el.title}
             githubLink={el.githubLink}
             deployedApp={el.deployedApp}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import styles, {main, title} from '../../Details.css';
 import Experience from './Experience.jsx';
+import experiences from './experiences.js';
 
 class ExperienceList extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class ExperienceList extends Component {
         <div className={title}>
           Work Experience
         </div>
-        {this.props.experiences.map((el, i) => <Experience
+        {experiences.map((el, i) => <Experience
           title={el.title}
           date={el.date}
           text={el.text}

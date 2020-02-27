@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import styles, {main, title} from '../../Details.css';
 import Education from './Education.jsx';
+import education from './education.js';
 
 class EducationList extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class EducationList extends Component {
           Education
         </div>
         <div>
-          {this.props.education.map((el, i) => <Education
+          {education.map((el, i) => <Education
             school={el.school}
             date={el.date}
             text={el.text}
