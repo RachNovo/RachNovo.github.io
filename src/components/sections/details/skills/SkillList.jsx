@@ -22,7 +22,8 @@ class SkillList extends Component {
               <div className={subTitle}>
               {categories[i]}
               </div>
-              {category.map((el, i) => <Skill name={el.name} level=  {el.level} key={i}/>)}
+              {category.map(el => {
+              return (<Skill name={el.name} level={el.level} popUp={el.popUp} key={el.id}/>)})}
             </div>
           )
         })}

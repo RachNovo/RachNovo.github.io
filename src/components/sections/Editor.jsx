@@ -18,7 +18,7 @@ class Editor extends Component {
       <AceEditor
         placeholder="Create something awesome! :P"
         mode="javascript"
-        theme="xcode"
+        // theme="xcode"
         name="blah2"
         onLoad={this.onLoad}
         onChange={this.onChange}
@@ -28,9 +28,9 @@ class Editor extends Component {
         highlightActiveLine={false}
         value={message}
         setOptions={{
-        enableBasicAutocompletion: true,
-        enableLiveAutocompletion: false,
-        enableSnippets: false,
+        // enableBasicAutocompletion: true,
+        // enableLiveAutocompletion: false,
+        // enableSnippets: false,
         showLineNumbers: false,
         tabSize: 2,
         }}

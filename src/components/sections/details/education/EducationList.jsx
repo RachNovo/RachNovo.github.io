@@ -12,11 +12,9 @@ class EducationList extends Component {
     this.setSchoolId = this.setSchoolId.bind(this);
   }
   setSchoolId(id) {
-    console.log('changed id to ->', id);
     this.setState({openSchoolId: id})
   }
   render() {
-    console.log('after render', this.state.openSchoolId);
     return (
       <div className={main}>
         <div className={title}>

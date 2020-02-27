@@ -8,6 +8,7 @@ class App extends Component {
     super(props);
   }
   render() {
+    console.log(`Hey there! I hope you find what you're looking for in here. :P If you have any feedback I would love to hear it, shoot me an email!`);
     return (
       <div>
         <Sidebar />

@@ -11,8 +11,8 @@
 .main {
   margin-top: 30px;
   margin-bottom: 150px;
-  font-family: Arial;
   margin-left: 480px;
+  font-family: Arial;
   position: relative;
   font-size: 20px;
   /* background-color: rgb(46, 46, 180); */
@@ -139,20 +139,29 @@
 
 }
 .appContainer {
-  width: 400px;
-  height: 350px;
+  width: 600px;
+  height: 550px;
   border: 1px solid rgb(227, 227, 227);
-  display: inline-block;
   padding: 15px;
-  margin: 5px;
+  margin-bottom: 5px;
+}
+.appTitle {
+
 }
 .appMain {
   width: 350px;
   height: 200px;
+  display: flex;
+  margin-top: 15px;
 }
 .appPic {
-  width: 200px;
+  width: 300px;
+  height: 300px;
+  display: block;
 }
 .appDescription {
-  display: inline;
+  display: block;
+  margin-left: 10px;
+  background: pink;
+  position: relative;
 }
