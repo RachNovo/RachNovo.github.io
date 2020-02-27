@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
-import styles, {main, header, picture, name, title, list, post} from './Sidebar.css';
+import styles, {main, header, picture, name, title, list, post, download, downloadHover} from './Sidebar.css';
 
 class Sidebar extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      hover: false
+    }
+    this.hoverTrigger = this.hoverTrigger.bind(this);
+  }
+  hoverTrigger(boolean) {
+    this.setState({hover: boolean})
   }
   render() {
     return (
@@ -16,9 +23,9 @@ class Sidebar extends Component {
           <div className={title}>
           Software Engineer
           </div>
-          <button>
+          <div className={this.state.hover ? downloadHover : download} onMouseEnter={this.hoverTrigger.bind(null, true)} onMouseLeave={this.hoverTrigger.bind(null, false)}>
             Download CV
-          </button>
+          </div>
         </div>
         <div className={list}>
           <p>Home</p>
