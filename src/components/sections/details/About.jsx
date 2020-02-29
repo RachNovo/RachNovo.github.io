@@ -24,7 +24,7 @@ class About extends Component {
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190623_204321.jpg'></img>
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/received_494242798088765.jpeg'></img>
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190720_185819.jpg'></img>
-          <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/received_467244173788734.jpeg'></img>
+          {/* <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/received_467244173788734.jpeg'></img> */}
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/Screenshot_20200223-173249.jpg'></img>
           {/* <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/Screenshot_20200213-223855.jpg'></img>
           <img className={pictures} src='https://rachel-portfolio.s3.amazonaws.com/20190504_170730.jpg'></img> */}

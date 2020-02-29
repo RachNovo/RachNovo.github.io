@@ -54,11 +54,14 @@
   margin-left: 20px;
 }
 .pictureContainer {
+  justify-content: space-around;
+  display: flex;
   /* margin: 10px; */
 }
 .pictures {
   width: 160px;
   padding-right: 16px;
+
 }
 .experienceLine {
   font-size: 10px;

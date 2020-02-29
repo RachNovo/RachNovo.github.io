@@ -1,9 +1,11 @@
 .main {
-  margin-left: 550px;
+  margin-left: 500px;
   position: relative;
   /* background-image: url(https://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg); */
-  top: -8px;
+  top: 10px;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 900px 700px;
 }
 .text {
   font-size: 50px;
@@ -15,6 +17,6 @@
   font-weight: bold;
 }
 .editor {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 30px;
 }
