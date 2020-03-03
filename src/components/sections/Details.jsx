@@ -3,8 +3,8 @@ import About from './details/About.jsx';
 
 import SkillList from './details/skills/SkillList.jsx';
 import ApplicationList from './details/applications/ApplicationList.jsx';
-import ExperienceList from './details/experience/ExperienceList.jsx';
-import ContactList from './details/contact/ContactList.jsx';
+// import ExperienceList from './details/experience/ExperienceList.jsx';
+// import ContactList from './details/contact/ContactList.jsx';
 import EducationList from './details/education/EducationList.jsx';
 
 class Details extends Component {
@@ -19,7 +19,7 @@ class Details extends Component {
         <ApplicationList />
         <EducationList />
         {/* <ExperienceList /> */}
-        <ContactList />
+        {/* <ContactList /> */}
       </div>
     )
   }

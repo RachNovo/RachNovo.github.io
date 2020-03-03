@@ -9,9 +9,10 @@
 } */
 
 .main {
-  margin-top: 30px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 80px;
   margin-bottom: 150px;
-  margin-left: 480px;
   font-family: Arial;
   position: relative;
   font-size: 20px;
@@ -159,7 +160,7 @@
 }
 .appPic {
   width: 300px;
-  height: 300px;
+  height: 270px;
   display: block;
 }
 .appDescription {
