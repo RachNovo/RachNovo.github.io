@@ -27,31 +27,44 @@
 }
 .title {
   font-size: 2.5vw;
-  margin: 8vh;
+  margin: 6vh;
   line-height: 10vh;
 }
 .linkList {
-
+  width: 900px;
+  margin: 0 auto;
+  line-height: 1.5vh;
 }
 .link {
   font-size: 1.5vw;
   display: inline-block;
-  margin: 3vh;
-  padding: 10px;
+  margin: 2vh;
+  padding: 7px;
   transition-duration: .5s;
   transition-timing-function: linear;
 }
 .link:hover {
   background-color: white;
   color: black;
-  padding: 10px;
+  padding: 7px;
+  border-radius: 2px;
+}
+a {
+  text-decoration: none;
+  color: rgb(252, 237, 237);
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+a:hover {
+  color: black;
 }
 .text {
   display: inline-block;
   margin-left: 5px;
 }
 .arrow {
-  margin-top: 18vh;
+  color: rgb(254, 243, 243);
+  margin-top: 17vh;
   animation-name: arrow;
   animation-duration: 1s;
   animation-iteration-count: infinite;

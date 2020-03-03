@@ -9,6 +9,7 @@ class EducationList extends Component {
     this.state = {
       openSchoolId: 1
     }
+    this.educationRef = React.createRef();
     this.setSchoolId = this.setSchoolId.bind(this);
   }
   setSchoolId(id) {
@@ -16,7 +17,7 @@ class EducationList extends Component {
   }
   render() {
     return (
-      <div className={main}>
+      <div className={main} ref={this.educationRef}>
         <div className={title}>
           Education
         </div>

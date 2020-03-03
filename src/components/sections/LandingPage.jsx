@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import styles, {landingPage, name, title, linkList, link, arrow, text} from './LandingPage.css';
+import styles, {landingPage, name, title, linkList, link, arrow, text, a} from './LandingPage.css';
 import Header from './landingPage/Header.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faDownload, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class LandingPage extends Component {
@@ -10,6 +10,7 @@ class LandingPage extends Component {
     super(props);
   }
   render() {
+    const emailBody = `Hello%20Rachel!%0D%0A%0D%0AI%20found%20your%20email%20through%20your%20website%20and%20would%20like%20to%20connect%20with%20you.%0D%0A%0D%0A<insert%20message%20here>`;
     return (
       <div className={landingPage}>
         <Header />
@@ -25,13 +26,25 @@ class LandingPage extends Component {
           <div className={link}>
             <FontAwesomeIcon icon={faLinkedin} />
             <div className={text}>
-              View Linkedin
+              <a href='https://www.linkedin.com/in/rachel-novoselac/' target='_blank'>View Linkedin</a>
             </div>
           </div>
           <div className={link}>
             <FontAwesomeIcon icon={faGithub} />
             <div className={text}>
-              View Github
+              <a href='https://github.com/RachNovo' target='_blank'>View Github</a>
+            </div>
+          </div>
+          <div className={link}>
+            <FontAwesomeIcon icon={faPhoneAlt} />
+            <div className={text}>
+              <a href="tel:+19056163812">{'(905) 616-3812'}</a>
+            </div>
+          </div>
+          <div className={link}>
+            <FontAwesomeIcon icon={faEnvelope} />
+            <div className={text}>
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`}>r.novoselac@gmail.com</a>
             </div>
           </div>
         </div>

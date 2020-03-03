@@ -6,6 +6,7 @@ import skills from './skills.js';
 class SkillList extends Component {
   constructor(props) {
     super(props);
+    this.skillsRef = React.createRef();
   }
   render() {
     const categories = ['Front End', 'Back End', 'Tools', 'Other'];
@@ -14,7 +15,7 @@ class SkillList extends Component {
     const [frontEnd, backEnd, tools, other] = categories.map(category => skills.filter(el => el.category === category));
 
     return (
-      <div className={main}>
+      <div className={main} ref={this.skillsRef}>
         <div className={title}>
           My Skills
         </div>
