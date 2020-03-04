@@ -3,9 +3,9 @@ module.exports = [
     title: 'Marketplace Lodging App',
     githubLink: '<githubLogo>',
     deployedApp: '<deployLink>',
-    description: 'Designed and built reviews service UI and back end. Designed and built reviews service UI and back end. Designed and built reviews service UI and back end. Designed and built reviews service UI and back end. Designed and built reviews service UI and back end. Designed and built reviews service UI and back end.',
+    description: 'Designed and built reviews service UI and back end. Designed and built reviews ',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/house.jpg',
-    techList: ['React', 'CSS Modules', 'Node.js/Express', 'MongoDB/Mongoose', 'AWS (EC2/S3)', 'Cypress']
+    techList: ['React', 'Node.js', 'MongoDB', 'AWS', 'Cypress']
   },
   {
     title: 'Movie Reviews App',
@@ -13,6 +13,6 @@ module.exports = [
     deployedApp: '<deployLink>',
     description: 'Replaced and scaled audience reviews service back end to handle 100 million records',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/popcorn.jpg',
-    techList: ['Node.js/Express', 'PostgreSQL', 'AWS (EC2/S3)', 'K6', 'Loader.io']
+    techList: ['Node.js', 'PostgreSQL', 'AWS', 'K6', 'Loader.io']
   }
 ]

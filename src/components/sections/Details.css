@@ -21,7 +21,7 @@ body {
   /* background-color: rgb(46, 46, 180); */
 }
 .title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: 'Raleway', sans-serif; */
   font-size: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -134,6 +134,7 @@ body {
   padding: 5px;
   margin: 5px;
   background-color: rgb(211, 211, 211);
+  font-family: 'Raleway', sans-serif;
 }
 .proficient {
   width: 10px;
@@ -146,29 +147,54 @@ body {
 
 }
 .appContainer {
-  width: 600px;
-  height: 550px;
-  border: 1px solid rgb(227, 227, 227);
-  padding: 15px;
-  margin-bottom: 5px;
-}
-.appTitle {
-
-}
-.appMain {
-  width: 350px;
-  height: 200px;
+  /* border: 1px solid rgb(104, 104, 104); */
+  margin-bottom: 20px;
   display: flex;
-  margin-top: 15px;
 }
 .appPic {
   width: 300px;
-  height: 270px;
-  display: block;
+  height: 260px;
+}
+.appMain {
+  margin-left: 10px;
+  width: 500px;
+}
+.appTitle {
+  text-align: center;
+}
+.appTech {
+  font-size: 17px;
+  text-align: center;
+  margin: 5px;
 }
 .appDescription {
-  display: block;
-  margin-left: 10px;
-  background: pink;
-  position: relative;
+  width: 400px;
+}
+.appButton {
+  text-align: center;
+  margin: 45px;
+  margin-bottom: 0;
+  display: inline-block;
+  border: 1px solid rgb(123, 123, 123);
+  background-color: rgb(123, 123, 123);
+  width: 70px;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  border-radius: 1px;
+  box-shadow: 1px 1px 3px #1A1D1E;
+}
+.appButton:hover {
+  text-align: center;
+  margin: 45px;
+  margin-bottom: 0;
+  display: inline-block;
+  border: 1px solid rgb(157, 158, 172);
+  background-color: rgb(107, 152, 236);
+  width: 70px;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px;
 }

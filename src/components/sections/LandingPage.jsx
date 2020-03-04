@@ -14,25 +14,25 @@ class LandingPage extends Component {
     return (
       <div className={landingPage}>
         <Header />
-        <div className={name}>Rachel Novoselac</div>
-        <div className={title}>Software Engineer</div>
+        <div className={name}>RACHEL NOVOSELAC</div>
+        <div className={title}>SOFTWARE ENGINEER</div>
         <div className={linkList}>
           <div className={link}>
             <FontAwesomeIcon icon={faDownload} />
             <div className={text}>
-              Download CV
+              <a href='https://rachel-portfolio.s3.amazonaws.com/Rachel+Novoselac+Resume.pdf' target='_blank'>DOWNLOAD CV</a>
             </div>
           </div>
           <div className={link}>
             <FontAwesomeIcon icon={faLinkedin} />
             <div className={text}>
-              <a href='https://www.linkedin.com/in/rachel-novoselac/' target='_blank'>View Linkedin</a>
+              <a href='https://www.linkedin.com/in/rachel-novoselac/' target='_blank'>VIEW LINKEDIN</a>
             </div>
           </div>
           <div className={link}>
             <FontAwesomeIcon icon={faGithub} />
             <div className={text}>
-              <a href='https://github.com/RachNovo' target='_blank'>View Github</a>
+              <a href='https://github.com/RachNovo' target='_blank'>VIEW GITHUB</a>
             </div>
           </div>
           <div className={link}>
