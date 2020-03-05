@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title} from '../../Details.css';
+import styles, {title} from '../Details.css';
 import Experience from './Experience.jsx';
 import experiences from './experiences.js';
 
@@ -9,7 +9,7 @@ class ExperienceList extends Component {
   }
   render() {
     return (
-      <div className={main}>
+      <div>
         <div className={title}>
           Work Experience
         </div>

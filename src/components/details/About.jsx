@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, aboutText, boldText, pictureContainer, pictures} from '../Details.css';
+import styles, {title, aboutText, boldText, pictureContainer, pictures} from './Details.css';
 
 class About extends Component {
   constructor(props) {
@@ -7,7 +7,7 @@ class About extends Component {
   }
   render() {
     return (
-      <div className={main} id={'about'}>
+      <div id={'about'}>
         <div className={title}>
         Who Am I?
         </div>

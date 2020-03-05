@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, experienceLine, experienceContentBox, roleTitle, date, text} from '../../Details.css';
+import styles, {experienceLine, experienceContentBox, roleTitle, date, experienceText} from '../Details.css';
 
 class Experience extends Component {
   constructor(props) {
@@ -10,7 +10,6 @@ class Experience extends Component {
     return (
       <>
         <div className={experienceLine}>
-
         </div>
         <div className={experienceContentBox}>
           <div className={roleTitle}>
@@ -19,7 +18,7 @@ class Experience extends Component {
           <div className={date}>
             {date}
           </div>
-          <div className={text}>
+          <div className={experienceText}>
             {text}
           </div>
         </div>

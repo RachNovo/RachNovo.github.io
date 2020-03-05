@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import styles, {openCover, closedCover, schoolName, openText, closedText, button} from '../../Details.css';
+import styles, {openCover, closedCover, schoolName, openText, closedText, educationButton} from '../Details.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 class Education extends Component {
   constructor(props) {
@@ -26,8 +28,8 @@ class Education extends Component {
           <span className={schoolName}>
             {school}
           </span>
-          <span className={button}>
-            {visible ? '-' : '+'}
+          <span className={educationButton}>
+            {visible ? <FontAwesomeIcon icon={faMinus} /> : <FontAwesomeIcon icon={faPlus} />}
           </span>
         </div>
         <div className={visible ? openText : closedText}>

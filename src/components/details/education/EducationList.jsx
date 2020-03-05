@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title} from '../../Details.css';
+import styles, {title} from '../Details.css';
 import Education from './Education.jsx';
 import education from './education.js';
 
@@ -16,7 +16,7 @@ class EducationList extends Component {
   }
   render() {
     return (
-      <div className={main} id={'education'}>
+      <div id={'education'}>
         <div className={title}>
           Education
         </div>

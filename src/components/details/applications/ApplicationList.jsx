@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title} from '../../Details.css';
+import styles, {title} from '../Details.css';
 import Application from './Application.jsx';
 import applications from './applications.js';
 
@@ -9,7 +9,7 @@ class ApplicationList extends Component {
   }
   render() {
     return (
-      <div className={main} id={'applications'}>
+      <div id={'applications'}>
         <div className={title}>
           Recent Work
         </div>

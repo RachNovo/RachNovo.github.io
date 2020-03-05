@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, skillContainer, proficient, intermediate, basic} from '../../Details.css';
+import styles, {skillContainer, proficient, intermediate, basic} from '../Details.css';
 
 class Skill extends Component {
   constructor(props) {

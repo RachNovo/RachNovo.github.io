@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-// import Sidebar from './sections/Sidebar.jsx';
-// import Intro from './sections/Intro.jsx';
-import LandingPage from './sections/LandingPage.jsx';
-import Details from './sections/Details.jsx';
-import Footer from './sections/landingPage/Footer.jsx';
+import LandingPage from './structure/LandingPage.jsx';
+import Details from './details/Details.jsx';
+import Footer from './structure/Footer.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -13,8 +11,6 @@ class App extends Component {
     console.log(`Hey there! I hope you find what you're looking for in here. :P If you have any feedback I would love to hear it, shoot me an email!`);
     return (
       <div>
-        {/* <Sidebar /> */}
-        {/* <Intro /> */}
         <LandingPage />
         <Details />
         <Footer />

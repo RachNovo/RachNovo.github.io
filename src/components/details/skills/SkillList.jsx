@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {main, title, text, subTitle} from '../../Details.css';
+import styles, {title, skillMain, subTitle} from '../Details.css';
 import Skill from './Skill.jsx';
 import skills from './skills.js';
 
@@ -14,22 +14,24 @@ class SkillList extends Component {
     const [frontEnd, backEnd, tools, other] = categories.map(category => skills.filter(el => el.category === category));
 
     return (
-      <div className={main} id={'skills'}>
+      <div id={'skills'}>
         <div className={title}>
           My Skills
         </div>
         {/* For each array, the category is produced with the list of skills */}
-        {[frontEnd, backEnd, tools, other].map((category, i) => {
-          return (
-            <div>
-              <div className={subTitle}>
-              {categories[i]}
+        <div className={skillMain}>
+          {[frontEnd, backEnd, tools, other].map((category, i) => {
+            return (
+              <div>
+                <div className={subTitle}>
+                {categories[i]}
+                </div>
+                {category.map(el => {
+                return (<Skill name={el.name} level={el.level} popUp={el.popUp} key={el.id}/>)})}
               </div>
-              {category.map(el => {
-              return (<Skill name={el.name} level={el.level} popUp={el.popUp} key={el.id}/>)})}
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     )
   }

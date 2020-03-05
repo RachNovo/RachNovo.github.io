@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles, {appTitle, appContainer, appMain, subTitle, appPic, appDescription, appTech, appButton} from '../../Details.css';
+import styles, {appTitle, appContainer, appMain, appPic, appDescription, appTech, appButton} from '../Details.css';
 
 class Application extends Component {
   constructor(props) {
