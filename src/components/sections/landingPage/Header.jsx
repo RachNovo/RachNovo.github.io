@@ -8,12 +8,10 @@ class Header extends Component {
   render() {
     return (
       <div className={header}>
-        <div className={section}>
-          About
-        </div>
-        <div className={section}>Skills</div>
-        <div className={section}>Applications</div>
-        <div className={section}>Education</div>
+        <a href='#about'><div className={section}>About</div></a>
+        <a href='#skills'><div className={section}>Skills</div></a>
+        <a href='#applications'><div className={section}>Applications</div></a>
+        <a href='#education'><div className={section}>Education</div></a>
       </div>
     )
   }

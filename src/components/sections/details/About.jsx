@@ -4,11 +4,10 @@ import styles, {main, title, aboutText, boldText, pictureContainer, pictures} fr
 class About extends Component {
   constructor(props) {
     super(props);
-    this.aboutRef = React.createRef()
   }
   render() {
     return (
-      <div className={main} ref={this.aboutRef} id='aboutRef'>
+      <div className={main} id={'about'}>
         <div className={title}>
         Who Am I?
         </div>

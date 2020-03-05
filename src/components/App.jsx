@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import Sidebar from './sections/Sidebar.jsx';
-import Intro from './sections/Intro.jsx';
+// import Sidebar from './sections/Sidebar.jsx';
+// import Intro from './sections/Intro.jsx';
 import LandingPage from './sections/LandingPage.jsx';
 import Details from './sections/Details.jsx';
 import Footer from './sections/landingPage/Footer.jsx';
-
 
 class App extends Component {
   constructor(props) {

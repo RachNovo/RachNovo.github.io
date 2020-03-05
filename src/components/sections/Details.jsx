@@ -14,10 +14,10 @@ class Details extends Component {
   render() {
     return (
       <div>
-        <About />
-        <SkillList />
-        <ApplicationList />
-        <EducationList />
+        <About aboutRef={this.props.aboutRef}/>
+        <SkillList skillsRef={this.props.skillsRef}/>
+        <ApplicationList applicationsRef={this.props.applicationsRef}/>
+        <EducationList educationRef={this.props.educationRef}/>
         {/* <ExperienceList /> */}
         {/* <ContactList /> */}
       </div>

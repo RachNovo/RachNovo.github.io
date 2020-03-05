@@ -29,8 +29,6 @@ class Education extends Component {
           <span className={button}>
             {visible ? '-' : '+'}
           </span>
-          {/* Place button here!! */}
-          {/***** This doesn't work :( *****/}
         </div>
         <div className={visible ? openText : closedText}>
           <div>

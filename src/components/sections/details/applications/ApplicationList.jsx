@@ -6,11 +6,10 @@ import applications from './applications.js';
 class ApplicationList extends Component {
   constructor(props) {
     super(props);
-    this.applicationsRef = React.createRef();
   }
   render() {
     return (
-      <div className={main} ref={this.applicationsRef}>
+      <div className={main} id={'applications'}>
         <div className={title}>
           Recent Work
         </div>
