@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 .main {
-  width: 800px;
+  width: 650px;
   margin: 0 auto;
   margin-bottom: 80px;
   font-family: Arial;
@@ -59,13 +59,24 @@ html {
   margin-left: 20px;
 }
 .pictureContainer {
-  justify-content: space-between;
+  justify-content: left;
   display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
 }
 .pictures {
-  width: 160px;
-  margin-right: 16px;
+  width: 140px;
+  margin-right: 2vw;
   box-shadow: var(--shadow);
+}
+@media only screen and (min-width: 768px) {
+  .pictures {
+    width: 180px;
+  }
+  .main {
+    width: 800px;
+  }
 }
 
 .experienceLine {
@@ -158,9 +169,14 @@ html {
   text-align: center;
 }
 .appPic {
-  width: 300px;
-  height: 250px;
+  width: 0px;
   box-shadow: var(--shadow);
+}
+@media only screen and (min-width: 768px) {
+  .appPic {
+    width: 300px;
+    height: 260px;
+  }
 }
 .appMain {
   margin-left: 5px;
@@ -181,7 +197,6 @@ html {
   text-decoration: none;
   margin: 15px 45px 0px 45px;
   display: inline-block;
-
   border: var(--dark-border);
   background-color: var(--dark-color);
   color: var(--base-color);
@@ -196,9 +211,6 @@ html {
 .appButton:hover {
   margin: 15px 45px 0px 45px;
   display: inline-block;
-
-
-
   background-color: var(--light-color);
   color: black;
   width: 60px;

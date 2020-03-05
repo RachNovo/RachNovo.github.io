@@ -1,48 +1,49 @@
 /* body {
   background-color: black;
   } */
+
   a {
     text-decoration: none;
     color: inherit;
   }
 .landingPage {
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   margin-left: -8px;
   background-color: rgb(0, 0, 0);
   background-image: url('https://rachel-portfolio.s3.amazonaws.com/lightning.jpg');
-  background-size: 1400px 1000px;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   color: rgb(252, 237, 237);
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  font-family: sans-serif;
+  font-weight: 1000;
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', sans-serif;
   text-shadow: 3px 3px 10px #1A1D1E;
 }
 .name {
-  font-family: 'Raleway', sans-serif;
-  font-size: 5vw;
+  font-size: 8vw;
   line-height: 10vh;
-  margin-top: 24vh;
+  margin-top: 9vh;
 }
 .title {
-  font-size: 2.5vw;
-  margin: 5vh;
-  line-height: 8vh;
+  font-size: 4vw;
+  line-height: 1.5vh;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
 }
 .linkList {
-  width: 60%;
+  width: 90%;
+  line-height: .7vh;
   margin: 0 auto;
-  line-height: 1.5vh;
 }
 .link {
-  font-size: 1.5vw;
+  font-size: 3vw;
   display: inline-block;
-  margin: 2vh;
+  margin: 1vh;
   padding: 7px;
-  transition-duration: .35s;
+  transition-duration: .30s;
   transition-timing-function: linear;
   text-decoration: none;
   color: rgb(252, 237, 237);
@@ -60,16 +61,56 @@
 }
 .arrow {
   color: rgb(254, 243, 243);
-  margin-top: 9%;
+  margin-top: 2%;
   animation-name: arrow;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  font-size: 1.2em;
+  font-size: 16px;
   animation-direction: alternate-reverse;
   animation-delay: 4s;
   animation-timing-function: ease-in-out;
 }
 @keyframes arrow {
-  from {font-size: 18px;}
+  from {font-size: 14px;}
   to {font-size: 16px;}
+}
+
+@media only screen and (min-width: 768px) {
+  .landingPage {
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    width: 100vw;
+    height: 100vh;
+  }
+  .name {
+    font-size: 6vw;
+    line-height: 10vh;
+    margin-top: 22vh;
+  }
+  .title {
+    font-size: 3vw;
+    margin: 5vh;
+    line-height: 8vh;
+  }
+  .linkList {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5vh;
+  }
+  .linkList {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5vh;
+  }
+  .link {
+    font-size: 2vw;
+    display: inline-block;
+    margin: 2vh;
+    padding: 7px;
+  }
+  .arrow {
+    margin-top: 8%;
+    animation-name: arrow;
+    font-size: 16px;
+  }
 }
