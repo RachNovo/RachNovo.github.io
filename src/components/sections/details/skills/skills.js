@@ -149,7 +149,7 @@ module.exports = [
   {
     name: 'TDD',
     level: 'Proficient',
-    category: 'Tools',
+    category: 'Other',
     popUp: '<add more>',
     id: 22
   },

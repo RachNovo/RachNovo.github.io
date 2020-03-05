@@ -21,10 +21,10 @@ class Application extends Component {
           {description}
           </div>
           <div className={appButton}>
-            View
+            <a href={deployedApp} target='_blank'>View</a>
           </div>
           <div className={appButton}>
-            Github
+            <a href={githubLink} target='_blank'>Github</a>
           </div>
         </div>
       </div>

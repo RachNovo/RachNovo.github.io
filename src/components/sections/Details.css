@@ -1,28 +1,27 @@
-/* :root {
-  --anyvariablename: 50px;
-  --some-other: var(--anyvariablename) solid black;
-  --calcs: calc(var(--anyvariablename) * 2)
-}
+:root {
+  --base-color: rgb(238, 238, 238);
+  --base-border: 1px solid rgb(46, 46, 46);
 
-.thick-border {
-  border: var(--anyvariablename);
-} */
+  --dark-color: rgb(54, 37, 104);
+
+  --light-color: rgb(123, 123, 123);
+  --light-border: 1px solid rgb(118, 118, 118);
+
+  --shadow: 1px 1px 3px #1A1D1E;
+}
 body {
-  background-color: rgb(233, 228, 228);
+  background-color: var(--base-color);
 }
 .main {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
-  /* margin-top: 80px; */
   margin-bottom: 80px;
   font-family: Arial;
   position: relative;
   font-size: 20px;
-  /* background-color: rgb(46, 46, 180); */
 }
 .title {
-  /* font-family: 'Raleway', sans-serif; */
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -52,20 +51,20 @@ body {
 }
 .date {
   font-size: 23px;
-  color: rgb(34, 34, 34);
+  color: var(--dark-color);
   margin-right: 20px;
   margin-left: 20px;
 }
 .pictureContainer {
-  justify-content: space-around;
+  /* justify-content: space-around; */
   display: flex;
-  /* margin: 10px; */
 }
 .pictures {
   width: 160px;
-  padding-right: 16px;
-
+  margin-right: 16px;
+  box-shadow: var(--shadow);
 }
+
 .experienceLine {
   font-size: 10px;
 }
@@ -95,19 +94,21 @@ body {
   margin-left: 30px;
 }
 .openCover {
-  background-color: rgb(137, 139, 145);
-  color: rgb(255, 255, 255);
+  background-color: var(--dark-color);
+  color: var(--base-color);
   padding: 15px;
   margin-top: 4px;
   margin-right:25px;
+  box-shadow: var(--shadow);
 }
 .closedCover {
-  background-color: rgb(211, 211, 211);
-  text-decoration-color: black;
-  border: 1px solid rgb(205, 205, 205);
+  background-color: var(--light-color);
+  color: black;
+  border: var(--light-border);
   padding: 15px;
   margin-top: 5px;
   margin-right:25px;
+  box-shadow: var(--shadow);
 }
 .schoolName {
 
@@ -122,19 +123,20 @@ body {
   margin-right: 25px;
   margin-top: 5px;
   font-size: 18px;
-  border: 1px solid rgb(205, 205, 205);
+  border: var(--base-color);
 }
 .closedText {
   display: none;
 }
 .skillContainer {
   text-align: center;
-  border: 1px solid rgb(205, 205, 205);
   display: inline-block;
-  padding: 5px;
-  margin: 5px;
-  background-color: rgb(211, 211, 211);
+  padding: 8px;
+  margin: 8px;
+  background-color: var(--dark-color);
   font-family: 'Raleway', sans-serif;
+  color: var(--base-color);
+  box-shadow: var(--shadow);
 }
 .proficient {
   width: 10px;
@@ -150,50 +152,50 @@ body {
   /* border: 1px solid rgb(104, 104, 104); */
   margin-bottom: 20px;
   display: flex;
+  text-align: center;
 }
 .appPic {
   width: 300px;
   height: 260px;
+  box-shadow: var(--shadow);
 }
 .appMain {
-  margin-left: 10px;
-  width: 500px;
+  margin-left: 5px;
 }
 .appTitle {
-  text-align: center;
+  margin-bottom: 8px;
 }
 .appTech {
-  font-size: 17px;
-  text-align: center;
-  margin: 5px;
+  font-size: 16px;
 }
 .appDescription {
-  width: 400px;
+  width: 460px;
+  font-size: 17px;
+  margin: 8px;
+  text-align: left;
 }
 .appButton {
-  text-align: center;
-  margin: 45px;
-  margin-bottom: 0;
+  text-decoration: none;
+  margin: 15px 45px 0px 45px;
   display: inline-block;
-  border: 1px solid rgb(123, 123, 123);
-  background-color: rgb(123, 123, 123);
-  width: 70px;
+  border: var(--light-border);
+  background-color: var(--light-color);
+  width: 60px;
   padding: 8px;
-  color: white;
+  color: black;
   font-size: 18px;
   border-radius: 1px;
-  box-shadow: 1px 1px 3px #1A1D1E;
+  box-shadow: var(--shadow);
+  transition-duration: .3s;
+  transition-timing-function: linear;
 }
 .appButton:hover {
-  text-align: center;
-  margin: 45px;
-  margin-bottom: 0;
+  margin: 15px 45px 0px 45px;
   display: inline-block;
-  border: 1px solid rgb(157, 158, 172);
-  background-color: rgb(107, 152, 236);
-  width: 70px;
+  background-color: var(--dark-color);
+  width: 60px;
   padding: 8px;
-  color: rgb(255, 255, 255);
+  color: var(--base-color);
   font-size: 18px;
   border-radius: 2px;
   box-shadow: 0px 0px 0px;

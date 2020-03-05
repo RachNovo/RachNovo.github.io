@@ -19,7 +19,7 @@ class Education extends Component {
     }
   }
   render() {
-    const {visible, school, text} = this.props;
+    const {visible, school, title, text} = this.props;
     return (
       <>
         <div className={visible ? openCover : closedCover} onClick={this.toggle}>
@@ -33,7 +33,13 @@ class Education extends Component {
           {/***** This doesn't work :( *****/}
         </div>
         <div className={visible ? openText : closedText}>
-          {text}
+          <div>
+            {title}
+          </div>
+          <div>
+            <br />
+            {text}
+          </div>
         </div>
       </>
     )

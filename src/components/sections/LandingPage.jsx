@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import styles, {landingPage, name, title, linkList, link, arrow, text, a} from './LandingPage.css';
 import Header from './landingPage/Header.jsx';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faDownload, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown, faDownload, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 class LandingPage extends Component {
   constructor(props) {

@@ -25,6 +25,7 @@ class EducationList extends Component {
           {education.map((el, i) => <Education
             school={el.school}
             date={el.date}
+            title={el.title}
             text={el.text}
             id={el.id}
             key={i}

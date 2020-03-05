@@ -1,6 +1,10 @@
 /* body {
   background-color: black;
   } */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 .landingPage {
   width: 100vw;
   height: 100vh;
@@ -15,7 +19,7 @@
   font-weight: 900;
   letter-spacing: 0.1em;
   font-family: sans-serif;
-  text-shadow: 3px 3px 20px #1A1D1E;
+  text-shadow: 3px 3px 10px #1A1D1E;
 }
 .name {
   font-family: 'Raleway', sans-serif;
@@ -38,23 +42,17 @@
   display: inline-block;
   margin: 2vh;
   padding: 7px;
-  transition-duration: .5s;
+  transition-duration: .35s;
   transition-timing-function: linear;
+  text-decoration: none;
+  color: rgb(252, 237, 237);
 }
 .link:hover {
   background-color: white;
   color: black;
   padding: 7px;
   border-radius: 2px;
-}
-a {
-  text-decoration: none;
-  color: rgb(252, 237, 237);
-  transition-duration: .5s;
-  transition-timing-function: linear;
-}
-a:hover {
-  color: black;
+  text-shadow: 0 0 0;
 }
 .text {
   display: inline-block;

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import styles, {header, section, hover} from './Header.css';
+import styles, {header, section} from './Header.css';
 
 class Header extends Component {
   constructor(props) {
