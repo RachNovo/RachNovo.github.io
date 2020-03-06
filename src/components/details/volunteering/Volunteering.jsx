@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
@@ -10,7 +11,7 @@ import styles, {
 class Volunteering extends PureComponent {
   render() {
     const {
-      symbol, title, date, text, link,
+      symbol, title, date, text, link, id,
     } = this.props;
     return (
       <div className={volMain} id="volunteering">
@@ -36,6 +37,7 @@ class Volunteering extends PureComponent {
 export default Volunteering;
 
 Volunteering.propTypes = {
+  id: PropTypes.string.isRequired,
   symbol: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,

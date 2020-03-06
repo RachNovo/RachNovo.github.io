@@ -180,10 +180,10 @@ body {
 
 .volMain {
   display: flex;
+  overflow: hidden;
 }
-/* .volSide {
-
-} */
+.volSide {
+}
 .volSymbol {
   margin-left: 2px;
   margin-top: 10px;
@@ -195,18 +195,14 @@ body {
   color: var(--base-color);
   font-size: 27px;
   text-align: center;
-  z-index: 2;
   line-height: 50px;
 }
 .volLine {
-  position: absolute;
   width: 5px;
-  height: 250px;
+  height: 90%;
   margin-left: 24px;
-  margin-bottom: -10px;
   background-color: var(--dark-color);
   box-shadow: var(--shadow);
-  z-index: -1;
 }
 .volCircle {
   position: absolute;
@@ -295,6 +291,9 @@ body {
   .openText {
     font-size: 16px;
   }
+  .volLine {
+    height: 88%;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -313,5 +312,8 @@ body {
   .appPic {
     width: 300px !important;
     height: 280px !important;
+  }
+  .volLine {
+    height: 250px;
   }
 }

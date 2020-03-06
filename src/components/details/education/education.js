@@ -17,7 +17,7 @@ module.exports = [
     school: 'University of Toronto, Honours Bachelor of Arts',
     date: '2019',
     title: 'Major in Linguistics, Minors in Anthropology and French',
-    text: 'I was Vice President of the Linguistics League for two years,  co-founding the tri-campus, Wug Life Initiative: Studying Linguistics at UofT, which brought our passion of Linguistics and the UofT Linguistics program to highschool students across the GTA through live, interactive workshops. I also organized and led various events (ASL: Signing and Deaf Culture, Game of Thrones: Speak Dothraki, Speak Esperanto!) and MC\'d the Linguistics Alumni Panel. I was given a recognition award for outstanding contribution and demonstrated leadership from the Language Studies Department.',
+    text: 'Here I discovered my love of Sociocultural Linguistics. An inspiring highschool teacher had mentioned Linguistics and explained some verb tenses in Zulu from his native South Africa, which fascinated me. When I saw Linguistics on the list of programs, I enrolled in the first year course. I learned how researchers uncover the mechanisms behind something that people use unconsciously! That intrigued me. I discovered the same pattern in my Anthropology classes and later through my journey into software engineering. All three branches of knowledge consist of simple symbols joined together in complex patterns to communicate information.',
     id: 3,
   },
 ];
