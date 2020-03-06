@@ -219,6 +219,7 @@ body {
   }
   .appContainer {
     border: var(--base-border) !important;
+    box-shadow: var(--shadow);
     padding: 15px;
   }
   .appDescription {
@@ -243,9 +244,10 @@ body {
   }
   .appContainer {
     border: none !important;
+    box-shadow: none;
   }
   .appPic {
     width: 300px !important;
-    height: 300px !important;
+    height: 280px !important;
   }
 }
