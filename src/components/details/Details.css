@@ -145,7 +145,6 @@ body {
   color: var(--base-color);
   padding: 15px;
   margin-top: 5px;
-  /* margin-right:25px; */
   box-shadow: var(--shadow);
 }
 .closedCover {
@@ -154,7 +153,6 @@ body {
   border: var(--light-border);
   padding: 15px;
   margin-top: 5px;
-  /* margin-right:25px; */
   box-shadow: var(--shadow);
 }
 .schoolName {

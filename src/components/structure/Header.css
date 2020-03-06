@@ -12,7 +12,6 @@ html {
   margin: 5px 10px 0px 10px;
   display: inline-block;
   font-size: 15px;
-  /* background-color: rgba(80, 80, 85, 0.8); */
   text-shadow: 1px 1px 15px #1A1D1E;
 }
 .section:hover {

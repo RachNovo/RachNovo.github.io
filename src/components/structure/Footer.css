@@ -11,14 +11,10 @@
  left: 0;
  bottom: 8px;
  width: 100%;
- /* height: 20px; */
- /* background-color: rgb(44, 35, 63); */
  display: flex;
  font-size: 18px;
  justify-content: center;
  color: rgb(54, 37, 104);
-}
-.credit {
 }
 .links {
   margin-left: 5px;
