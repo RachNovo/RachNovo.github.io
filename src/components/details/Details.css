@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 .title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -29,7 +29,7 @@ body {
 /* About section */
 
 .aboutText {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 30px;
   text-align: left;
 }
@@ -102,7 +102,7 @@ body {
   margin-bottom: 10px;
 }
 .appDescription {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 30px;
   text-align: left;
   padding-left: 15px;
@@ -155,7 +155,7 @@ body {
   box-shadow: var(--shadow);
 }
 .schoolName {
-  font-size: 18px;
+  font-size: 15px;
 }
 .educationButton {
   font-size: 20px;
@@ -165,7 +165,7 @@ body {
 .openText {
   padding: 15px;
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   text-align: left;
   border: var(--base-border) !important;
@@ -208,9 +208,24 @@ body {
     width: 19vw;
     margin-right: 2vw;
   }
+  .title {
+    font-size: 30px;
+  }
+  .aboutText {
+    font-size: 17px;
+  }
   .appContainer {
     border: var(--base-border) !important;
     padding: 15px;
+  }
+  .appDescription {
+    font-size: 17px;
+  }
+  .schoolName {
+    font-size: 18px;
+  }
+  .openText {
+    font-size: 16px;
   }
 }
 
