@@ -208,6 +208,10 @@ body {
     width: 19vw;
     margin-right: 2vw;
   }
+  .appContainer {
+    border: var(--base-border) !important;
+    padding: 15px;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -218,6 +222,9 @@ body {
   .pictures {
     width: 180px;
     margin-right: 30px;
+  }
+  .appContainer {
+    border: none !important;
   }
   .appPic {
     width: 300px;

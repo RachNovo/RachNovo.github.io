@@ -11,7 +11,7 @@ module.exports = [
     title: 'Movie Reviews App',
     githubLink: 'https://github.com/RachNovo/movie-reviews-app',
     deployedApp: 'https://audience-reviews.herokuapp.com/',
-    description: 'Your one-stop-shop for movie information, reviews, ratings, previews and more. I replaced and scaled the back end of the audience-reviews service to handle 100+ million records. I automated the initialization process by developing a protocol that transfers data to an AWS instance using an SQL schema, transferring 10+ GB with one command. I also improved efficiency by refactoring legacy code to use back end queries and column indexing leading to a reduction in query time from five minutes to ~ 80 ms. I designed payload files to deliver realistic stress testing and the app maintained a 0% error rate at 1k rps.',
+    description: 'Your one-stop-shop for movie information, reviews, ratings, previews and more. I replaced and scaled the back end of the audience-reviews service to handle 100+ million records. I automated the initialization process by developing a protocol that transfers data to an AWS instance using an SQL schema, transferring 10+ GB with one command. I also improved efficiency by refactoring legacy code to use back end queries and column indexing leading to a reduction in query time from five minutes to ~80 ms. I designed payload files to deliver realistic stress testing and the app maintained a 0% error rate at 1k rps.',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/popcorn.jpg',
     techList: ['Node.js', 'PostgreSQL', 'SQL', 'AWS', 'K6', 'Loader.io']
   }
