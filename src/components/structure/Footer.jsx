@@ -18,6 +18,7 @@ function Footer() {
       <div className={footer}>
         <div className={credit}>
           Made with
+          {' '}
           <FontAwesomeIcon icon={faHeart} />
           {' '}
           using React.js

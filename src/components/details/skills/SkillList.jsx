@@ -12,7 +12,6 @@ class SkillList extends PureComponent {
     const [frontEnd, backEnd, tools, other] = categories.map(
       (category) => skills.filter((el) => el.category === category),
     );
-
     return (
       <div id="skills">
         <div className={title}>
@@ -21,7 +20,7 @@ class SkillList extends PureComponent {
         {/* For each array, the category is produced with the list of skills */}
         <div className={skillMain}>
           {[frontEnd, backEnd, tools, other].map((category, i) => (
-            <div>
+            <div key={categories[i]}>
               <div className={subTitle}>
                 {categories[i]}
               </div>

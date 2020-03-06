@@ -5,7 +5,7 @@ import Details from './details/Details.jsx';
 import Footer from './structure/Footer.jsx';
 
 const App = () => {
-  console.log('Hey there! I hope you find what you\'re looking for in here. :P Wanna get in contact? Click on my email address to send me a message!');
+  console.log('Hey there! I hope you find what you\'re looking for in here :P \n\nWanna contact me? Click on my email address to send me a message!');
   return (
     <div>
       <LandingPage />
