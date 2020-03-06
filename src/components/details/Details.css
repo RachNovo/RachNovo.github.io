@@ -176,6 +176,72 @@ body {
 }
 
 
+/* volunteering section */
+
+.volMain {
+  display: flex;
+}
+/* .volSide {
+
+} */
+.volSymbol {
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: var(--dark-color);
+  box-shadow: var(--shadow);
+  color: var(--base-color);
+  font-size: 27px;
+  text-align: center;
+  z-index: 2;
+  line-height: 50px;
+}
+.volLine {
+  position: absolute;
+  width: 5px;
+  height: 250px;
+  margin-left: 24px;
+  margin-bottom: -10px;
+  background-color: var(--dark-color);
+  box-shadow: var(--shadow);
+  z-index: -1;
+}
+.volCircle {
+  position: absolute;
+  bottom: 1px;
+  margin-left: 9px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: var(--dark-color);
+  box-shadow: var(--shadow);
+}
+.volContainer {
+  position: relative;
+  padding: 15px;
+  margin: 15px 0px 15px 20px;
+  background-color: var(--light-color);
+  border: var(--light-border);
+  box-shadow: var(--shadow);
+}
+.volTitle {
+  display: inline-block;
+  font-size: 18px;;
+}
+.volDate {
+  display: inline-block;
+  padding: 5px;
+  color: rgb(36, 36, 36);
+}
+.volText {
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px;
+}
+
+
 /* experience section */
 
 /* .experienceLine {

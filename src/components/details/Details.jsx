@@ -6,6 +6,7 @@ import About from './About.jsx';
 import SkillList from './skills/SkillList.jsx';
 import ApplicationList from './applications/ApplicationList.jsx';
 import EducationList from './education/EducationList.jsx';
+import VolunteeringList from './volunteering/VolunteeringList.jsx';
 // import ExperienceList from './experience/ExperienceList';
 
 function Details() {
@@ -15,6 +16,7 @@ function Details() {
       <SkillList />
       <ApplicationList />
       <EducationList />
+      <VolunteeringList />
       {/* <ExperienceList /> */}
     </div>
   );

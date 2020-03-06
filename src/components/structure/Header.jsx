@@ -9,6 +9,7 @@ function Header() {
       <a href="#skills"><div className={section}>Skills</div></a>
       <a href="#applications"><div className={section}>Applications</div></a>
       <a href="#education"><div className={section}>Education</div></a>
+      <a href="#volunteering"><div className={section}>Volunteering</div></a>
     </div>
   );
 }
