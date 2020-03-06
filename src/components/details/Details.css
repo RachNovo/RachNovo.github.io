@@ -68,7 +68,7 @@ body {
   color: var(--base-color);
   box-shadow: var(--shadow);
 }
-.proficient {
+/* .proficient {
 
 }
 .intermediate {
@@ -76,7 +76,7 @@ body {
 }
 .basic {
 
-}
+} */
 
 
 /* applications section */
@@ -93,9 +93,9 @@ body {
   box-shadow: var(--shadow);
   flex: 0 0 auto;
 }
-.appMain {
-  /* margin-bottom: 5px; */
-}
+/* .appMain {
+  margin-bottom: 5px;
+} */
 .appTitle {
   font-size: 20px;
   margin-bottom: 8px;
@@ -193,7 +193,7 @@ body {
 .roleTitle {
   font-size: 21px;
 }
-.date {
+.experienceDate {
   font-size: 23px;
   color: var(--dark-color);
   margin-right: 20px;

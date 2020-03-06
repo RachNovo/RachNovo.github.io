@@ -1,40 +1,30 @@
-import React, {Component} from 'react';
-import styles, {title} from '../Details.css';
+/* eslint-disable no-unused-vars */
+import React, { PureComponent } from 'react';
+import styles, { title } from '../Details.css';
 import Education from './Education.jsx';
 import education from './education.js';
 
-class EducationList extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      openSchoolId: 1
-    }
-    this.setSchoolId = this.setSchoolId.bind(this);
-  }
-  setSchoolId(id) {
-    this.setState({openSchoolId: id})
-  }
+class EducationList extends PureComponent {
   render() {
+    const openSchoolId = this.state;
     return (
-      <div id={'education'}>
+      <div id="education">
         <div className={title}>
           Education
         </div>
         <div>
-          {education.map((el, i) => <Education
-            school={el.school}
-            date={el.date}
-            title={el.title}
-            text={el.text}
-            id={el.id}
-            key={i}
-            visible={this.state.openSchoolId === el.id ? true : false}
-            setSchoolId={this.setSchoolId}
-            toggle={this.toggle}
-          />)}
+          {education.map((el) => (
+            <Education
+              school={el.school}
+              date={el.date}
+              title={el.title}
+              text={el.text}
+              key={el.id}
+            />
+          ))}
         </div>
       </div>
-    )
+    );
   }
 }
 

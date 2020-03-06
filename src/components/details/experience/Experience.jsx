@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
-import styles, {experienceLine, experienceContentBox, roleTitle, date, experienceText} from '../Details.css';
+/* eslint-disable no-unused-vars */
+import PropTypes from 'prop-types';
+import React, { PureComponent } from 'react';
+import styles, {
+  experienceLine, experienceContentBox, roleTitle, experienceDate, experienceText,
+} from '../Details.css';
 
-class Experience extends Component {
-  constructor(props) {
-    super(props);
-  }
+class Experience extends PureComponent {
   render() {
-    const {title, date, text} = this.props;
+    const { title, date, text } = this.props;
     return (
       <>
-        <div className={experienceLine}>
-        </div>
+        <div className={experienceLine} />
         <div className={experienceContentBox}>
           <div className={roleTitle}>
             {title}
@@ -23,8 +23,14 @@ class Experience extends Component {
           </div>
         </div>
       </>
-    )
+    );
   }
 }
 
 export default Experience;
+
+Experience.propTypes = {
+  title: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

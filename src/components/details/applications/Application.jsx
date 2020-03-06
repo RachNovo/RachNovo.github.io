@@ -1,35 +1,47 @@
-import React, {Component} from 'react';
-import styles, {appTitle, appContainer, appMain, appPic, appDescription, appTech, appButton} from '../Details.css';
+/* eslint-disable no-unused-vars */
+import PropTypes from 'prop-types';
+import React, { PureComponent } from 'react';
+import styles, {
+  appTitle, appContainer, appMain, appPic, appDescription, appTech, appButton,
+} from '../Details.css';
 
-class Application extends Component {
-  constructor(props) {
-    super(props);
-  }
+class Application extends PureComponent {
   render() {
-    const {title, githubLink, deployedApp, description, pic, techList} = this.props
+    const {
+      title, githubLink, deployedApp, description, pic, techList,
+    } = this.props;
     return (
       <div className={appContainer}>
-        <img className={appPic} src={pic}></img>
+        <img className={appPic} src={pic} alt="appPic" />
         <div className={appMain}>
           <div className={appTitle}>
             {title}
           </div>
           <div className={appTech}>
-            {techList.join(' | ')}
+            {techList}
           </div>
           <div className={appDescription}>
-          {description}
+            {description}
           </div>
           <div className={appButton}>
-            <a href={deployedApp} target='_blank'>View</a>
+            <a href={deployedApp} target="_blank" rel="noopener noreferrer">View</a>
           </div>
           <div className={appButton}>
-            <a href={githubLink} target='_blank'>Github</a>
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
 export default Application;
+
+Application.propTypes = {
+  title: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
+  deployedApp: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  pic: PropTypes.string.isRequired,
+  techList: PropTypes.string.isRequired,
+};
