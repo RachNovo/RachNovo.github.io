@@ -20,6 +20,7 @@ class VolunteeringList extends PureComponent {
               symbol={el.symbol}
               link={el.link}
               key={el.id}
+              id={el.id}
             />
           ))}
         </div>
