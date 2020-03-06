@@ -12,7 +12,7 @@ class About extends Component {
         Who Am I?
         </div>
         <div className={aboutText}>
-        <span className={boldText}>Hi, I'm Rachel! </span> I am a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I am insatiably curious and detail oriented which helps me pick up new skills quickly. And while I value the focus I am able to achieve when working by myself, I believe the best results come through the collaboration of many unique perspectives.
+        <span className={boldText}>Hi, I'm Rachel! </span> I'm a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I'm insatiably curious and detail oriented which helps me pick up new skills quickly. While I value getting things done and working hard by myself, I believe the best results come through the collaboration of many unique perspectives.
         <br/>
         <br/>
         I'm a full stack software engineer in the Toronto area looking for new opportunities. Do you know of a company that's looking for a passionate and empathetic team member?
