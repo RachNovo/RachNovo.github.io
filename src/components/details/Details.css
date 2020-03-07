@@ -158,10 +158,15 @@ body {
 .schoolName {
   font-size: 15px;
 }
-.schoolDate {
+.closedDate {
   display: inline-block;
-  padding: 5px;
+  margin-left: 10px;
   color: rgb(36, 36, 36);
+}
+.openDate {
+  display: inline-block;
+  margin-left: 10px;
+  color: var(--base-color);
 }
 .educationButton {
   font-size: 20px;
@@ -233,8 +238,7 @@ body {
 }
 .volDate {
   display: inline-block;
-  padding: 5px;
-  margin-left: 5px;
+  margin-left: 10px;
   color: rgb(36, 36, 36);
 }
 .volText {

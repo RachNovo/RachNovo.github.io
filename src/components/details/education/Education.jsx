@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import styles, {
-  openCover, closedCover, schoolName, openText, closedText, educationButton,
+  openCover, closedCover, schoolName, openDate, closedDate, openText, closedText, educationButton,
 } from '../Details.css';
 
 class Education extends Component {
@@ -23,7 +23,7 @@ class Education extends Component {
 
   render() {
     const {
-      school, title, text,
+      school, date, title, text, id,
     } = this.props;
     const { visible } = this.state;
     return (
@@ -31,6 +31,9 @@ class Education extends Component {
         <div tabIndex={0} role="button" className={visible ? openCover : closedCover} onClick={this.toggle} onKeyUp={this.toggle}>
           <span className={schoolName}>
             {school}
+          </span>
+          <span className={visible ? openDate : closedDate}>
+            {date}
           </span>
           <span className={educationButton}>
             {visible ? <FontAwesomeIcon icon={faMinus} /> : <FontAwesomeIcon icon={faPlus} />}
@@ -54,6 +57,8 @@ export default Education;
 
 Education.propTypes = {
   school: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
