@@ -17,7 +17,7 @@ function About() {
         I&apos;m a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I&apos;m insatiably curious and detail oriented, which helps me pick up new skills quickly. While I value working hard by myself and getting things done, I believe the best results are achieved through collaboration with others.
         <br />
         <br />
-        I&apos;m a full stack software engineer in the Toronto area looking for new opportunities. Do you know of a company that&apos;s looking for a passionate and empathetic team member?
+        I&apos;m a full stack software engineer in the Toronto area currently looking for new opportunities. Do you know of a company that&apos;s looking for a passionate and empathetic team member?
         <br />
         <br />
         When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French!

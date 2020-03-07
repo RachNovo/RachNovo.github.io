@@ -3,7 +3,7 @@ module.exports = [
     title: 'Marketplace Lodging App',
     githubLink: 'https://github.com/RachNovo/lodging-marketplace-app',
     deployedApp: 'https://lodging-marketplace.herokuapp.com/',
-    description: 'Need somewhere to stay? Use this app to find the perfect place! I designed and built the reviews service UI and back end. I also stabilized the view size by designing an algorithm that displays a pagination selection bar, reducing reviews to seven per page, leading to improved site elegance.',
+    description: 'Need somewhere to stay? Use this app to find the perfect place! I designed and built the reviews service UI and back end. I also stabilized the view size by designing an algorithm that displays a pagination selection bar, reducing reviews to seven per page, improving site elegance.',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/house.jpg',
     techList: 'React.js | Node.js | MongoDB | AWS | Cypress.io',
     id: '1',
