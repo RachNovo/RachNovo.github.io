@@ -1,18 +1,5 @@
-:root {
-  --base-color: rgb(238, 238, 238);
-  --base-border: 1px solid rgb(180, 178, 181);
-
-  --dark-color: rgb(54, 37, 104);
-  --dark-border: 1px rgb(33, 22, 63);
-
-  --light-color: rgb(147, 147, 147);
-  --light-border: 1px solid rgb(135, 135, 135);
-
-  --shadow: 1px 1px 3px #1A1D1E;
-}
 body {
   background-color: var(--base-color);
-  scroll-behavior: smooth;
 }
 .main {
   width: 100%;
@@ -35,6 +22,9 @@ body {
 }
 .boldText {
   font-weight: bold;
+  color: orange;
+  text-shadow: .1px .1px .1px rgb(210, 136, 0);
+  font-size: 20px;
 }
 .pictureContainer {
   margin-top: 50px;
@@ -56,13 +46,14 @@ body {
   text-align: left;
 }
 .subTitle {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 20px;
 }
 .skillContainer {
   text-align: center;
   display: inline-block;
   padding: 8px;
+  font-size: 18px;
   margin: 8px 16px 8px 0px;
   background-color: var(--dark-color);
   color: var(--base-color);
@@ -146,6 +137,7 @@ body {
   padding: 15px;
   margin-top: 5px;
   box-shadow: var(--shadow);
+  cursor: pointer;
 }
 .closedCover {
   background-color: var(--light-color);
@@ -154,6 +146,7 @@ body {
   padding: 15px;
   margin-top: 5px;
   box-shadow: var(--shadow);
+  cursor: pointer;
 }
 .schoolName {
   font-size: 15px;
@@ -183,6 +176,9 @@ body {
 }
 .closedText {
   display: none;
+}
+.space {
+  height: 15px;
 }
 
 
@@ -272,7 +268,7 @@ body {
   margin-left: 20px;
 } */
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 47em) {
   .main {
     width: 80%;
     margin: auto;
@@ -306,7 +302,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56em) {
   .main {
     width: 800px;
     margin: auto;

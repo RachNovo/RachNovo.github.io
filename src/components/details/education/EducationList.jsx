@@ -20,6 +20,7 @@ class EducationList extends PureComponent {
               title={el.title}
               text={el.text}
               key={el.id}
+              id={el.id}
             />
           ))}
         </div>

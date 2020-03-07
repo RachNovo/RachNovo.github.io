@@ -7,7 +7,7 @@ import SkillList from './skills/SkillList.jsx';
 import ApplicationList from './applications/ApplicationList.jsx';
 import EducationList from './education/EducationList.jsx';
 import VolunteeringList from './volunteering/VolunteeringList.jsx';
-// import ExperienceList from './experience/ExperienceList';
+// import ExperienceList from './experience/ExperienceList.jsx';
 
 function Details() {
   return (

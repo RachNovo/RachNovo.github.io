@@ -1,7 +1,29 @@
-  a {
-    text-decoration: none;
-    color: inherit;
+:root {
+  --base-color: rgb(238, 238, 238);
+  --base-border: 1px solid rgb(180, 178, 181);
+
+  --dark-color: rgb(54, 37, 104);
+  --dark-border: 1px rgb(33, 22, 63);
+
+  --light-color: rgb(147, 147, 147);
+  --light-border: 1px solid rgb(135, 135, 135);
+
+  --footer-link-color: rgb(203, 203, 203);
+
+  --shadow: 1px 1px 3px #1A1D1E;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animation {
+    animation: none;
   }
+}
 .landingPage {
   position: relative;
   width: 100vw;
@@ -13,7 +35,7 @@
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  color: rgb(252, 237, 237);
+  color: var(--base-color);
   font-weight: 1000;
   letter-spacing: 0.2em;
   font-family: 'Raleway', sans-serif;
@@ -46,7 +68,7 @@
   transition-duration: .30s;
   transition-timing-function: linear;
   text-decoration: none;
-  color: rgb(252, 237, 237);
+  color: var(--base-color);
 }
 .link:hover {
   background-color: white;
@@ -61,7 +83,7 @@
 }
 .arrow {
   display: inline-block;
-  color: rgb(254, 243, 243);
+  color: var(--base-color);
   margin-top: 2%;
   animation-name: arrow;
   animation-duration: 1s;

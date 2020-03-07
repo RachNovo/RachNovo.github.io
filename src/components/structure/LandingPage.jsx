@@ -20,34 +20,44 @@ const LandingPage = () => {
       <div className={title}>SOFTWARE ENGINEER</div>
       <div className={linkList}>
         <div className={link}>
-          <FontAwesomeIcon icon={faDownload} />
-          <div className={text}>
-            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
-          </div>
+          <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faDownload} />
+            <div className={text}>
+              DOWNLOAD CV
+            </div>
+          </a>
         </div>
         <div className={link}>
-          <FontAwesomeIcon icon={faLinkedin} />
-          <div className={text}>
-            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer">VIEW LINKEDIN</a>
-          </div>
+          <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} />
+            <div className={text}>
+              VIEW LINKEDIN
+            </div>
+          </a>
         </div>
         <div className={link}>
-          <FontAwesomeIcon icon={faGithub} />
-          <div className={text}>
-            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer">VIEW GITHUB</a>
-          </div>
+          <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} />
+            <div className={text}>
+              VIEW GITHUB
+            </div>
+          </a>
         </div>
         <div className={link}>
-          <FontAwesomeIcon icon={faPhoneAlt} />
-          <div className={text}>
-            <a href="tel:+19056163812">(905) 616-3812</a>
-          </div>
+          <a href="tel:+19056163812">
+            <FontAwesomeIcon icon={faPhoneAlt} />
+            <div className={text}>
+              (905) 616-3812
+            </div>
+          </a>
         </div>
         <div className={link}>
-          <FontAwesomeIcon icon={faEnvelope} />
-          <div className={text}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer">r.novoselac@gmail.com</a>
-          </div>
+          <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faEnvelope} />
+            <div className={text}>
+              r.novoselac@gmail.com
+            </div>
+          </a>
         </div>
       </div>
       <div>
