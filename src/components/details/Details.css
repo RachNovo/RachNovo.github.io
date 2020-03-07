@@ -161,7 +161,7 @@ body {
   margin-left: 10px;
   color: var(--base-color);
 }
-.educationButton {
+.edButton {
   font-size: 20px;
   float: right;
   margin-top: -3.5px;
@@ -188,8 +188,8 @@ body {
   display: flex;
   overflow: hidden;
 }
-.volSide {
-}
+/* .volSide {
+} */
 .volSymbol {
   margin-left: 2px;
   margin-top: 10px;
