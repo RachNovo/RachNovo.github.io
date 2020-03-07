@@ -9,7 +9,7 @@ function About() {
   return (
     <div id="about">
       <div className={title}>
-        Who Am I?
+        About Me
       </div>
       <div className={aboutText}>
         <span className={boldText}>Hi, I&apos;m Rachel! </span>

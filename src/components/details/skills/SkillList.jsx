@@ -6,7 +6,7 @@ import skills from './skills.js';
 
 class SkillList extends PureComponent {
   render() {
-    const categories = ['Front End', 'Back End', 'Tools', 'Other'];
+    const categories = ['Front-End', 'Back-End', 'Tools', 'Other'];
 
     // filters the skills by category and saves them in arrays
     const [frontEnd, backEnd, tools, other] = categories.map(

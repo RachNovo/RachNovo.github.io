@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,12 +46,12 @@ const LandingPage = () => {
         <div className={link}>
           <FontAwesomeIcon icon={faEnvelope} />
           <div className={text}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`}>r.novoselac@gmail.com</a>
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer">r.novoselac@gmail.com</a>
           </div>
         </div>
       </div>
-      <div className={arrow}>
-        <FontAwesomeIcon icon={faAngleDown} size="5x" />
+      <div>
+        <a href="#about"><div className={arrow}><FontAwesomeIcon icon={faAngleDown} size="5x" /></div></a>
       </div>
     </div>
   );
