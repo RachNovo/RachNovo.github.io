@@ -202,8 +202,8 @@ body {
   display: flex;
   overflow: hidden;
 }
-/* .volSide {
-} */
+.volSide {
+}
 .volSymbol {
   margin-left: 2px;
   margin-top: 10px;
@@ -218,11 +218,13 @@ body {
   line-height: 50px;
 }
 .volLine {
+  display: table;
   width: 5px;
   height: 90%;
   margin-left: 24px;
   background-color: var(--dark-color);
   box-shadow: var(--shadow);
+  display: block;
 }
 .volCircle {
   position: absolute;
@@ -334,7 +336,7 @@ body {
     font-size: 18px;
   }
   .volLine {
-    height: 88%;
+    height: 90%;
   }
   .volTitle {
     font-size: 20px;
@@ -379,7 +381,7 @@ body {
     font-size: 22px;
   }
   .volLine {
-    height: 250px;
+    height: 260px;
   }
   .volContainer {
     width: 870px;
