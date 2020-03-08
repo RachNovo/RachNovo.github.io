@@ -12,7 +12,9 @@ function About() {
         About Me
       </div>
       <div className={aboutText}>
-        <span className={boldText}>Hi, I&apos;m Rachel! </span>
+        <span className={boldText}>
+          Hi, I&apos;m Rachel!
+        </span>
         {' '}
         I&apos;m a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I&apos;m insatiably curious and detail oriented, which helps me pick up new skills quickly. While I value working hard by myself and getting things done, I believe the best results are achieved through collaboration with others.
         <br />
