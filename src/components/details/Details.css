@@ -8,23 +8,24 @@ body {
 }
 .title {
   font-size: 35px !important;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 
 /* About section */
 
 .aboutText {
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 18px !important;
+  line-height: 28px;
   text-align: left;
 }
 .boldText {
   font-weight: bold;
-  color: var(--highlight-color);
+  color: black;
   text-shadow: var(--highlight-shadow);
-  font-size: 20px;
+  font-size: 22px;
+  text-decoration: underline dotted var(--highlight-color);
 }
 .pictureContainer {
   margin-top: 50px;
@@ -50,7 +51,7 @@ body {
   margin-top: 15px;
   margin-bottom: 10px;
   text-decoration: underline wavy var(--highlight-color);
-  /* text-decoration-color: var(--highlight-color); */
+  font-weight: bold;
 }
 .skillContainer {
   text-align: center;
@@ -76,7 +77,6 @@ body {
 /* applications section */
 
 .appContainer {
-  /* border: 1px solid rgb(104, 104, 104); */
   margin-bottom: 30px;
   display: flex;
   text-align: center;
@@ -104,7 +104,7 @@ body {
   text-shadow: var(--highlight-shadow);
 }
 .appDescription {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   text-align: left;
   padding-left: 15px;
@@ -158,6 +158,7 @@ body {
 }
 .schoolName {
   font-size: 16px;
+  font-weight: bold;
 }
 .closedDate {
   display: inline-block;
@@ -190,8 +191,9 @@ body {
 .edTitle {
   margin-bottom: 10px;
   font-size: 18px;
-  color: var(--highlight-color);
+  color: black;
   text-shadow: var(--highlight-shadow);
+  text-decoration: underline dotted var(--highlight-color);
 }
 
 
@@ -243,7 +245,8 @@ body {
 }
 .volTitle {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .volDate {
   display: inline-block;
@@ -294,16 +297,22 @@ body {
     width: 19vw;
     margin-right: 2vw;
   }
-  .title {
-    font-size: 30px;
-  }
   .aboutText {
     font-size: 17px;
+  }
+  .subTitle {
+    font-size: 24px;
+  }
+  .skillContainer {
+    font-size: 22px;
   }
   .appContainer {
     border: var(--base-border) !important;
     box-shadow: var(--shadow);
     padding: 15px;
+  }
+  .appTitle {
+    font-size: 32px;
   }
   .appDescription {
     font-size: 17px;
@@ -318,6 +327,9 @@ body {
   .openDate {
     margin-left: 10px;
     font-size: 17px;
+  }
+  .edTitle {
+    font-size: 20px;
   }
   .openText {
     font-size: 18px;
@@ -363,6 +375,9 @@ body {
   .openDate {
     margin-left: 10px;
     font-size: 18px;
+  }
+  .edTitle {
+    font-size: 22px;
   }
   .volLine {
     height: 250px;
