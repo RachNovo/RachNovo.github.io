@@ -7,8 +7,8 @@ body {
   position: relative;
 }
 .title {
-  font-size: 20px;
-  margin-top: 50px;
+  font-size: 35px !important;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
@@ -22,8 +22,8 @@ body {
 }
 .boldText {
   font-weight: bold;
-  color: orange;
-  text-shadow: .1px .1px .1px rgb(210, 136, 0);
+  color: var(--highlight-color);
+  text-shadow: var(--highlight-shadow);
   font-size: 20px;
 }
 .pictureContainer {
@@ -47,14 +47,17 @@ body {
 }
 .subTitle {
   font-size: 22px;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-decoration: underline wavy var(--highlight-color);
+  /* text-decoration-color: var(--highlight-color); */
 }
 .skillContainer {
   text-align: center;
   display: inline-block;
   padding: 8px;
   font-size: 18px;
-  margin: 8px 16px 8px 0px;
+  margin: 8px 16px 16px 0px;
   background-color: var(--dark-color);
   color: var(--base-color);
   box-shadow: var(--shadow);
@@ -77,6 +80,9 @@ body {
   margin-bottom: 30px;
   display: flex;
   text-align: center;
+  border: var(--base-border) !important;
+  box-shadow: var(--shadow);
+  padding: 15px;
 }
 .appPic {
   width: 0;
@@ -88,12 +94,14 @@ body {
   margin-bottom: 5px;
 } */
 .appTitle {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 8px;
 }
 .appTech {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
+  color: var(--highlight-color);
+  text-shadow: var(--highlight-shadow);
 }
 .appDescription {
   font-size: 15px;
@@ -149,27 +157,29 @@ body {
   cursor: pointer;
 }
 .schoolName {
-  font-size: 15px;
+  font-size: 16px;
 }
 .closedDate {
   display: inline-block;
-  margin-left: 10px;
-  color: rgb(36, 36, 36);
+  margin-left: 5px;
+  color: var(--date-color);
+  font-size: 15px;
 }
 .openDate {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
   color: var(--base-color);
+  font-size: 15px;
 }
 .edButton {
-  font-size: 20px;
+  font-size: 13px;
   float: right;
-  margin-top: -3.5px;
+  /* margin-top: -1px; */
 }
 .openText {
   padding: 15px;
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   text-align: left;
   border: var(--base-border) !important;
@@ -177,8 +187,11 @@ body {
 .closedText {
   display: none;
 }
-.space {
-  height: 15px;
+.edTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--highlight-color);
+  text-shadow: var(--highlight-shadow);
 }
 
 
@@ -230,12 +243,13 @@ body {
 }
 .volTitle {
   display: inline-block;
-  font-size: 18px;;
+  font-size: 16px;
 }
 .volDate {
   display: inline-block;
   margin-left: 10px;
-  color: rgb(36, 36, 36);
+  color: var(--date-color);
+  font-size: 15px;
 }
 .volText {
   font-size: 16px;
@@ -273,6 +287,9 @@ body {
     width: 80%;
     margin: auto;
   }
+  .title {
+    font-size: 40px !important;
+  }
   .pictures {
     width: 19vw;
     margin-right: 2vw;
@@ -292,13 +309,27 @@ body {
     font-size: 17px;
   }
   .schoolName {
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .closedDate {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .openDate {
+    margin-left: 10px;
+    font-size: 17px;
   }
   .openText {
-    font-size: 16px;
+    font-size: 18px;
   }
   .volLine {
     height: 88%;
+  }
+  .volTitle {
+    font-size: 20px;
+  }
+  .volDate {
+    font-size: 17px;
   }
 }
 
@@ -306,6 +337,9 @@ body {
   .main {
     width: 800px;
     margin: auto;
+  }
+  .title {
+    font-size: 45px !important;
   }
   .pictures {
     width: 180px;
@@ -319,7 +353,27 @@ body {
     width: 300px !important;
     height: 280px !important;
   }
+  .schoolName {
+    font-size: 22px;
+  }
+  .closedDate {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .openDate {
+    margin-left: 10px;
+    font-size: 18px;
+  }
   .volLine {
     height: 250px;
+  }
+  .volContainer {
+    width: 870px;
+  }
+  .volTitle {
+    font-size: 25px;
+  }
+  .volDate {
+    font-size: 18px;
   }
 }

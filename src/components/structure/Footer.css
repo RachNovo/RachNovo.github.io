@@ -33,9 +33,15 @@
   font-size: 43px;
   color: var(--footer-link-color);
 }
-.links {
+.link:hover {
+  color: white;
+}
+.repoLink {
   display: inline-block;
   margin-left: 5px;
+}
+.repoLink:hover {
+  color: white;
 }
 
 @media only screen and (min-width: 47em) {

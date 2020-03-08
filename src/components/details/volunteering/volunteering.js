@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'Medical First Responder, UofT Mississauga Response Team',
+    title: 'Medical First Responder, UTM Response Team',
     date: '2015-2017',
     text: 'ECSpeRT (Erindale College Special Response Team) responds to trauma and medical emergencies at the University of Toronto Mississauga Campus, covering on-call, event and overnight hours. I was quickly accelerated into the in-house training program to complete the rigorous MFR certification through St. John\'s Ambulance. I continued skills development through bi-weekly training and was designated MFR of the month to award my commitment. I also participated in the 2016 MIXER First Aid competition, completing 14 live action scenarios over eight hours with a team of four responders from across Canada.',
     link: 'https://ecspert.ca/',

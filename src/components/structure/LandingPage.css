@@ -5,12 +5,17 @@
   --dark-color: rgb(54, 37, 104);
   --dark-border: 1px rgb(33, 22, 63);
 
-  --light-color: rgb(147, 147, 147);
-  --light-border: 1px solid rgb(135, 135, 135);
+  --light-color: rgb(176, 176, 176);
+  --light-border: 1px solid rgb(160, 160, 160);
 
   --footer-link-color: rgb(203, 203, 203);
 
   --shadow: 1px 1px 3px #1A1D1E;
+
+  --date-color: rgb(74, 74, 74);
+
+  --highlight-color: rgb(255, 162, 0);
+  --highlight-shadow: .1px .1px .1px rgb(237, 152, 6);
 }
 html {
   scroll-behavior: smooth;

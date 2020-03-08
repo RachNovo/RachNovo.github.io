@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import styles, {
-  openCover, closedCover, schoolName, openDate, closedDate, openText, closedText, edButton, space,
+  openCover, closedCover, schoolName, openDate, closedDate, openText, closedText, edButton, edTitle,
 } from '../Details.css';
 
 class Education extends Component {
@@ -40,11 +40,10 @@ class Education extends Component {
           </span>
         </div>
         <div className={visible ? openText : closedText}>
-          <div>
+          <div className={edTitle}>
             {title}
           </div>
           <div>
-            <div className={space} />
             {text}
           </div>
         </div>

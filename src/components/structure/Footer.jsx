@@ -4,11 +4,11 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faHeart, faDownload, faPhoneAlt, faEnvelope,
+  faHeart, faDownload, faPhoneSquare, faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import styles, {
-  footer, call, credit, topLink, links, link,
+  footer, call, credit, topLink, repoLink, link,
 } from './Footer.css';
 
 function Footer() {
@@ -25,7 +25,7 @@ function Footer() {
           <FontAwesomeIcon icon={faHeart} />
           {' '}
           using React.js
-          <div className={links}>
+          <div className={repoLink}>
             <a href="https://github.com/RachNovo/RachNovo.github.io" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
           </div>
         </div>
@@ -34,16 +34,19 @@ function Footer() {
         </div>
         <div>
           <span className={link}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
-          </span>
-          <span className={link}>
-            <a href="tel:+19056163812"><FontAwesomeIcon icon={faPhoneAlt} /></a>
+            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDownload} /></a>
           </span>
           <span className={link}>
             <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
           </span>
           <span className={link}>
             <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+          </span>
+          <span className={link}>
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+          </span>
+          <span className={link}>
+            <a href="tel:+19056163812"><FontAwesomeIcon icon={faPhoneSquare} /></a>
           </span>
         </div>
       </div>
