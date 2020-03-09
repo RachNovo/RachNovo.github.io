@@ -7,7 +7,7 @@ import volunteering from './volunteering.js';
 class VolunteeringList extends PureComponent {
   render() {
     return (
-      <div id="volunteering">
+      <div id="volunteeringSection">
         <div className={title}>
           Volunteering
         </div>

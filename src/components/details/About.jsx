@@ -7,7 +7,7 @@ import styles, {
 
 function About() {
   return (
-    <div id="about">
+    <div id="aboutSection">
       <div className={title}>
         About Me
       </div>
@@ -22,7 +22,7 @@ function About() {
         I&apos;m a full stack software engineer in the Toronto area currently looking for new opportunities. Do you know of a company that&apos;s looking for a passionate and empathetic team member?
         <br />
         <br />
-        When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French! (parce que j'ai besoin de pratiquer &#128579;)
+        When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French! (parce que j&apos;ai besoin de pratiquer &#128579;)
       </div>
       <div className={pictureContainer}>
         <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower-small.jpg" alt="flower" />

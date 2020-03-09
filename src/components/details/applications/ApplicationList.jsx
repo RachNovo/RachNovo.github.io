@@ -7,7 +7,7 @@ import applications from './applications.js';
 class ApplicationList extends PureComponent {
   render() {
     return (
-      <div id="applications">
+      <div id="applicationsSection">
         <div className={title}>
           Recent Work
         </div>

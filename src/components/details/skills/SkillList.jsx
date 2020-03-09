@@ -13,7 +13,7 @@ class SkillList extends PureComponent {
       (category) => skills.filter((el) => el.category === category),
     );
     return (
-      <div id="skills">
+      <div id="skillsSection">
         <div className={title}>
           My Skills
         </div>

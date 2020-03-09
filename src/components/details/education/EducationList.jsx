@@ -8,7 +8,7 @@ class EducationList extends PureComponent {
   render() {
     const openSchoolId = this.state;
     return (
-      <div id="education">
+      <div id="educationSection">
         <div className={title}>
           Education
         </div>
