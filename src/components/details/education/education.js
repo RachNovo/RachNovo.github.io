@@ -10,7 +10,7 @@ module.exports = [
     school: 'Univeristy of Waterloo, Applied Health Sciences',
     date: '2017-2018',
     title: 'First Year, Therapeutic Recreation',
-    text: 'After completing my Linguistics degree at the University of Toronto, I started a second degree towards becoming a recreational therapist or a speech pathologist. I learned, however, that I missed the highly technical nature of the upper year Linguistics courses and that this program did not suit me. After finishing the year, I began considering my options for self-starting in the field of software engineering.',
+    text: 'After completing my Linguistics degree at the University of Toronto, I started a second degree towards becoming a recreational therapist or a speech pathologist. I learned, however, that I missed the highly technical nature of the upper year Linguistics courses and that this program did not suit me. After finishing the year, I worked to pay off my school debt and prepared to pursue self-starting in the field of software engineering.',
     id: '1',
   },
   {
