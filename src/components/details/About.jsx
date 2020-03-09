@@ -25,10 +25,10 @@ function About() {
         When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French! (parce que j'ai besoin de pratiquer &#128579;)
       </div>
       <div className={pictureContainer}>
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower.jpg" alt="flower" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/raspberries.jpeg" alt="raspberry patch" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/strawberry.jpg" alt="wild strawberries" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/ocean.jpg" alt="ocean and sky" />
+        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower-small.jpg" alt="flower" />
+        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/raspberries-small.jpg" alt="raspberry patch" />
+        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/strawberries-small.jpg" alt="wild strawberries" />
+        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/ocean-small.jpg" alt="ocean and sky" />
       </div>
     </div>
   );
