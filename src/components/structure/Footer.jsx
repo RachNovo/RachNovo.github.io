@@ -26,7 +26,7 @@ function Footer() {
           {' '}
           using React.js
           <div className={repoLink}>
-            <a href="https://github.com/RachNovo/RachNovo.github.io" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://github.com/RachNovo/RachNovo.github.io" target="_blank" rel="noopener noreferrer" text="go to website repo on github"><FontAwesomeIcon icon={faGithub} /></a>
           </div>
         </div>
         <div className={call}>
@@ -34,19 +34,19 @@ function Footer() {
         </div>
         <div>
           <span className={link}>
-            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDownload} /></a>
+            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer" text="download resume"><FontAwesomeIcon icon={faDownload} /></a>
           </span>
           <span className={link}>
-            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer" text="go to my linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>
           </span>
           <span className={link}>
-            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer" text="go to my github"><FontAwesomeIcon icon={faGithub} /></a>
           </span>
           <span className={link}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer" text="send me an email"><FontAwesomeIcon icon={faEnvelope} /></a>
           </span>
           <span className={link}>
-            <a href="tel:+19056163812"><FontAwesomeIcon icon={faPhoneSquare} /></a>
+            <a href="tel:+19056163812" text="call my number"><FontAwesomeIcon icon={faPhoneSquare} /></a>
           </span>
         </div>
       </div>
