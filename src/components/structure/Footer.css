@@ -1,6 +1,5 @@
 .topLink {
   font-size: 18px;
-  margin: 30px;
   display: flex;
   justify-content: center;
   color: var(--dark-color);
@@ -10,6 +9,7 @@
   width: 100vw;
   height: 270px;
   margin-left: -8px;
+  margin-top: 20px;
   font-size: 18px;
   color: var(--footer-link-color);
   background-color: var(--dark-color);
