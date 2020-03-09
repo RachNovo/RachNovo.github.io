@@ -102,6 +102,9 @@ body {
   margin-bottom: 10px;
   color: var(--highlight-color);
   text-shadow: var(--highlight-shadow);
+  color: black;
+  text-shadow: none;
+  text-decoration: underline var(--highlight-color);
 }
 .appDescription {
   font-size: 16px;
