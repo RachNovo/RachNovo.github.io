@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react';
-import LandingPage from './structure/LandingPage.jsx';
+import LandingPage from './structure/landingPage/LandingPage.jsx';
 import Details from './details/Details.jsx';
 import Footer from './structure/Footer.jsx';
 
