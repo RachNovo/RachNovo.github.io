@@ -61,7 +61,7 @@ const LandingPage = () => {
         </div>
       </div>
       <div>
-        <a href="#about" text="go down to the about section"><div className={arrow}><FontAwesomeIcon icon={faAngleDown} size="5x" /></div></a>
+        <a href="#aboutSection" text="go down to the about section"><div className={arrow}><FontAwesomeIcon icon={faAngleDown} size="5x" /></div></a>
       </div>
     </div>
   );
