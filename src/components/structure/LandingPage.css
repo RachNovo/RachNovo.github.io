@@ -52,21 +52,21 @@ a {
   display: inline-block;
   font-size: 8vw;
   line-height: 10vh;
-  margin-top: 6vh;
+  margin-top: 8.5vh;
   padding: 0 10px 0 10px;
 }
 .title {
   display: inline-block;
-  font-size: 6vw;
+  font-size: 5.3vw;
   line-height: 1.5vh;
-  margin-top: 6vh;
+  margin-top: 3.5vh;
   margin-bottom: 3vh;
   padding: 10px;
   color: var(--dark-color);
   text-shadow: var(--shadow);
 }
 .linkList {
-  width: 90%;
+  width: 95%;
   line-height: .7vh;
   margin: 0 auto;
 }
@@ -98,46 +98,74 @@ a {
   animation-name: arrow;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  font-size: 16px;
+  font-size: 12px;
   animation-direction: alternate-reverse;
   animation-delay: 4s;
   animation-timing-function: ease-in-out;
 }
 @keyframes arrow {
   from {font-size: 14px;}
-  to {font-size: 16px;}
+  to {font-size: 12px;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 47em) {
   .landingPage {
     font-weight: 900;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     width: 100vw;
     height: 100vh;
     font-family:'Raleway', sans-serif;
   }
   .name {
-    font-size: 6vw;
+    font-size: 8vw;
     line-height: 10vh;
-    margin-top: 22vh;
+    margin-top: 20vh;
   }
   .title {
-    font-size: 3.5vw;
-    margin: 5vh;
+    font-size: 5vw;
+    margin: 7.5vh;
     line-height: 8vh;
   }
   .linkList {
-    width: 60%;
-    margin: 0 auto;
-    line-height: 1.5vh;
-  }
-  .linkList {
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
     line-height: 1.5vh;
   }
   .link {
-    font-size: 2vw;
+    font-size: 3vw;
+    display: inline-block;
+    margin: 2vh;
+    padding: 7px;
+  }
+  .arrow {
+    margin-top: 8%;
+    animation-name: arrow;
+    font-size: 16px;
+  }
+  @keyframes arrow {
+    from {font-size: 16px;}
+    to {font-size: 14px;}
+  }
+}
+
+@media only screen and (min-width: 56em) {
+  .name {
+    font-size: 7.5vw;
+    line-height: 10vh;
+    margin-top: 20vh;
+  }
+  .title {
+    font-size: 4vw;
+    margin: 8vh;
+    line-height: 8vh;
+  }
+  .linkList {
+    width: 83%;
+    margin: 0 auto;
+    line-height: 1.5vh;
+  }
+  .link {
+    font-size: 3vw;
     display: inline-block;
     margin: 2vh;
     padding: 7px;
@@ -148,3 +176,26 @@ a {
     font-size: 16px;
   }
 }
+@media only screen and (min-width: 65em) {
+  .name {
+    font-size: 80px;
+    line-height: 79px;
+    margin-top: 176px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .title {
+    font-size: 42px;
+    margin: 40px;
+    line-height: 63px;
+  }
+  .linkList {
+    width: 900px;
+    line-height: 30px;
+  }
+  .link {
+    font-size: 32px;
+    margin: 16px;
+  }
+}
+

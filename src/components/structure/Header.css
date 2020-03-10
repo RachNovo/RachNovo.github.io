@@ -21,3 +21,8 @@
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 65em) {
+  .section {
+    font-size: 25px;
+  }
+}

@@ -23,7 +23,7 @@ const LandingPage = () => {
           <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDownload} />
             <div className={text}>
-              DOWNLOAD CV
+              RESUME
             </div>
           </a>
         </div>
@@ -31,7 +31,7 @@ const LandingPage = () => {
           <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
             <div className={text}>
-              VIEW LINKEDIN
+              LINKEDIN
             </div>
           </a>
         </div>
@@ -39,7 +39,7 @@ const LandingPage = () => {
           <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
             <div className={text}>
-              VIEW GITHUB
+              GITHUB
             </div>
           </a>
         </div>
