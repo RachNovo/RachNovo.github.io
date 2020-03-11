@@ -1,17 +1,36 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import styles, { header, section } from './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTimes, faEllipsisH,
+} from '@fortawesome/free-solid-svg-icons';
+import styles, { header, section, menu } from './Header.css';
+import Modal from './Modal.jsx';
 
-function Header() {
-  return (
-    <div className={header}>
-      <a href="#aboutSection"><div className={section}>About</div></a>
-      <a href="#skillsSection"><div className={section}>Skills</div></a>
-      <a href="#applicationsSection"><div className={section}>Applications</div></a>
-      <a href="#educationSection"><div className={section}>Education</div></a>
-      <a href="#volunteeringSection"><div className={section}>Volunteering</div></a>
-    </div>
-  );
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { open: false };
+    this.openModal = this.openModal.bind(this);
+  }
+
+  openModal(bool) {
+    console.log('it worked!!', bool);
+    this.setState({ open: bool });
+  }
+
+  render() {
+    const { open } = this.state;
+    return (
+      <div className={header}>
+        {open === false ? (
+          <button className={menu} onClick={this.openModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
+            <FontAwesomeIcon icon={faEllipsisH} />
+          </button>
+        ) : <Modal openModal={this.openModal} />}
+      </div>
+    );
+  }
 }
 
 export default Header;

@@ -8,7 +8,7 @@ import {
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Header from './Header.jsx';
 import styles, {
-  landingPage, name, title, linkList, link, arrow, text, a,
+  landingPage, background, name, title, linkList, link, arrow, text, a,
 } from './LandingPage.css';
 
 const LandingPage = () => {
