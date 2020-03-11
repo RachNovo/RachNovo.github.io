@@ -37,7 +37,7 @@
   color: white;
 }
 .section:hover {
-  color: rgb(94, 94, 94);
+  color: rgb(96, 96, 96);
 }
 @media only screen and (min-width: 47em) {
   .section {

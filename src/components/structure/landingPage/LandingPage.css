@@ -1,8 +1,8 @@
 :root {
-  --base-color: rgb(238, 238, 238);
+  --base-color: rgb(237, 237, 237);
   --base-border: 1px solid rgb(180, 178, 181);
 
-  --dark-color: rgb(22, 60, 141);
+  --dark-color: rgb(26, 52, 109);
   --dark-border: 1px rgb(8, 32, 84);
 
   --light-color: rgb(176, 176, 176);
