@@ -14,7 +14,7 @@ import styles, {
 const LandingPage = () => {
   const emailBody = 'Hello%20Rachel!%0D%0A%0D%0AI%20found%20your%20email%20through%20your%20website%20and%20would%20like%20to%20connect%20with%20you.%0D%0A%0D%0A<insert%20message%20here>';
   return (
-    <div className={landingPage}>
+    <div className={landingPage} id="home">
       <Header />
       <div className={name}>RACHEL NOVOSELAC</div>
       <div className={title}>SOFTWARE ENGINEER</div>

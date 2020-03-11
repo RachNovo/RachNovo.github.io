@@ -17,11 +17,12 @@ class Modal extends Component {
           <FontAwesomeIcon icon={faTimes} />
         </span>
         <div className={list}>
-          <a href="#aboutSection"><div className={section}>About</div></a>
-          <a href="#skillsSection"><div className={section}>Skills</div></a>
-          <a href="#applicationsSection"><div className={section}>Applications</div></a>
-          <a href="#educationSection"><div className={section}>Education</div></a>
-          <a href="#volunteeringSection"><div className={section}>Volunteering</div></a>
+          <a href="#home" onClick={openModal.bind(null, false)}><div className={section}>Home</div></a>
+          <a href="#aboutSection" onClick={openModal.bind(null, false)}><div className={section}>About</div></a>
+          <a href="#skillsSection" onClick={openModal.bind(null, false)}><div className={section}>Skills</div></a>
+          <a href="#applicationsSection" onClick={openModal.bind(null, false)}><div className={section}>Applications</div></a>
+          <a href="#educationSection" onClick={openModal.bind(null, false)}><div className={section}>Education</div></a>
+          <a href="#volunteeringSection" onClick={openModal.bind(null, false)}><div className={section}>Volunteering</div></a>
         </div>
       </>
     );
