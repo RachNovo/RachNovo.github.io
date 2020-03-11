@@ -1,11 +1,16 @@
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import styles, {
   appTitle, appContainer, appMain, appPic, appDescription, appTech, appButton,
 } from '../Details.css';
 
-class Application extends PureComponent {
+class Application extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     const {
       title, githubLink, deployedApp, description, pic, techList,
