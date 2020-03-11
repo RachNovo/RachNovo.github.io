@@ -5,7 +5,7 @@
   text-align: right;
   font-family: 'Raleway', sans-serif;
 }
-.menu{
+.ellipsis{
   position: fixed;
   right: 10px;
   font-size: 40px;
@@ -16,18 +16,18 @@
   color: rgb(37, 27, 8);
   z-index: 5;
 }
-.menu:hover {
+.ellipsis:hover {
   color: rgb(96, 96, 96);
 }
 
 @media only screen and (min-width: 47em) {
-  .menu{
+  .ellipsis{
     padding: 20px;
     font-size: 50px;
   }
 }
 @media only screen and (min-width: 65em) {
-  .menu{
+  .ellipsis{
     padding: 20px;
     font-size: 50px;
   }

@@ -4,17 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTimes, faEllipsisH,
 } from '@fortawesome/free-solid-svg-icons';
-import styles, { header, section, menu } from './Header.css';
-import Modal from './Modal.jsx';
+import styles, { header, section, ellipsis } from './Header.css';
+import Menu from './Menu.jsx';
 
 class Header extends Component {
   constructor(props) {
     super(props);
     this.state = { open: false };
-    this.openModal = this.openModal.bind(this);
+    this.openMenu = this.openMenu.bind(this);
   }
 
-  openModal(bool) {
+  openMenu(bool) {
     console.log('it worked!!', bool);
     this.setState({ open: bool });
   }
@@ -24,10 +24,10 @@ class Header extends Component {
     return (
       <div className={header}>
         {open === false ? (
-          <button className={menu} onClick={this.openModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
+          <button className={ellipsis} onClick={this.openMenu.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
             <FontAwesomeIcon icon={faEllipsisH} />
           </button>
-        ) : <Modal openModal={this.openModal} />}
+        ) : <Menu openMenu={this.openMenu} />}
       </div>
     );
   }
