@@ -7,6 +7,7 @@ module.exports = [
     pic: 'https://rachel-portfolio.s3.amazonaws.com/house-small.jpg',
     techList: 'React.js | Node.js | MongoDB | AWS | Cypress.io',
     id: '27',
+    gif: 'https://rachel-portfolio.s3.amazonaws.com/lodging-marketplace-demo.gif',
   },
   {
     title: 'Movie Reviews App',
@@ -16,5 +17,6 @@ module.exports = [
     pic: 'https://rachel-portfolio.s3.amazonaws.com/popcorn-small.jpg',
     techList: 'Node.js | PostgreSQL | SQL | AWS | K6 | Loader.io',
     id: '28',
+    gif: 'https://rachel-portfolio.s3.amazonaws.com/audience-reviews-demo.gif',
   },
 ];

@@ -15,7 +15,6 @@ class Header extends Component {
   }
 
   openMenu(bool) {
-    console.log('it worked!!', bool);
     this.setState({ open: bool });
   }
 

@@ -9,7 +9,7 @@
   background-color: rgba(0,0,0,0.8);
 }
 .list {
-  z-index: 3;
+  z-index: 2;
   position: fixed;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
@@ -21,13 +21,16 @@
   line-height: 30px;
 }
 .close {
+  z-index: 3;
   margin-left: -30px;
   margin-top: 10px;
   position: fixed;
-  z-index: 10;
   color: white;
   cursor: pointer;
   font-size: 30px;
+}
+.close:hover {
+  color: grey;
 }
 .section {
   margin: 5px 10px 0px 10px;

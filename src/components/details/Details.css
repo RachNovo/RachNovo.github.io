@@ -112,6 +112,10 @@ body {
   text-align: left;
   padding-left: 15px;
 }
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
 .appButton {
   text-decoration: none;
   margin: 15px 45px 0px 45px;
@@ -126,6 +130,7 @@ body {
   box-shadow: var(--shadow);
   transition-duration: .3s;
   transition-timing-function: linear;
+  cursor: pointer;
 }
 .appButton:hover {
   margin: 15px 45px 0px 45px;
@@ -242,10 +247,11 @@ body {
 .volContainer {
   position: relative;
   padding: 15px;
-  margin: 15px 0px 15px 20px;
+  margin: 15px 3px 15px 20px;
   background-color: var(--light-color);
   border: var(--light-border);
   box-shadow: var(--shadow);
+  /* margin-right: 5px; */
 }
 .volTitle {
   display: inline-block;
