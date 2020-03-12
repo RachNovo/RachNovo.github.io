@@ -1,8 +1,12 @@
 # RachNovo.github.io
 
+![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
+
 > __A website detailing who I am and what I've done.__ https://rachnovo.github.io/
 
-![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
+## Deployment
+
+* Deployed with: [Github Pages](https://pages.github.com/)
 
 ## Built With
 
@@ -12,10 +16,6 @@
 * [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - React Component and Imports for Font Awesome
 * [Webpack.js](https://webpack.js.org/concepts/) - Used to Bundle My Components
 * [ESLint](https://eslint.org/) - Used to Catch Styling Errors
-
-## Deployment
-
-* [Github Pages](https://pages.github.com/)
 
 ## Authors
 
