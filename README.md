@@ -6,7 +6,7 @@
 
 ## Built With
 
-* [React.js](https://reactjs.org/) - Front-End JavaScript Library
+* [React.js](https://reactjs.org/) - The Front-End JavaScript Library Used
 * [CSS Modules](https://css-tricks.com/css-modules-part-1-need/) - Used for Styling
 * [Font Awesome](https://fontawesome.com/) - Used for all Icons
 * [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - React Component and Imports for Font Awesome
