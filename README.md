@@ -28,7 +28,7 @@ A website detailing who I am and what I've done. https://rachnovo.github.io/
 * [Education](https://rachnovo.github.io/#educationSection) - Learn About My Educational History
 * [Volunteering](https://rachnovo.github.io/#volunteeringSection) - Positions I've Held
 
-![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-image.png)
+![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
 
 ## License
 
