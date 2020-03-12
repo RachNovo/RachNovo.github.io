@@ -21,12 +21,12 @@ A website detailing who I am and what I've done. https://rachnovo.github.io/
 
 ## Sections
 
-* [Home](https://rachnovo.github.io/#home)
-* [About](https://rachnovo.github.io/#aboutSection)
-* [Skills](https://rachnovo.github.io/#skillsSection)
-* [Applications](https://rachnovo.github.io/#applicationsSection)
-* [Education](https://rachnovo.github.io/#educationSection)
-* [Volunteering](https://rachnovo.github.io/#volunteeringSection)
+* [Home](https://rachnovo.github.io/#home) - Start here!
+* [About](https://rachnovo.github.io/#aboutSection) - Personal Summary
+* [Skills](https://rachnovo.github.io/#skillsSection) - Hover Over Each Skill for Details
+* [Applications](https://rachnovo.github.io/#applicationsSection) - View the App or Visit the Github Repo
+* [Education](https://rachnovo.github.io/#educationSection) - Learn About the Education I've done
+* [Volunteering](https://rachnovo.github.io/#volunteeringSection) - Positions I've Held
 
 ![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-image.png)
 
