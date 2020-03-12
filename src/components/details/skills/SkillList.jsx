@@ -28,7 +28,7 @@ class SkillList extends PureComponent {
                 <Skill
                   name={el.name}
                   level={el.level}
-                  popUp={el.popUp}
+                  toolTip={el.toolTip}
                   key={el.id}
                 />
               ))}

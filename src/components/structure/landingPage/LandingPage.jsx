@@ -19,50 +19,48 @@ const LandingPage = () => {
       <div className={name}>RACHEL NOVOSELAC</div>
       <div className={title}>SOFTWARE ENGINEER</div>
       <div className={linkList}>
-        <div className={link}>
-          <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <div className={link}>
             <FontAwesomeIcon icon={faDownload} />
             <div className={text}>
               RESUME
             </div>
-          </a>
-        </div>
-        <div className={link}>
-          <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer">
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer">
+          <div className={link}>
             <FontAwesomeIcon icon={faLinkedin} />
             <div className={text}>
               LINKEDIN
             </div>
-          </a>
-        </div>
-        <div className={link}>
-          <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer">
+          </div>
+        </a>
+        <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer">
+          <div className={link}>
             <FontAwesomeIcon icon={faGithub} />
             <div className={text}>
               GITHUB
             </div>
-          </a>
-        </div>
-        <div className={link}>
-          <a href="tel:+19056163812">
+          </div>
+        </a>
+        <a href="tel:+19056163812">
+          <div className={link}>
             <FontAwesomeIcon icon={faPhoneAlt} />
             <div className={text}>
               (905) 616-3812
             </div>
-          </a>
-        </div>
-        <div className={link}>
-          <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer">
+          </div>
+        </a>
+        <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer">
+          <div className={link}>
             <FontAwesomeIcon icon={faEnvelope} />
             <div className={text}>
               r.novoselac@gmail.com
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
-      <div>
-        <a href="#aboutSection" text="go down to the about section"><div className={arrow}><FontAwesomeIcon icon={faAngleDown} size="5x" /></div></a>
-      </div>
+      <a href="#aboutSection" text="go down to the about section"><div className={arrow}><FontAwesomeIcon icon={faAngleDown} size="5x" /></div></a>
     </div>
   );
 };
