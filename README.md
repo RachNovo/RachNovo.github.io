@@ -1,6 +1,6 @@
 # RachNovo.github.io
 
-A website detailing who I am and what I've done. https://rachnovo.github.io/
+### A website detailing who I am and what I've done. https://rachnovo.github.io/
 
 ![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
 
