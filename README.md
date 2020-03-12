@@ -1,6 +1,6 @@
 # RachNovo.github.io
 
-A website detailing who I am and what I've done.
+A website detailing who I am and what I've done. https://rachnovo.github.io/
 
 ## Built With
 
