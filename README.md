@@ -1,6 +1,6 @@
 # RachNovo.github.io
 
-#### A website detailing who I am and what I've done. https://rachnovo.github.io/
+> __A website detailing who I am and what I've done.__ https://rachnovo.github.io/
 
 ![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
 
@@ -9,9 +9,9 @@
 * [React.js](https://reactjs.org/) - Front-End JavaScript Library
 * [CSS Modules](https://css-tricks.com/css-modules-part-1-need/) - Used for Styling
 * [Font Awesome](https://fontawesome.com/) - Used for all Icons
-* [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - React Component and imports for Font Awesome
+* [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - React Component and Imports for Font Awesome
 * [Webpack.js](https://webpack.js.org/concepts/) - Used to Bundle My Components
-* [ESLint](https://eslint.org/) - Used to catch styling errors
+* [ESLint](https://eslint.org/) - Used to Catch Styling Errors
 
 ## Deployment
 
