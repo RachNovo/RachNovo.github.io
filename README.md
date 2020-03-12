@@ -1,10 +1,10 @@
 # RachNovo.github.io
 
-A website detailing who I am and what I've done. I created it from scratch
+A website detailing who I am and what I've done.
 
 ## Built With
 
-* [React.js](https://reactjs.org/) - The Front-End JavaScript Library I Used
+* [React.js](https://reactjs.org/) - Front-End JavaScript Library
 * [CSS Modules](https://css-tricks.com/css-modules-part-1-need/) - Used for Styling
 * [Webpack.js](https://webpack.js.org/concepts/) - Used to Bundle My Components
 * [Font Awesome](https://fontawesome.com/) - Used for all Icons
