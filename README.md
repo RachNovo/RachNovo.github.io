@@ -2,6 +2,8 @@
 
 A website detailing who I am and what I've done. https://rachnovo.github.io/
 
+![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
+
 ## Built With
 
 * [React.js](https://reactjs.org/) - Front-End JavaScript Library
@@ -27,8 +29,6 @@ A website detailing who I am and what I've done. https://rachnovo.github.io/
 * [Applications](https://rachnovo.github.io/#applicationsSection) - View the App or Visit the Github Repo
 * [Education](https://rachnovo.github.io/#educationSection) - Learn About My Educational History
 * [Volunteering](https://rachnovo.github.io/#volunteeringSection) - Positions I've Held
-
-![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-Image.png)
 
 ## License
 
