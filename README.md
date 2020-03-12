@@ -25,7 +25,7 @@ A website detailing who I am and what I've done. https://rachnovo.github.io/
 * [About](https://rachnovo.github.io/#aboutSection) - Personal Summary
 * [Skills](https://rachnovo.github.io/#skillsSection) - Hover Over Each Skill for Details
 * [Applications](https://rachnovo.github.io/#applicationsSection) - View the App or Visit the Github Repo
-* [Education](https://rachnovo.github.io/#educationSection) - Learn About the Education I've done
+* [Education](https://rachnovo.github.io/#educationSection) - Learn About My Educational History
 * [Volunteering](https://rachnovo.github.io/#volunteeringSection) - Positions I've Held
 
 ![alt Landing Page](https://rachel-portfolio.s3.amazonaws.com/Meta-image.png)
