@@ -13,7 +13,7 @@ A website detailing who I am and what I've done.
 
 ## Authors
 
-* **Rachel Novoselac** - *Initial work* - [RachNovo](https://github.com/RachNovo)
+* **Rachel Novoselac** - [RachNovo](https://github.com/RachNovo)
 
 ## License
 
