@@ -7,7 +7,7 @@
 .footer {
   position: absolute;
   width: 100vw;
-  height: 270px;
+  height: 250px;
   margin-left: -8px;
   margin-top: 20px;
   font-size: 18px;
@@ -24,13 +24,13 @@
 }
 .call {
   display: block;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .link {
-  margin: 0px 25px 0px 25px;
-  font-size: 43px;
+  margin: 0px 10px 0px 10px;
+  font-size: 40px;
   color: var(--footer-link-color);
 }
 .link:hover {

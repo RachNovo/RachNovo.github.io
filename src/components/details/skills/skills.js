@@ -42,7 +42,7 @@ module.exports = [
     id: 6,
   },
   {
-    name: 'MongoDB/Mongoose',
+    name: 'MongoDB',
     level: 'Proficient',
     category: 'Back-End',
     popUp: '',
@@ -56,7 +56,7 @@ module.exports = [
     id: 8,
   },
   {
-    name: 'MySQL/Sequelize',
+    name: 'MySQL',
     level: 'Basic',
     category: 'Back-End',
     popUp: '',
@@ -77,7 +77,7 @@ module.exports = [
     id: 11,
   },
   {
-    name: 'Webpack/Babel',
+    name: 'Webpack',
     level: 'Intermediate',
     category: 'Tools',
     popUp: 'Used to transpile and bundle jsx files into JavaScript so it can be run in the browser.',
@@ -98,7 +98,7 @@ module.exports = [
     id: 14,
   },
   {
-    name: 'Cypress',
+    name: 'Cypress.io',
     level: 'Basic',
     category: 'Tools',
     popUp: 'End to end testing library. I used this to test the pagination micro-service on my Lodging Marketplace app <link>',
