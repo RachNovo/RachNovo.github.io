@@ -87,14 +87,14 @@ module.exports = [
     name: 'K6.io',
     level: 'Intermediate',
     category: 'Tools',
-    toolTip: 'An open source load testing tool. I used it to stress test my Lodging Marketplace App locally.',
+    toolTip: 'An open source load testing tool. I used it to stress test my Movie Reviews App locally.',
     id: 13,
   },
   {
     name: 'Loader.io',
     level: 'Proficient',
     category: 'Tools',
-    toolTip: 'A cloud based load testing tool. I stress tested my AWS deployed Lodging Marketplace App using payload files to simulate production.',
+    toolTip: 'A cloud based load testing tool. I stress tested my AWS deployed Movie Reviews App using payload files to simulate production.',
     id: 14,
   },
   {
