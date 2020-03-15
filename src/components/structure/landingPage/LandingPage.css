@@ -1,12 +1,12 @@
 :root {
-  --base-color: rgb(237, 237, 237);
-  --base-border: 1px solid rgb(180, 178, 181);
+  --base-color: rgb(255, 255, 255);
+  --base-border: 1px solid rgb(205, 203, 206);
 
-  --dark-color: rgb(26, 52, 109);
-  --dark-border: 1px rgb(8, 32, 84);
+  --dark-color: rgb(46, 59, 109);
+  --dark-border: 1px rgb(3, 25, 74);
 
-  --light-color: rgb(176, 176, 176);
-  --light-border: 1px solid rgb(160, 160, 160);
+  --light-color: rgb(198, 198, 198);
+  --light-border: 1px solid rgb(181, 181, 181);
 
   --footer-link-color: rgb(203, 203, 203);
 
@@ -14,7 +14,7 @@
 
   --date-color: rgb(74, 74, 74);
 
-  --highlight-color: rgb(244, 230, 76);
+  --highlight-color: rgb(255, 183, 0);
   --highlight-shadow: .1px .1px .1px rgb(237, 152, 6);
 }
 html {
@@ -60,7 +60,7 @@ a {
   margin-top: 4vh;
   margin-bottom: 2vh;
   padding: 10px;
-  color: var(--dark-color);
+  color: rgb(4, 21, 88);
   text-shadow: var(--shadow);
   font-weight: 1000;
 }

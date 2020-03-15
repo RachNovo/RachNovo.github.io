@@ -187,6 +187,10 @@ body {
 
 /* education section */
 
+.collapseOrExpand {
+  font-size: 15px;
+  cursor: pointer;
+}
 .openCover {
   background-color: var(--dark-color);
   color: var(--base-color);
@@ -363,7 +367,8 @@ body {
   .appContainer {
     border: var(--base-border) !important;
     box-shadow: var(--shadow);
-    padding: 15px;
+    padding: 0px;
+    padding: 0px 15px 15px 0px;
   }
   .appTitle {
     font-size: 32px;
@@ -427,7 +432,7 @@ body {
     box-shadow: none;
   }
   .appPic {
-    width: 300px !important;
+    width: 320px !important;
     height: 280px !important;
   }
   .schoolName {

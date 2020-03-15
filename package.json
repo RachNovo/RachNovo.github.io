@@ -1,7 +1,8 @@
 {
   "name": "rachnovo.github.io",
   "scripts": {
-    "build": "webpack --config webpack.config.js --watch"
+    "build": "webpack --config webpack.config.js --watch",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
