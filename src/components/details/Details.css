@@ -43,6 +43,9 @@ body {
 
 /* skills section */
 
+.skillHover {
+  font-size: 15px;
+}
 .skillMain {
   text-align: left;
 }
