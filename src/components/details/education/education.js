@@ -17,7 +17,7 @@ module.exports = [
     school: 'University of Toronto, Honours Bachelor of Arts',
     date: '2012-2017',
     title: 'Major in Linguistics, Minors in Anthropology and French',
-    text: 'Here I discovered my love of Sociocultural Linguistics. An inspiring high school teacher had mentioned Linguistics and explained some verb tenses in Zulu from his native South Africa, which fascinated me. When I saw Linguistics on the list of programs, I enrolled in the first year course. I learned how linguists uncover the mechanisms behind something people use unconsciously! That intrigued me. I discovered the same pattern in my Anthropology classes and later through my journey into software engineering. All three branches of knowledge consist of simple symbols joined together in complex patterns to communicate information.',
+    text: 'Here I discovered my love of Linguistics and Anthropology. An inspiring high school teacher had mentioned Linguistics and explained some verb tenses in Zulu from his native South Africa, which fascinated me. When I saw Linguistics on the list of programs, I enrolled in the first year course. I learned how linguists uncover the mechanisms behind something people use unconsciously! That intrigued me. I discovered the same pattern in my Anthropology classes and later through my journey into software engineering. All three branches of knowledge consist of simple symbols joined together in complex patterns to communicate information.',
     id: '31',
   },
 ];
