@@ -14,7 +14,7 @@ class Volunteering extends PureComponent {
       symbol, title, date, text, link, id,
     } = this.props;
     return (
-      <div className={volMain} id="volunteering">
+      <div className={volMain}>
         <div className={volSide}>
           <div className={volSymbol}>
             <FontAwesomeIcon icon={symbol === 'faComments' ? faComments : faBriefcaseMedical} />
