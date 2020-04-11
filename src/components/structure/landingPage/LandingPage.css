@@ -17,6 +17,11 @@
   --highlight-color: rgb(255, 183, 0);
   --highlight-shadow: .1px .1px .1px rgb(237, 152, 6);
 }
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
 html {
   scroll-behavior: smooth;
   font-family:'Raleway', sans-serif;
@@ -32,7 +37,7 @@ a {
 }
 .landingPage {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   height: 60vh;
   margin-left: -8px;
   background-color: rgb(0, 0, 0);
@@ -112,7 +117,6 @@ a {
   .landingPage {
     font-weight: 1000;
     letter-spacing: 0.2em;
-    width: 100vw;
     height: 60vh;
   }
   .name {
@@ -237,4 +241,3 @@ a {
     margin: 16px;
   }
 }
-

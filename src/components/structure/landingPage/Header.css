@@ -1,9 +1,9 @@
 .header {
-  width: 100%;
-  height: 30px;
+  height: 0px;
   margin: -8px;
   text-align: right;
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 .ellipsis{
   position: fixed;

@@ -34,8 +34,8 @@ body {
   flex-direction: row;
 }
 .pictures {
-  width: 22vw;
-  height: 100%;
+  width: 22%;
+  /* height: 100%; */
   margin-right: 3vw;
   box-shadow: var(--shadow);
 }
@@ -344,7 +344,7 @@ body {
 
 @media only screen and (min-width: 47em) {
   .main {
-    width: 80%;
+    width: 80vw;
     margin: auto;
   }
   .title {
