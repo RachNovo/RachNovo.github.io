@@ -34,19 +34,34 @@ function Footer() {
         </div>
         <div>
           <span className={link}>
-            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer" text="download resume"><FontAwesomeIcon icon={faDownload} /></a>
+            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer" text="download resume">
+              <FontAwesomeIcon icon={faDownload} />
+              download resume
+            </a>
           </span>
           <span className={link}>
-            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer" text="go to my linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer" text="my linkedin">
+              <FontAwesomeIcon icon={faLinkedin} />
+              my linkedin
+            </a>
           </span>
           <span className={link}>
-            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer" text="go to my github"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer" text="my github">
+              <FontAwesomeIcon icon={faGithub} />
+              my github
+            </a>
           </span>
           <span className={link}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer" text="send me an email"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer" text="email me">
+              <FontAwesomeIcon icon={faEnvelope} />
+              email me
+            </a>
           </span>
           <span className={link}>
-            <a href="tel:+19056163812" text="call my number"><FontAwesomeIcon icon={faPhoneSquare} /></a>
+            <a href="tel:+19056163812" text="call my number">
+              <FontAwesomeIcon icon={faPhoneSquare} />
+              call my number
+            </a>
           </span>
         </div>
       </div>
