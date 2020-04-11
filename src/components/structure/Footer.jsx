@@ -26,7 +26,7 @@ function Footer() {
           {' '}
           using React.js
           <div className={repoLink}>
-            <a href="https://github.com/RachNovo/RachNovo.github.io" target="_blank" rel="noopener noreferrer" text="go to website repo on github"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://github.com/RachNovo/RachNovo.github.io" target="_blank" rel="noopener noreferrer" aria-label="website repo on github"><FontAwesomeIcon icon={faGithub} /></a>
           </div>
         </div>
         <div className={call}>
@@ -34,27 +34,27 @@ function Footer() {
         </div>
         <div>
           <span className={link}>
-            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer" text="download resume">
+            <a href="https://rachel-portfolio.s3.amazonaws.com/Rachel-Novoselac-Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="download resume">
               <FontAwesomeIcon icon={faDownload} />
             </a>
           </span>
           <span className={link}>
-            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer" text="my linkedin">
+            <a href="https://www.linkedin.com/in/rachel-novoselac/" target="_blank" rel="noopener noreferrer" aria-label="my linkedin">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </span>
           <span className={link}>
-            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer" text="my github">
+            <a href="https://github.com/RachNovo" target="_blank" rel="noopener noreferrer" aria-label="my github">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </span>
           <span className={link}>
-            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer" text="email me">
+            <a href={`mailto:r.novoselac@gmail.com?Subject=Looking%20to%20Connect!&body=${emailBody}`} target="_blank" rel="noopener noreferrer" aria-label="email me">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </span>
           <span className={link}>
-            <a href="tel:+19056163812" text="call my number">
+            <a href="tel:+19056163812" aria-label="call my number">
               <FontAwesomeIcon icon={faPhoneSquare} />
             </a>
           </span>
