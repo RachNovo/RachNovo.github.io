@@ -12,7 +12,7 @@ class Menu extends Component {
     const { openMenu } = this.props;
     return (
       <>
-        <div className={menuOverlay} onClick={openMenu.bind(null, false)} onKeyDown={this.handleKeyDown} role="button" label="text" tabIndex={0} name="menu" />
+        <div className={menuOverlay} onClick={openMenu.bind(null, false)} onKeyDown={this.handleKeyDown} role="button" label="text" tabIndex={0} />
         <span className={close} onClick={openMenu.bind(null, false)} onKeyDown={this.handleKeyDown} role="button" label="text" tabIndex={0}>
           <FontAwesomeIcon icon={faTimes} />
         </span>
