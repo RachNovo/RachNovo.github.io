@@ -37,7 +37,6 @@ a {
 }
 .landingPage {
   position: relative;
-  /* width: 100vw; */
   height: 60vh;
   margin-left: -8px;
   background-color: rgb(0, 0, 0);
