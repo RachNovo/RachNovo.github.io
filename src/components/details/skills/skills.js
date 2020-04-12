@@ -10,7 +10,7 @@ module.exports = [
     name: 'HTML',
     level: 'Intermediate',
     category: 'Front-End',
-    toolTip: 'My app logic is usually created with a front end library written in jsx, compiled in a bundle file and linked to the HTML file.',
+    toolTip: 'As one of the three pillars of the internet, HTML is one of my key skills.',
     id: 2,
   },
   {
@@ -122,7 +122,7 @@ module.exports = [
     name: 'AWS (EC2/S3)',
     level: 'Proficient',
     category: 'Tools',
-    toolTip: 'I have deployed various applications and databases to EC2 instances. I host all images for my apps on S3 to increase load speed.',
+    toolTip: 'I have deployed various applications and databases to EC2 instances. I host all images for my apps on S3 to decrease load time.',
     id: 18,
   },
   {
