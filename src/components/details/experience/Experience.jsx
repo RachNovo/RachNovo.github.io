@@ -1,28 +1,35 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faComments, faBriefcaseMedical } from '@fortawesome/free-solid-svg-icons';
 import styles, {
-  experienceLine, experienceContentBox, roleTitle, experienceDate, experienceText,
+  volMain, volSide, volSymbol, volLine, volCircle, volContainer, volTitle, volDate, volText,
 } from '../Details.css';
 
 class Experience extends PureComponent {
   render() {
-    const { title, date, text } = this.props;
+    const {
+      symbol, title, date, text, link, id,
+    } = this.props;
     return (
-      <>
-        <div className={experienceLine} />
-        <div className={experienceContentBox}>
-          <div className={roleTitle}>
-            {title}
+      <div className={volMain}>
+        <div className={volSide}>
+          <div className={volSymbol}>
+            <FontAwesomeIcon icon={symbol === 'faComments' ? faComments : faBriefcaseMedical} />
           </div>
-          <div className={date}>
-            {date}
-          </div>
-          <div className={experienceText}>
-            {text}
-          </div>
+          <div className={volLine} />
+          <div className={volCircle} />
         </div>
-      </>
+        <div className={volContainer}>
+          <div>
+            <span className={volTitle}>{title}</span>
+            <span className={volDate}>{date}</span>
+          </div>
+          <div className={volText}>{text}</div>
+        </div>
+      </div>
     );
   }
 }
@@ -30,7 +37,10 @@ class Experience extends PureComponent {
 export default Experience;
 
 Experience.propTypes = {
+  id: PropTypes.string.isRequired,
+  symbol: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
