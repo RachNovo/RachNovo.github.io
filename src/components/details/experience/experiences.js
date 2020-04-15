@@ -18,7 +18,7 @@ module.exports = [
   {
     title: 'Customer Value Associate, Wal-Mart',
     date: '2018-2019',
-    text: 'I worked as part of a team on tasks to ensure that the sales-floor was stocked and organized and the prices and signage were correct at all times. I communicated using professionalism and empathy with customers and ensured a clean and safe working environment.',
+    text: 'I worked as part of a team to ensure that the sales-floor was stocked and organized and the prices and signage were correct at all times. I communicated using professionalism and empathy with customers and ensured a clean and safe working environment.',
     link: '',
     symbol: 'tag',
     id: '36',
@@ -26,7 +26,7 @@ module.exports = [
   {
     title: 'Swim Instructor/Head Lifeguard, Various Companies',
     date: '2013-2018',
-    text: 'I led or was part of teams that guarded up to 100 people in pool and beach settings. As a lifeguard, I consistently maintained professionalism, excellent customer care, proactively anticipated dangerous situations and took steps to ensure client safety. As a swim instructor, I taught children and adults from basic to advanced levels. I took keen interest in my students\' sucess and created customized lesson plans to suite each student and level.',
+    text: 'I led or was part of teams that guarded up to 100 people in pool and beach settings. As a lifeguard, I consistently maintained professionalism and excellent customer care, proactively anticipating dangerous situations and taking steps to ensure client safety. As a swim instructor, I taught children and adults from basic to advanced levels. I took keen interest in my students\' sucess and created customized lesson plans to suite each student and level.',
     link: '',
     symbol: 'swimmer',
     id: '37',
