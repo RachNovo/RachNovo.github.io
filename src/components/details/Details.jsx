@@ -4,7 +4,7 @@ import styles, { main } from './Details.css';
 
 import About from './About.jsx';
 import SkillList from './skills/SkillList.jsx';
-// import ExperienceList from './experience/ExperienceList.jsx';
+import ExperienceList from './experience/ExperienceList.jsx';
 import EducationList from './education/EducationList.jsx';
 import ApplicationList from './applications/ApplicationList.jsx';
 import VolunteeringList from './volunteering/VolunteeringList.jsx';
@@ -14,7 +14,7 @@ function Details() {
     <div className={main}>
       <About />
       <SkillList />
-      {/* <ExperienceList /> */}
+      <ExperienceList />
       <EducationList />
       <ApplicationList />
       <VolunteeringList />

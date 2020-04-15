@@ -5,7 +5,8 @@ import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faBriefcaseMedical } from '@fortawesome/free-solid-svg-icons';
 import styles, {
-  volMain, volSide, volSymbol, volLine, volCircle, volContainer, volTitle, volDate, volText,
+  timelineMain, timelineSide, timelineSymbol, timelineLine, timelineCircle,
+  timelineContainer, timelineTitle, timelineDate, timelineText,
 } from '../Details.css';
 
 class Volunteering extends PureComponent {
@@ -14,20 +15,20 @@ class Volunteering extends PureComponent {
       symbol, title, date, text, link, id,
     } = this.props;
     return (
-      <div className={volMain}>
-        <div className={volSide}>
-          <div className={volSymbol}>
+      <div className={timelineMain}>
+        <div className={timelineSide}>
+          <div className={timelineSymbol}>
             <FontAwesomeIcon icon={symbol === 'faComments' ? faComments : faBriefcaseMedical} />
           </div>
-          <div className={volLine} />
-          <div className={volCircle} />
+          <div className={timelineLine} />
+          <div className={timelineCircle} />
         </div>
-        <div className={volContainer}>
+        <div className={timelineContainer}>
           <div>
-            <span className={volTitle}>{title}</span>
-            <span className={volDate}>{date}</span>
+            <span className={timelineTitle}>{title}</span>
+            <span className={timelineDate}>{date}</span>
           </div>
-          <div className={volText}>{text}</div>
+          <div className={timelineText}>{text}</div>
         </div>
       </div>
     );
