@@ -36,18 +36,22 @@ class Application extends Component {
             {description}
           </div>
           <div className={buttonContainer}>
+
             <button className={appButton} onClick={this.openAppModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
               Demo
             </button>
-            {open === false ? (
-              <div />
-            ) : <AppModal openAppModal={this.openAppModal} gif={gif} />}
-            <div className={appButton}>
-              <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
+
             <div className={appButton}>
               <a href={details} target="_blank" rel="noopener noreferrer">Details</a>
             </div>
+
+            <div className={appButton}>
+              <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+
+            {open === false ? (
+              <div />
+            ) : <AppModal openAppModal={this.openAppModal} gif={gif} />}
           </div>
         </div>
       </div>
