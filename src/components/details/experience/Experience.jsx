@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
@@ -21,10 +22,10 @@ class Experience extends PureComponent {
         <div className={timelineSide}>
           <div className={timelineSymbol}>
             <FontAwesomeIcon icon={
-              symbol === 'laptop' ? faLaptop :
-              symbol === 'pool' ? faSwimmingPool :
-              symbol === 'tag' ? faTag :
-              symbol === 'swimmer' ? faSwimmer : ''
+              symbol === 'laptop' ? faLaptop
+                : symbol === 'pool' ? faSwimmingPool
+                  : symbol === 'tag' ? faTag
+                    : symbol === 'swimmer' ? faSwimmer : ''
             }
             />
           </div>
