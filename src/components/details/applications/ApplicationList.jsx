@@ -16,6 +16,7 @@ class ApplicationList extends PureComponent {
             <Application
               title={el.title}
               githubLink={el.githubLink}
+              details={el.details}
               deployedApp={el.deployedApp}
               gif={el.gif}
               description={el.description}

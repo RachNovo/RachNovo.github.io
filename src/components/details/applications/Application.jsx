@@ -19,7 +19,7 @@ class Application extends Component {
 
   render() {
     const {
-      title, githubLink, deployedApp, description, pic, gif, techList,
+      title, githubLink, deployedApp, description, pic, gif, techList, details,
     } = this.props;
     const { open } = this.state;
     return (
@@ -37,13 +37,16 @@ class Application extends Component {
           </div>
           <div className={buttonContainer}>
             <button className={appButton} onClick={this.openAppModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
-              View
+              Demo
             </button>
             {open === false ? (
               <div />
             ) : <AppModal openAppModal={this.openAppModal} gif={gif} />}
             <div className={appButton}>
               <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            <div className={appButton}>
+              <a href={details} target="_blank" rel="noopener noreferrer">Details</a>
             </div>
           </div>
         </div>
@@ -57,6 +60,7 @@ export default Application;
 Application.propTypes = {
   title: PropTypes.string.isRequired,
   githubLink: PropTypes.string.isRequired,
+  details: PropTypes.string.isRequired,
   deployedApp: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   pic: PropTypes.string.isRequired,

@@ -156,8 +156,8 @@ body {
   padding-left: 15px;
 }
 .buttonContainer {
+  justify-content: flex-start;
   display: flex;
-  justify-content: center;
 }
 .appButton {
   text-decoration: none;
