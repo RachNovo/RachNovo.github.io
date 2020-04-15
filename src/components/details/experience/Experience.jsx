@@ -3,7 +3,9 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faComments, faBriefcaseMedical } from '@fortawesome/free-solid-svg-icons';
+import {
+  faLaptop, faSwimmingPool, faTag, faSwimmer,
+} from '@fortawesome/free-solid-svg-icons';
 import styles, {
   timelineMain, timelineSide, timelineSymbol, timelineLine, timelineCircle,
   timelineContainer, timelineTitle, timelineDate, timelineText,
@@ -18,7 +20,13 @@ class Experience extends PureComponent {
       <div className={timelineMain}>
         <div className={timelineSide}>
           <div className={timelineSymbol}>
-            <FontAwesomeIcon icon={symbol === 'faComments' ? faComments : faBriefcaseMedical} />
+            <FontAwesomeIcon icon={
+              symbol === 'laptop' ? faLaptop :
+              symbol === 'pool' ? faSwimmingPool :
+              symbol === 'tag' ? faTag :
+              symbol === 'swimmer' ? faSwimmer : ''
+            }
+            />
           </div>
           <div className={timelineLine} />
           <div className={timelineCircle} />

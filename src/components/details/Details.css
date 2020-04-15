@@ -263,6 +263,7 @@ body {
 .timelineSymbol {
   margin-left: 2px;
   margin-top: 10px;
+  padding: 2px;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -384,6 +385,7 @@ body {
     height: 90%;
   }
   .timelineContainer {
+    height: 100%;
     margin: 15px 3px 15px 20px;
   }
   .timelineTitle {
@@ -429,13 +431,13 @@ body {
     font-size: 22px;
   }
   .timelineLine {
-    height: 260px;
+    height: 90%;
   }
   .timelineContainer {
     width: 870px;
   }
   .timelineTitle {
-    font-size: 25px;
+    font-size: 23px;
   }
   .timelineDate {
     font-size: 18px;

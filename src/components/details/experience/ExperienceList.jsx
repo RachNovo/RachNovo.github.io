@@ -17,6 +17,9 @@ class ExperienceList extends PureComponent {
             date={el.date}
             text={el.text}
             key={el.id}
+            id={el.id}
+            symbol={el.symbol}
+            link={el.link}
           />
         ))}
       </div>
