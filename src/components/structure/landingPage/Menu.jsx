@@ -20,8 +20,9 @@ class Menu extends Component {
           <a href="#home" onClick={openMenu.bind(null, false)}><div className={section}>Home</div></a>
           <a href="#aboutSection" onClick={openMenu.bind(null, false)}><div className={section}>About</div></a>
           <a href="#skillsSection" onClick={openMenu.bind(null, false)}><div className={section}>Skills</div></a>
-          <a href="#applicationsSection" onClick={openMenu.bind(null, false)}><div className={section}>Applications</div></a>
+          <a href="#experienceSection" onClick={openMenu.bind(null, false)}><div className={section}>Work Experience</div></a>
           <a href="#educationSection" onClick={openMenu.bind(null, false)}><div className={section}>Education</div></a>
+          <a href="#applicationsSection" onClick={openMenu.bind(null, false)}><div className={section}>Applications</div></a>
           <a href="#volunteeringSection" onClick={openMenu.bind(null, false)}><div className={section}>Volunteering</div></a>
         </div>
       </>
