@@ -10,7 +10,7 @@ module.exports = [
   {
     title: 'Vice-President, Linguistics League',
     date: '2014-2016',
-    text: 'I co-founded the tri-campus Wug Life Initiative: Studying Linguistics at UofT, which brought our passion of Linguistics and the UofT Linguistics program to high school students across the GTA through live, interactive workshops. I also organized and led various events (ASL: Signing and Deaf Culture, Game of Thrones: Speak Dothraki, Speak Esperanto!) and moderated the Linguistics Alumni Panel. I was presented with a recognition award for outstanding contribution and demonstrated leadership from the Language Studies Department.',
+    text: 'I co-founded the tri-campus Wug Life Initiative: Studying Linguistics at UofT, which brought our passion for Linguistics and the UofT Linguistics program to high school students across the GTA through live, interactive workshops. I also organized and led various events (ASL: Signing and Deaf Culture, Game of Thrones: Speak Dothraki, Speak Esperanto!) and moderated the Linguistics Alumni Panel. I was presented with a recognition award for outstanding contribution and demonstrated leadership from the Language Studies Department.',
     link: '',
     symbol: 'faComments',
     id: '33',
