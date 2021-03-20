@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { PureComponent } from 'react';
-import styles, { title } from '../Details.css';
+import styles from '../Details.module.css';
 import Experience from './Experience.jsx';
 import experiences from './experiences.js';
 
@@ -9,7 +9,7 @@ class ExperienceList extends PureComponent {
     return (
       <div>
         <div id="experienceSection" />
-        <div className={title}>
+        <div className={styles.title}>
           Work Experience
         </div>
         {experiences.map((el) => (

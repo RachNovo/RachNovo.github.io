@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTimes, faEllipsisH,
 } from '@fortawesome/free-solid-svg-icons';
-import styles, { header, section, ellipsis } from './Header.css';
+import styles from './Header.module.css';
 import Menu from './Menu.jsx';
 
 class Header extends Component {
@@ -21,9 +21,9 @@ class Header extends Component {
   render() {
     const { open } = this.state;
     return (
-      <div className={header}>
+      <div className={styles.header}>
         {open === false ? (
-          <button className={ellipsis} onClick={this.openMenu.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0} aria-label="menu">
+          <button className={styles.ellipsis} onClick={this.openMenu.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0} aria-label="menu">
             <FontAwesomeIcon icon={faEllipsisH} />
           </button>
         ) : <Menu openMenu={this.openMenu} />}

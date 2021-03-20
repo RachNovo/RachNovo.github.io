@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { PureComponent } from 'react';
-import styles, { title, skillHover, skillMain, subTitle } from '../Details.css';
+import styles from '../Details.module.css';
 import Skill from './Skill.jsx';
 import skills from './skills.js';
 
@@ -14,17 +14,17 @@ class SkillList extends PureComponent {
     );
     return (
       <div id="skillsSection">
-        <div className={title}>
+        <div className={styles.title}>
           My Skills
         </div>
-        <span className={skillHover}>
+        <span className={styles.skillHover}>
           (Hover over the tech to learn more)
         </span>
         {/* For each array, the category is produced with the list of skills */}
-        <div className={skillMain}>
+        <div className={styles.skillMain}>
           {[frontEnd, backEnd, tools, other].map((category, i) => (
             <div key={categories[i]}>
-              <div className={subTitle}>
+              <div className={styles.subTitle}>
                 {categories[i]}
               </div>
               {category.map((el) => (

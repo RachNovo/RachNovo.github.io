@@ -1,18 +1,16 @@
 /* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import styles, {
-  title, aboutText, boldText, pictureContainer, pictures,
-} from './Details.css';
+import styles from './Details.module.css';
 
 function About() {
   return (
     <div id="aboutSection">
-      <div className={title}>
+      <div className={styles.title}>
         About Me
       </div>
-      <div className={aboutText}>
-        <span className={boldText}>
+      <div className={styles.aboutText}>
+        <span className={styles.boldText}>
           Hi! I&apos;m Rachel,
         </span>
         {' '}
@@ -21,11 +19,11 @@ function About() {
         <br />
         When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French! (parce que j&apos;ai besoin de pratiquer &#128579;)
       </div>
-      <div className={pictureContainer}>
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower-small.jpg" alt="flower" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/raspberries-small.jpg" alt="raspberry patch" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/strawberries-small.jpg" alt="wild strawberries" />
-        <img className={pictures} src="https://rachel-portfolio.s3.amazonaws.com/ocean-small.jpg" alt="ocean and sky" />
+      <div className={styles.pictureContainer}>
+        <img className={styles.pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower-small.jpg" alt="flower" />
+        <img className={styles.pictures} src="https://rachel-portfolio.s3.amazonaws.com/raspberries-small.jpg" alt="raspberry patch" />
+        <img className={styles.pictures} src="https://rachel-portfolio.s3.amazonaws.com/strawberries-small.jpg" alt="wild strawberries" />
+        <img className={styles.pictures} src="https://rachel-portfolio.s3.amazonaws.com/ocean-small.jpg" alt="ocean and sky" />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { PureComponent } from 'react';
-import styles, { title } from '../Details.css';
+import styles from '../Details.module.css';
 import Volunteering from './Volunteering.jsx';
 import volunteering from './volunteering.js';
 
@@ -8,7 +8,7 @@ class VolunteeringList extends PureComponent {
   render() {
     return (
       <div id="volunteeringSection">
-        <div className={title}>
+        <div className={styles.title}>
           Volunteering
         </div>
         <div>

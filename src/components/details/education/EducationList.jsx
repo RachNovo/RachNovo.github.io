@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Education from './Education.jsx';
 import education from './education.js';
-import styles, { title, collapseOrExpand } from '../Details.css';
+import styles from '../Details.module.css';
 
 class EducationList extends Component {
   constructor(props) {
@@ -27,10 +27,10 @@ class EducationList extends Component {
     const { allOpen } = this.state;
     return (
       <div id="educationSection">
-        <div className={title}>
+        <div className={styles.title}>
           Education
         </div>
-        <span tabIndex={0} role="button" className={collapseOrExpand} onClick={this.expandAll} onKeyUp={this.expandAll}>
+        <span tabIndex={0} role="button" className={styles.collapseOrExpand} onClick={this.expandAll} onKeyUp={this.expandAll}>
           {allOpen ? '(Collapse All)' : '(Expand All)'}
         </span>
         <div>

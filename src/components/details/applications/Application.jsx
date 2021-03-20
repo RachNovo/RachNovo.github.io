@@ -2,9 +2,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import AppModal from './AppModal.jsx';
-import styles, {
-  appTitle, appContainer, appMain, appPic, appDescription, buttonContainer, appTech, appButton,
-} from '../Details.css';
+import styles from '../Details.module.css';
 
 class Application extends Component {
   constructor(props) {
@@ -23,29 +21,29 @@ class Application extends Component {
     } = this.props;
     const { open } = this.state;
     return (
-      <div className={appContainer}>
-        <img className={appPic} src={pic} alt="appPic" />
-        <div className={appMain}>
-          <div className={appTitle}>
+      <div className={styles.appContainer}>
+        <img className={styles.appPic} src={pic} alt="appPic" />
+        <div className={styles.appMain}>
+          <div className={styles.appTitle}>
             {title}
           </div>
-          <div className={appTech}>
+          <div className={styles.appTech}>
             {techList}
           </div>
-          <div className={appDescription}>
+          <div className={styles.appDescription}>
             {description}
           </div>
-          <div className={buttonContainer}>
+          <div className={styles.buttonContainer}>
 
-            <button className={appButton} onClick={this.openAppModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
+            <button className={styles.appButton} onClick={this.openAppModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
               Demo
             </button>
 
-            <div className={appButton}>
+            <div className={styles.appButton}>
               <a href={details} target="_blank" rel="noopener noreferrer">Details</a>
             </div>
 
-            <div className={appButton}>
+            <div className={styles.appButton}>
               <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
             </div>
 

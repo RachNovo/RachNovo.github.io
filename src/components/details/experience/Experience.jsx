@@ -7,10 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLaptop, faSwimmingPool, faTag, faSwimmer,
 } from '@fortawesome/free-solid-svg-icons';
-import styles, {
-  timelineMain, timelineSide, timelineSymbol, timelineLine, timelineCircle,
-  timelineContainer, timelineTitle, timelineDate, timelineText,
-} from '../Details.css';
+import styles from '../Details.module.css';
 
 class Experience extends PureComponent {
   render() {
@@ -18,9 +15,9 @@ class Experience extends PureComponent {
       symbol, title, date, text, link, id,
     } = this.props;
     return (
-      <div className={timelineMain}>
-        <div className={timelineSide}>
-          <div className={timelineSymbol}>
+      <div className={styles.timelineMain}>
+        <div className={styles.timelineSide}>
+          <div className={styles.timelineSymbol}>
             <FontAwesomeIcon icon={
               symbol === 'laptop' ? faLaptop
                 : symbol === 'pool' ? faSwimmingPool
@@ -29,15 +26,15 @@ class Experience extends PureComponent {
             }
             />
           </div>
-          <div className={timelineLine} />
-          <div className={timelineCircle} />
+          <div className={styles.timelineLine} />
+          <div className={styles.timelineCircle} />
         </div>
-        <div className={timelineContainer}>
+        <div className={styles.timelineContainer}>
           <div>
-            <span className={timelineTitle}>{title}</span>
-            <span className={timelineDate}>{date}</span>
+            <span className={styles.timelineTitle}>{title}</span>
+            <span className={styles.timelineDate}>{date}</span>
           </div>
-          <div className={timelineText}>{text}</div>
+          <div className={styles.timelineText}>{text}</div>
         </div>
       </div>
     );

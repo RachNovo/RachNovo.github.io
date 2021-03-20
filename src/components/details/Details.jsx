@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import styles, { main } from './Details.css';
+import styles from './Details.module.css';
 
 import About from './About.jsx';
 import SkillList from './skills/SkillList.jsx';
@@ -11,7 +11,7 @@ import VolunteeringList from './volunteering/VolunteeringList.jsx';
 
 function Details() {
   return (
-    <div className={main}>
+    <div className={styles.main}>
       <About />
       <SkillList />
       <ExperienceList />
