@@ -23,7 +23,13 @@ class Header extends Component {
     return (
       <div className={styles.header}>
         {open === false ? (
-          <button className={styles.ellipsis} onClick={this.openMenu.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0} aria-label="menu">
+          <button
+            className={styles.ellipsis}
+            onClick={this.openMenu.bind(this, true)}
+            type="button"
+            tabIndex={0}
+            aria-label="menu"
+          >
             <FontAwesomeIcon icon={faEllipsisH} />
           </button>
         ) : <Menu openMenu={this.openMenu} />}

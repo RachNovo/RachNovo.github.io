@@ -11,8 +11,20 @@ class AppModal extends Component {
     const { openAppModal, gif } = this.props;
     return (
       <>
-        <div className={styles.modalOverlay} onClick={openAppModal.bind(null, false)} onKeyDown={this.handleKeyDown} role="button" label="text" tabIndex={0} />
-        <div className={styles.main} onClick={openAppModal.bind(null, false)} onKeyDown={this.handleKeyDown} role="button" label="text" tabIndex={0}>
+        <div
+          className={styles.modalOverlay}
+          onMouseDown={openAppModal.bind(null, false)}
+          role="button"
+          label="text"
+          tabIndex={0}
+        />
+        <div
+          className={styles.main}
+          onMouseDown={openAppModal.bind(null, false)}
+          role="button"
+          label="text"
+          tabIndex={0}
+        >
           <img className={styles.image} src={gif} alt="appPic" />
           <span className={styles.close}>
             <FontAwesomeIcon icon={faTimes} />

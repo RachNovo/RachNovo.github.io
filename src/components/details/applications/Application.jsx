@@ -35,8 +35,13 @@ class Application extends Component {
           </div>
           <div className={styles.buttonContainer}>
 
-            <button className={styles.appButton} onClick={this.openAppModal.bind(this, true)} onKeyDown={this.handleKeyDown} type="button" tabIndex={0}>
-              Demo
+            <button
+              className={styles.appButton}
+              onClick={title === 'Arcade' ? 'Go to Arcade' : this.openAppModal.bind(this, true)}
+              type="button"
+              tabIndex={0}
+            >
+              Visit
             </button>
 
             <div className={styles.appButton}>
