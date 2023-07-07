@@ -41,7 +41,7 @@ class Application extends Component {
               type="button"
               tabIndex={0}
             >
-              Visit
+              View
             </button>
 
             <div className={styles.appButton}>

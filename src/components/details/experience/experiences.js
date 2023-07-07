@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: 'Software Engineer, WW (formerly Weight Watchers)',
-    date: '2020 to Present',
+    date: '2020-2023',
     text: 'WW (formerly Weight Watchers) is a global wellness technology company inspiring millions of people to adopt healthy habits for real life. We do this through engaging digital experiences, face-to-face workshops and sustainable programs that encompass healthy eating, physical activity and positive mindset. By drawing on over five decades of experience and expertise in behavioral science, we build communities to deliver wellness for all.',
     link: '',
     symbol: 'laptop',

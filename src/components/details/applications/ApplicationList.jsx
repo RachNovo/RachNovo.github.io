@@ -9,7 +9,7 @@ class ApplicationList extends PureComponent {
     return (
       <div id="applicationsSection">
         <div className={styles.title}>
-          Recent Projects
+          Personal Projects
         </div>
         <div>
           {applications.map((el) => (
