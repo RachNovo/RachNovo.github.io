@@ -39,12 +39,12 @@ body {
 }
 
 
-/* skills section */
+/* tools section */
 
-.skillHover {
+.toolsHover {
   font-size: 15px;
 }
-.skillMain {
+.toolsMain {
   text-align: left;
 }
 .subTitle {
@@ -54,7 +54,7 @@ body {
   text-decoration: underline wavy var(--highlight-color);
   font-weight: bold;
 }
-.skillContainer {
+.toolsContainer {
   position: relative;
   text-align: center;
   display: inline-block;
@@ -65,7 +65,7 @@ body {
   color: var(--base-color);
   box-shadow: var(--shadow);
 }
-.skillContainer .tipText {
+.toolsContainer .tipText {
   visibility: hidden;
   width: 240px;
   background-color: #555;
@@ -88,7 +88,7 @@ body {
 }
 
 /* Tooltip arrow */
-.skillContainer .tipText::after {
+.toolsContainer .tipText::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -100,7 +100,7 @@ body {
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.skillContainer:hover .tipText {
+.toolsContainer:hover .tipText {
   visibility: visible;
   opacity: 1;
 }
@@ -326,7 +326,7 @@ body {
   .subTitle {
     font-size: 24px;
   }
-  .skillContainer {
+  .toolsContainer {
     font-size: 22px;
     margin: 8px 16px 16px 0px;
   }
@@ -340,7 +340,7 @@ body {
     font-size: 32px;
     margin-bottom: 8px;
   }
-  .appTech {
+  .apptools {
     font-size: 18px;
     margin-bottom: 10px;
   }

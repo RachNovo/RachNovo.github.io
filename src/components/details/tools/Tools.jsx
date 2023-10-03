@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import styles from '../Details.module.css';
 
-class Skill extends PureComponent {
+class Tools extends PureComponent {
   render() {
     const { name, toolTip } = this.props;
     return (
-      <div className={styles.skillContainer}>
+      <div className={styles.toolsContainer}>
         <span className={styles.tipText}>{toolTip}</span>
         <span>
           {name}
@@ -17,10 +17,9 @@ class Skill extends PureComponent {
   }
 }
 
-export default Skill;
+export default Tools;
 
-Skill.propTypes = {
+Tools.propTypes = {
   name: PropTypes.string.isRequired,
-  toolTip: PropTypes.string.isRequired,
-  level: PropTypes.string.isRequired,
+  toolTip: PropTypes.string.isRequired
 };

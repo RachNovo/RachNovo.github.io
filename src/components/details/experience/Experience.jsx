@@ -44,7 +44,7 @@ class Experience extends PureComponent {
 export default Experience;
 
 Experience.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   symbol: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,

@@ -25,7 +25,7 @@
 
 * [Home](https://rachnovo.github.io/#home) - Start here!
 * [About](https://rachnovo.github.io/#aboutSection) - Personal Summary
-* [Skills](https://rachnovo.github.io/#skillsSection) - Hover Over Each Skill for Details
+* [Tools](https://rachnovo.github.io/#toolsSection) - Hover Over Each Tool for Details
 * [Applications](https://rachnovo.github.io/#applicationsSection) - View the App or Visit the Github Repo
 * [Education](https://rachnovo.github.io/#educationSection) - Learn About My Educational History
 * [Volunteering](https://rachnovo.github.io/#volunteeringSection) - Positions I've Held

@@ -14,10 +14,10 @@ function About() {
           Hi! I&apos;m Rachel,
         </span>
         {' '}
-        a software engineer at WW (formerly Weight Watchers) in Toronto. I&apos;m a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I&apos;m insatiably curious and detail oriented, which helps me pick up new skills quickly. While I value working hard by myself and getting things done, I believe the best results are achieved through collaboration with others.
+        a software engineer based in Toronto, Canada. I&apos;m a deep thinker and creative problem solver. I love looking behind the curtain to see how things work! I&apos;m insatiably curious and detail oriented, which helps me pick up new skills quickly. While I value working hard by myself and getting things done, I believe the best results are achieved through collaboration with others.
         <br />
         <br />
-        When I&apos;m not coding, I enjoy playing my cello, exploring nature, cooking or practicing my French! (parce que j&apos;ai besoin de pratiquer &#128579;)
+        When I&apos;m not coding, I enjoy exploring nature, cooking or practicing my French! (parce que j&apos;ai besoin de pratiquer &#128579;)
       </div>
       <div className={styles.pictureContainer}>
         <img className={styles.pictures} src="https://rachel-portfolio.s3.amazonaws.com/flower-small.jpg" alt="flower" />

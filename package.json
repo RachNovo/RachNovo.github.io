@@ -14,9 +14,8 @@
     "url": "https://github.com/RachNovo/RachNovo.github.io/issues"
   },
   "homepage": "https://github.com/RachNovo/RachNovo.github.io#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.13.10",
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
@@ -32,7 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "live-server": "^1.2.1",
+    "live-server": "^1.1.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

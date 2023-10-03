@@ -58,7 +58,7 @@ export default Education;
 Education.propTypes = {
   allOpen: PropTypes.bool.isRequired,
   school: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,

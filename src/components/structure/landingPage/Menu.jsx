@@ -26,7 +26,7 @@ const Menu = ({ openMenu }) => (
     <div className={styles.list}>
       <a href="#home" onClick={openMenu.bind(null, false)}><div className={styles.section}>Home</div></a>
       <a href="#aboutSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>About</div></a>
-      <a href="#skillsSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>Skills</div></a>
+      <a href="#toolsSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>Tools</div></a>
       <a href="#experienceSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>Work Experience</div></a>
       <a href="#educationSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>Education</div></a>
       <a href="#applicationsSection" onClick={openMenu.bind(null, false)}><div className={styles.section}>Applications</div></a>

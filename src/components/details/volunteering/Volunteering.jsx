@@ -35,7 +35,7 @@ class Volunteering extends PureComponent {
 export default Volunteering;
 
 Volunteering.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   symbol: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
