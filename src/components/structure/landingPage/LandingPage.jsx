@@ -17,7 +17,7 @@ const LandingPage = () => {
       <div className={styles.name}>RACHEL NOVOSELAC</div>
       <div className={styles.title}>SOFTWARE ENGINEER</div>
       <div className={styles.linkList}>
-        <a href="https://rachel-portfolio.s3.amazonaws.com/Resume+September+2023.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="https://rachel-portfolio.s3.amazonaws.com/Resume+October+2023.pdf" target="_blank" rel="noopener noreferrer">
           <div className={styles.link}>
             <FontAwesomeIcon icon={faDownload} />
             <div className={styles.text}>
