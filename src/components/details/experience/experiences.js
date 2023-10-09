@@ -26,7 +26,7 @@ module.exports = [
   {
     title: 'Head Lifeguard/Swim Instructor, Various Companies',
     date: '2013-2018',
-    text: 'I led or was part of teams that guarded up to 100 people in beach and pool settings, including as Waterfront Director at a Lake Ontario beach. As a lifeguard, I consistently maintained professionalism and excellent customer care, proactively anticipating dangerous situations and taking steps to ensure client safety. As a swim instructor, I taught children and adults from basic to advanced levels. I took a keen interest in my students\' sucess and created customized lesson plans to suite each student and level.',
+    text: 'I led or was part of teams that guarded up to 100 people in beach and pool settings, including as Waterfront Director at a Lake Ontario beach. As a lifeguard, I consistently maintained professionalism and excellent customer care, proactively anticipating dangerous situations and taking steps to ensure client safety. As a swim instructor, I taught children and adults from basic to advanced levels. I took a keen interest in my students\' success and created customized lesson plans to suit each student and level.',
     link: '',
     symbol: 'swimmer',
     id: 37,
