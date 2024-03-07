@@ -1,9 +1,9 @@
 module.exports = [
   {
     title: 'Tetris - In Progress',
-    githubLink: 'tbd',
+    githubLink: 'https://github.com/RachNovo/tetris',
     details: 'tbd',
-    deployedApp: 'tbd',
+    deployedApp: 'https://tetris-cb2dc.web.app/',
     description: 'I am actively progressing this project, with the game engine nearly complete and the front end design and implementation next. Future plans include deploying the game on Firebase and introducing addition features, such as high-score tracking, a landing page, start and pause pages, music, animations and more!',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/Tetris',
     techList: 'React | Tailwind CSS | Next.js | Firebase | mocha/chai',
