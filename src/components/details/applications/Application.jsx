@@ -37,7 +37,7 @@ class Application extends Component {
 
             <button
               className={styles.appButton}
-              onClick={title === 'Arcade' ? 'Go to Arcade' : this.openAppModal.bind(this, true)}
+              onClick={this.openAppModal.bind(this, true)}
               type="button"
               tabIndex={0}
             >
