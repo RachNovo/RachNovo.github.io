@@ -35,21 +35,11 @@ class Application extends Component {
           </div>
           <div className={styles.buttonContainer}>
 
-            <div
-              className={styles.appButton}
-              // onClick={this.openAppModal.bind(this, true)}
-              tabIndex={0}
-            >
-              <a href={deployedApp || this.openAppModal.bind(this, true)} target="_blank" rel="noopener noreferrer">View</a>
-            </div>
+            <a className={styles.appButton} href={deployedApp || this.openAppModal.bind(this, true)} target="_blank" rel="noopener noreferrer">View</a>
 
-            <div className={styles.appButton}>
-              <a href={details} target="_blank" rel="noopener noreferrer">Details</a>
-            </div>
+            <a className={styles.appButton} href={details} target="_blank" rel="noopener noreferrer">Details</a>
 
-            <div className={styles.appButton}>
-              <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
+            <a className={styles.appButton} href={githubLink} target="_blank" rel="noopener noreferrer">Github</a>
 
             {open === false ? (
               <div />
