@@ -35,7 +35,7 @@ class Application extends Component {
           </div>
           <div className={styles.buttonContainer}>
 
-            <a className={styles.appButton} href={deployedApp || this.openAppModal.bind(this, true)} target="_blank" rel="noopener noreferrer">View</a>
+            <a className={styles.appButton} href={deployedApp !== '' ? deployedApp : null} onClick={deployedApp === '' ? this.openAppModal.bind(this, true) : null} target="_blank" rel="noopener noreferrer">View</a>
 
             <a className={styles.appButton} href={details} target="_blank" rel="noopener noreferrer">Details</a>
 
