@@ -1,13 +1,13 @@
 module.exports = [
   {
-    title: 'Tetris - In Progress',
+    title: 'Block Fall',
     githubLink: 'https://github.com/RachNovo/tetris',
     details: 'https://rachnovo.github.io/tetris/',
     deployedApp: 'https://tetris-cb2dc.web.app/',
-    description: 'I am actively progressing this project, the MVP (minimal viable product) is complete and the project is hosted on Firebase! Future plans include introducing addition features, such as high-score tracking, a landing page, start and pause pages, music, animations and more!',
+    description: 'Enjoy the music and see how many levels you can complete before the pieces fall too fast! I recreated this familiar and addictive game using the technologies above. I had so much fun building the game engine, UI and tests!',
     pic: 'https://rachel-portfolio.s3.amazonaws.com/Tetris',
-    techList: 'React | Tailwind CSS | Next.js | Firebase | mocha/chai',
-    id: '50',
+    techList: 'React | Tailwind CSS | HTML Canvas | Firebase | mocha/chai',
+    id: 50,
     gif: 'tbd'
   },
   {

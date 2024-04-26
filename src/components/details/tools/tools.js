@@ -12,6 +12,12 @@ module.exports = [
     id: 2,
   },
   {
+    name: 'Canvas',
+    category: 'Front-End',
+    toolTip: 'I developed the UI for my Block Fall game using HTML Canvas!',
+    id: 44
+  },
+  {
     name: 'CSS',
     category: 'Front-End',
     toolTip: 'This website was styled by me from scratch using CSS Modules.',
@@ -20,7 +26,7 @@ module.exports = [
   {
     name: 'Tailwind CSS',
     category: 'Front-End',
-    toolTip: 'A powerful utility-first CSS framework. I am learning Tailwind CSS through my Tetris project.',
+    toolTip: 'A powerful utility-first CSS framework. I am learning Tailwind CSS through my Block Fall project.',
     id: 26,
   },
   {
@@ -30,9 +36,9 @@ module.exports = [
     id: 4,
   },
   {
-    name: 'Next.js',
-    category: 'Front-End',
-    toolTip: 'I am using this framework to extend what I can do with React, adding various backend functionalities such as routing and data fetching. I am learning Next.js through my Tetris project.',
+    name: 'Typescript',
+    category: 'Other',
+    toolTip: 'I gained familiarity with adding strict typing to JavaScript through using JSDocs at WW. Typescript is similar and I have been adding it to personal projects to enhance my skills.',
     id: 25,
   },
   {

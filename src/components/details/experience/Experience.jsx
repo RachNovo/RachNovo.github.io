@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faLaptop, faSwimmingPool, faTag, faSwimmer,
+  faLaptop, faSwimmingPool, faTag, faSwimmer, faDatabase
 } from '@fortawesome/free-solid-svg-icons';
 import styles from '../Details.module.css';
 
@@ -22,7 +22,8 @@ class Experience extends PureComponent {
               symbol === 'laptop' ? faLaptop
                 : symbol === 'pool' ? faSwimmingPool
                   : symbol === 'tag' ? faTag
-                    : symbol === 'swimmer' ? faSwimmer : ''
+                    : symbol === 'swimmer' ? faSwimmer
+                      : symbol === 'database' ? faDatabase : ''
             }
             />
           </div>

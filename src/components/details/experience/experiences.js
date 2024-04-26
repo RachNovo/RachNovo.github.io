@@ -1,5 +1,13 @@
 module.exports = [
   {
+    title: 'Software Developer, Discovered Intelligence',
+    date: 'April 2023-Present',
+    text: 'Discovered Intelligence is a data intelligence services and solutions provider, specializing in data observability and security platforms. Established in 2013, DI is headquartered in Toronto, Canada and serves all of North America and Europe.',
+    link: '',
+    symbol: 'database',
+    id: 43
+  },
+  {
     title: 'Software Engineer, WW (formerly Weight Watchers)',
     date: '2020-2023',
     text: 'I worked with the operations team on the B2B side of the company, where I executed new features to enhance and maintain the operations dashboard, file management system and integrations, bringing the WW program to millions of potential users. I optimized development processes, improving code quality through active technical debt management, leveraging tools such as GitHub and agile methodologies. I communicated effectively with technical and non-technical stakeholders, translating complex concepts into layman\'s terms to facilitate productive collaboration in a cross-functional team. I advised the product manager, designer and operations team regarding new front-end features.',
