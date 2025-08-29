@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: 'Software Developer, Discovered Intelligence',
-    date: 'April 2023-Present',
+    date: 'April 2024-Present',
     text: 'Discovered Intelligence is a data intelligence services and solutions provider, specializing in data observability and security platforms. Established in 2013, DI is headquartered in Toronto, Canada and serves all of North America and Europe.',
     link: '',
     symbol: 'database',
